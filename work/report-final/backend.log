@@ -1,0 +1,1636 @@
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (376ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      
+IF OBJECT_ID(N'dbo.notifications', N'U') IS NULL
+BEGIN
+ CREATE TABLE dbo.notifications (
+ notification_id BIGINT IDENTITY(1,1) CONSTRAINT PK_notifications PRIMARY KEY,
+ customer_id BIGINT NULL,
+ title NVARCHAR(255) NOT NULL,
+ message NVARCHAR(MAX) NOT NULL,
+ type VARCHAR(50) NULL,
+ is_read BIT NOT NULL DEFAULT 0,
+ created_at DATETIME NOT NULL DEFAULT GETDATE(),
+ read_at DATETIME NULL,
+ CONSTRAINT FK_notifications_customers FOREIGN KEY(customer_id) REFERENCES dbo.customers(customer_id) ON DELETE CASCADE
+ );
+END;
+IF NOT EXISTS(SELECT 1 FROM sys.indexes WHERE object_id=OBJECT_ID(N'dbo.notifications') AND name=N'IX_notifications_customer_created')
+ CREATE INDEX IX_notifications_customer_created ON dbo.notifications(customer_id, created_at DESC);
+
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[products]') AND name = 'hold_quantity')
+                  BEGIN
+                      ALTER TABLE [products] ADD [hold_quantity] INT NOT NULL DEFAULT 0;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'expires_at')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [expires_at] DATETIME NULL;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'subtotal')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [subtotal] DECIMAL(15,2) NULL;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'shipping_fee')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [shipping_fee] DECIMAL(15,2) NULL DEFAULT 0;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'discount_amount')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [discount_amount] DECIMAL(15,2) NULL DEFAULT 0;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'discount_code')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [discount_code] VARCHAR(50) NULL;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[orders]') AND name = 'payment_method')
+                  BEGIN
+                      ALTER TABLE [orders] ADD [payment_method] VARCHAR(50) NULL DEFAULT 'COD';
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[customers]') AND name = 'role')
+                  BEGIN
+                      ALTER TABLE [customers] ADD [role] VARCHAR(50) NOT NULL DEFAULT 'Customer';
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[customers]') AND name = 'password_hash')
+                  BEGIN
+                      IF EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[customers]') AND name = 'password')
+                      BEGIN
+                          EXEC sp_rename 'customers.password', 'password_hash', 'COLUMN';
+                      END
+                      ELSE
+                      BEGIN
+                          ALTER TABLE [customers] ADD [password_hash] VARCHAR(255) NOT NULL DEFAULT '';
+                      END;
+                  END;
+      
+                  IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'favorites')
+                  BEGIN
+                      CREATE TABLE [favorites] (
+                          [favorite_id] BIGINT IDENTITY(1,1) PRIMARY KEY,
+                          [customer_id] BIGINT NOT NULL,
+                          [product_id] BIGINT NOT NULL,
+                          [created_at] DATETIME DEFAULT GETDATE(),
+                          CONSTRAINT FK_favorites_customers FOREIGN KEY ([customer_id]) REFERENCES [customers]([customer_id]) ON DELETE CASCADE,
+                          CONSTRAINT FK_favorites_products FOREIGN KEY ([product_id]) REFERENCES [products]([product_id]) ON DELETE CASCADE,
+                          CONSTRAINT UQ_favorites_customer_product UNIQUE ([customer_id], [product_id])
+                      );
+                  END;
+info: qlthuvien_vip.Services.Implementations.OrderTimeoutHostedService[0]
+      OrderTimeoutHostedService dang kh?i ch?y...
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (205ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5160
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\QL d? †n nh¢m\be.qlythuvien
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = CAST(1 AS bit) AND [p].[stock_quantity] > 0 AND [p].[stock_quantity] - [p].[hold_quantity] > 0
+info: qlthuvien_vip.Services.Implementations.AiService[0]
+      Ai:ApiKey chua du?c c?u hçnh. H? th?ng s? d?ng m?u tu v?n thìng minh t°ch h?p.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [c].[address_id], [c].[customer_id], [c].[detailed_address], [c].[district], [c].[is_default], [c].[province], [c].[recipient_name], [c].[recipient_phone], [c].[ward]
+      FROM [customer_addresses] AS [c]
+      WHERE [c].[customer_id] = @__customerId_0
+      ORDER BY [c].[is_default] DESC, [c].[address_id] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [c].[address_id], [c].[customer_id], [c].[detailed_address], [c].[district], [c].[is_default], [c].[province], [c].[recipient_name], [c].[recipient_phone], [c].[ward]
+      FROM [customer_addresses] AS [c]
+      WHERE [c].[customer_id] = @__customerId_0
+      ORDER BY [c].[is_default] DESC, [c].[address_id] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id], [o].[created_at], [o].[customer_id], [o].[discount_amount], [o].[discount_code], [o].[expires_at], [o].[order_status], [o].[payment_method], [o].[recipient_name], [o].[recipient_phone], [o].[shipping_address], [o].[shipping_fee], [o].[subtotal], [o].[total_amount], [o].[updated_at], [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role], [t].[order_item_id], [t].[order_id], [t].[product_id], [t].[quantity], [t].[subtotal], [t].[unit_price], [t].[product_id0], [t].[author], [t].[category], [t].[created_at], [t].[description], [t].[hold_quantity], [t].[image_url], [t].[is_active], [t].[isbn], [t].[price], [t].[publisher], [t].[stock_quantity], [t].[title], [t].[updated_at]
+      FROM [orders] AS [o]
+      INNER JOIN [customers] AS [c] ON [o].[customer_id] = [c].[customer_id]
+      LEFT JOIN (
+          SELECT [o0].[order_item_id], [o0].[order_id], [o0].[product_id], [o0].[quantity], [o0].[subtotal], [o0].[unit_price], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [order_items] AS [o0]
+          INNER JOIN [products] AS [p] ON [o0].[product_id] = [p].[product_id]
+      ) AS [t] ON [o].[order_id] = [t].[order_id]
+      WHERE [o].[customer_id] = @__customerId_0
+      ORDER BY [o].[created_at] DESC, [o].[order_id], [c].[customer_id], [t].[order_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id], [o].[created_at], [o].[customer_id], [o].[discount_amount], [o].[discount_code], [o].[expires_at], [o].[order_status], [o].[payment_method], [o].[recipient_name], [o].[recipient_phone], [o].[shipping_address], [o].[shipping_fee], [o].[subtotal], [o].[total_amount], [o].[updated_at], [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role], [t].[order_item_id], [t].[order_id], [t].[product_id], [t].[quantity], [t].[subtotal], [t].[unit_price], [t].[product_id0], [t].[author], [t].[category], [t].[created_at], [t].[description], [t].[hold_quantity], [t].[image_url], [t].[is_active], [t].[isbn], [t].[price], [t].[publisher], [t].[stock_quantity], [t].[title], [t].[updated_at]
+      FROM [orders] AS [o]
+      INNER JOIN [customers] AS [c] ON [o].[customer_id] = [c].[customer_id]
+      LEFT JOIN (
+          SELECT [o0].[order_item_id], [o0].[order_id], [o0].[product_id], [o0].[quantity], [o0].[subtotal], [o0].[unit_price], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [order_items] AS [o0]
+          INNER JOIN [products] AS [p] ON [o0].[product_id] = [p].[product_id]
+      ) AS [t] ON [o].[order_id] = [t].[order_id]
+      WHERE [o].[customer_id] = @__customerId_0
+      ORDER BY [o].[created_at] DESC, [o].[order_id], [c].[customer_id], [t].[order_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = CAST(1 AS bit) AND [p].[stock_quantity] > 0 AND [p].[stock_quantity] - [p].[hold_quantity] > 0
+info: qlthuvien_vip.Services.Implementations.AiService[0]
+      Ai:ApiKey chua du?c c?u hçnh. H? th?ng s? d?ng m?u tu v?n thìng minh t°ch h?p.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id], [o].[created_at], [o].[customer_id], [o].[discount_amount], [o].[discount_code], [o].[expires_at], [o].[order_status], [o].[payment_method], [o].[recipient_name], [o].[recipient_phone], [o].[shipping_address], [o].[shipping_fee], [o].[subtotal], [o].[total_amount], [o].[updated_at], [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role], [t].[order_item_id], [t].[order_id], [t].[product_id], [t].[quantity], [t].[subtotal], [t].[unit_price], [t].[product_id0], [t].[author], [t].[category], [t].[created_at], [t].[description], [t].[hold_quantity], [t].[image_url], [t].[is_active], [t].[isbn], [t].[price], [t].[publisher], [t].[stock_quantity], [t].[title], [t].[updated_at]
+      FROM [orders] AS [o]
+      INNER JOIN [customers] AS [c] ON [o].[customer_id] = [c].[customer_id]
+      LEFT JOIN (
+          SELECT [o0].[order_item_id], [o0].[order_id], [o0].[product_id], [o0].[quantity], [o0].[subtotal], [o0].[unit_price], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [order_items] AS [o0]
+          INNER JOIN [products] AS [p] ON [o0].[product_id] = [p].[product_id]
+      ) AS [t] ON [o].[order_id] = [t].[order_id]
+      ORDER BY [o].[created_at] DESC, [o].[order_id], [c].[customer_id], [t].[order_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COALESCE(SUM([o].[total_amount]), 0.0)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL) AND (([o].[payment_method] IS NOT NULL AND UPPER([o].[payment_method]) = 'COD' AND (UPPER([o].[order_status]) = 'DELIVERED' OR UPPER([o].[order_status]) = 'COMPLETED' OR EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p]
+          WHERE [o].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) OR (([o].[payment_method] IS NULL OR UPPER([o].[payment_method]) <> 'COD') AND (UPPER([o].[order_status]) = 'PAID' OR UPPER([o].[order_status]) = 'DELIVERED' OR UPPER([o].[order_status]) = 'COMPLETED' OR EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p0]
+          WHERE [o].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS'))))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COALESCE(SUM([o].[total_amount]), 0.0)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL) AND (([o].[payment_method] IS NOT NULL AND UPPER([o].[payment_method]) = 'COD' AND (UPPER([o].[order_status]) = 'DELIVERED' OR UPPER([o].[order_status]) = 'COMPLETED' OR EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p]
+          WHERE [o].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) OR (([o].[payment_method] IS NULL OR UPPER([o].[payment_method]) <> 'COD') AND (UPPER([o].[order_status]) = 'PAID' OR UPPER([o].[order_status]) = 'DELIVERED' OR UPPER([o].[order_status]) = 'COMPLETED' OR EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p0]
+          WHERE [o].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS'))))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COALESCE(SUM([o].[total_amount]), 0.0)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL) AND ([o].[payment_method] IS NULL OR UPPER([o].[payment_method]) <> 'COD' OR (UPPER([o].[order_status]) <> 'DELIVERED' AND UPPER([o].[order_status]) <> 'COMPLETED' AND NOT EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p]
+          WHERE [o].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) AND (([o].[payment_method] IS NOT NULL AND UPPER([o].[payment_method]) = 'COD') OR (UPPER([o].[order_status]) <> 'PAID' AND UPPER([o].[order_status]) <> 'DELIVERED' AND UPPER([o].[order_status]) <> 'COMPLETED' AND NOT EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p0]
+          WHERE [o].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS')))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COALESCE(SUM([o].[total_amount]), 0.0)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL) AND ([o].[payment_method] IS NULL OR UPPER([o].[payment_method]) <> 'COD' OR (UPPER([o].[order_status]) <> 'DELIVERED' AND UPPER([o].[order_status]) <> 'COMPLETED' AND NOT EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p]
+          WHERE [o].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) AND (([o].[payment_method] IS NOT NULL AND UPPER([o].[payment_method]) = 'COD') OR (UPPER([o].[order_status]) <> 'PAID' AND UPPER([o].[order_status]) <> 'DELIVERED' AND UPPER([o].[order_status]) <> 'COMPLETED' AND NOT EXISTS (
+          SELECT 1
+          FROM [payment_transactions] AS [p0]
+          WHERE [o].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS')))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [orders] AS [o]
+      WHERE [o].[created_at] >= @__fromDate_0 AND [o].[created_at] <= @__toDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@__excludedRoles_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [customers] AS [c]
+      WHERE (UPPER([c].[role]) NOT IN (
+          SELECT [e].[value]
+          FROM OPENJSON(@__excludedRoles_0) WITH ([value] varchar(50) '$') AS [e]
+      ) OR UPPER([c].[role]) IS NULL) AND ([c].[is_active] IS NULL OR [c].[is_active] = CAST(1 AS bit))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@__excludedRoles_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [customers] AS [c]
+      WHERE (UPPER([c].[role]) NOT IN (
+          SELECT [e].[value]
+          FROM OPENJSON(@__excludedRoles_0) WITH ([value] varchar(50) '$') AS [e]
+      ) OR UPPER([c].[role]) IS NULL) AND ([c].[is_active] IS NULL OR [c].[is_active] = CAST(1 AS bit))
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[@__p_3='?' (DbType = Int32), @__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_3) [t].[product_id] AS [ProductId], [t].[Title0] AS [Title], COALESCE(SUM([t].[quantity]), 0) AS [QuantitySold], COALESCE(SUM([t].[subtotal]), 0.0) AS [TotalRevenue]
+      FROM (
+          SELECT [o].[product_id], [o].[quantity], [o].[subtotal], [p1].[title] AS [Title0]
+          FROM [order_items] AS [o]
+          INNER JOIN [orders] AS [o0] ON [o].[order_id] = [o0].[order_id]
+          INNER JOIN [products] AS [p1] ON [o].[product_id] = [p1].[product_id]
+          WHERE [o0].[created_at] >= @__fromDate_0 AND [o0].[created_at] <= @__toDate_1 AND (UPPER([o0].[order_status]) NOT IN (
+              SELECT [i].[value]
+              FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+          ) OR UPPER([o0].[order_status]) IS NULL) AND (([o0].[payment_method] IS NOT NULL AND UPPER([o0].[payment_method]) = 'COD' AND (UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED' OR EXISTS (
+              SELECT 1
+              FROM [payment_transactions] AS [p]
+              WHERE [o0].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) OR (([o0].[payment_method] IS NULL OR UPPER([o0].[payment_method]) <> 'COD') AND (UPPER([o0].[order_status]) = 'PAID' OR UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED' OR EXISTS (
+              SELECT 1
+              FROM [payment_transactions] AS [p0]
+              WHERE [o0].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS'))))
+      ) AS [t]
+      GROUP BY [t].[product_id], [t].[Title0]
+      ORDER BY COALESCE(SUM([t].[quantity]), 0) DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[@__p_3='?' (DbType = Int32), @__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_3) [t].[product_id] AS [ProductId], [t].[Title0] AS [Title], COALESCE(SUM([t].[quantity]), 0) AS [QuantitySold], COALESCE(SUM([t].[subtotal]), 0.0) AS [TotalRevenue]
+      FROM (
+          SELECT [o].[product_id], [o].[quantity], [o].[subtotal], [p1].[title] AS [Title0]
+          FROM [order_items] AS [o]
+          INNER JOIN [orders] AS [o0] ON [o].[order_id] = [o0].[order_id]
+          INNER JOIN [products] AS [p1] ON [o].[product_id] = [p1].[product_id]
+          WHERE [o0].[created_at] >= @__fromDate_0 AND [o0].[created_at] <= @__toDate_1 AND (UPPER([o0].[order_status]) NOT IN (
+              SELECT [i].[value]
+              FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+          ) OR UPPER([o0].[order_status]) IS NULL) AND (([o0].[payment_method] IS NOT NULL AND UPPER([o0].[payment_method]) = 'COD' AND (UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED' OR EXISTS (
+              SELECT 1
+              FROM [payment_transactions] AS [p]
+              WHERE [o0].[order_id] = [p].[order_id] AND [p].[payment_status] = 'SUCCESS'))) OR (([o0].[payment_method] IS NULL OR UPPER([o0].[payment_method]) <> 'COD') AND (UPPER([o0].[order_status]) = 'PAID' OR UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED' OR EXISTS (
+              SELECT 1
+              FROM [payment_transactions] AS [p0]
+              WHERE [o0].[order_id] = [p0].[order_id] AND [p0].[payment_status] = 'SUCCESS'))))
+      ) AS [t]
+      GROUP BY [t].[product_id], [t].[Title0]
+      ORDER BY COALESCE(SUM([t].[quantity]), 0) DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__lowStockThreshold_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[stock_quantity] AS [StockQuantity], [p].[hold_quantity] AS [HoldQuantity]
+      FROM [products] AS [p]
+      WHERE ([p].[stock_quantity] <= @__lowStockThreshold_0 OR [p].[stock_quantity] - [p].[hold_quantity] <= @__lowStockThreshold_0) AND [p].[is_active] = CAST(1 AS bit)
+      ORDER BY [p].[stock_quantity]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__lowStockThreshold_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[stock_quantity] AS [StockQuantity], [p].[hold_quantity] AS [HoldQuantity]
+      FROM [products] AS [p]
+      WHERE ([p].[stock_quantity] <= @__lowStockThreshold_0 OR [p].[stock_quantity] - [p].[hold_quantity] <= @__lowStockThreshold_0) AND [p].[is_active] = CAST(1 AS bit)
+      ORDER BY [p].[stock_quantity]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@__startOfLastDate_0='?' (DbType = DateTime2), @__endOfLastDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id], [o].[created_at], [o].[customer_id], [o].[discount_amount], [o].[discount_code], [o].[expires_at], [o].[order_status], [o].[payment_method], [o].[recipient_name], [o].[recipient_phone], [o].[shipping_address], [o].[shipping_fee], [o].[subtotal], [o].[total_amount], [o].[updated_at], [p].[payment_id], [p].[amount], [p].[completed_at], [p].[created_at], [p].[error_message], [p].[order_id], [p].[payment_method], [p].[payment_status], [p].[response_code], [p].[transaction_code]
+      FROM [orders] AS [o]
+      LEFT JOIN [payment_transactions] AS [p] ON [o].[order_id] = [p].[order_id]
+      WHERE [o].[created_at] IS NOT NULL AND [o].[created_at] >= @__startOfLastDate_0 AND [o].[created_at] < @__endOfLastDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL)
+      ORDER BY [o].[order_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@__startOfLastDate_0='?' (DbType = DateTime2), @__endOfLastDate_1='?' (DbType = DateTime2), @__invalidStatuses_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id], [o].[created_at], [o].[customer_id], [o].[discount_amount], [o].[discount_code], [o].[expires_at], [o].[order_status], [o].[payment_method], [o].[recipient_name], [o].[recipient_phone], [o].[shipping_address], [o].[shipping_fee], [o].[subtotal], [o].[total_amount], [o].[updated_at], [p].[payment_id], [p].[amount], [p].[completed_at], [p].[created_at], [p].[error_message], [p].[order_id], [p].[payment_method], [p].[payment_status], [p].[response_code], [p].[transaction_code]
+      FROM [orders] AS [o]
+      LEFT JOIN [payment_transactions] AS [p] ON [o].[order_id] = [p].[order_id]
+      WHERE [o].[created_at] IS NOT NULL AND [o].[created_at] >= @__startOfLastDate_0 AND [o].[created_at] < @__endOfLastDate_1 AND (UPPER([o].[order_status]) NOT IN (
+          SELECT [i].[value]
+          FROM OPENJSON(@__invalidStatuses_2) WITH ([value] varchar(50) '$') AS [i]
+      ) OR UPPER([o].[order_status]) IS NULL)
+      ORDER BY [o].[order_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [customers] AS [c]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [c].[customer_id] AS [CustomerId], [c].[full_name] AS [FullName], [c].[email] AS [Email], [c].[phone_number] AS [PhoneNumber], COALESCE([c].[role], 'Customer') AS [Role], [c].[is_active] AS [IsActive], [c].[created_at] AS [CreatedAt]
+      FROM [customers] AS [c]
+      ORDER BY [c].[created_at] DESC
+      OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 255) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE LOWER([c].[email]) = @__ToLower_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SET IMPLICIT_TRANSACTIONS OFF;
+      SET NOCOUNT ON;
+      INSERT INTO [carts] ([customer_id], [updated_at])
+      OUTPUT INSERTED.[cart_id]
+      VALUES (@p0, @p1);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p5='?' (DbType = Int64), @p4='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [cart_items] ([cart_id], [created_at], [product_id], [quantity])
+      OUTPUT INSERTED.[cart_item_id]
+      VALUES (@p0, @p1, @p2, @p3);
+      UPDATE [carts] SET [updated_at] = @p4
+      OUTPUT 1
+      WHERE [cart_id] = @p5;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (12ms) [Parameters=[@__cart_CartId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[cart_id] = @__cart_CartId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (7ms) [Parameters=[@__productIds_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] IN (
+          SELECT [p0].[value]
+          FROM OPENJSON(@__productIds_0) WITH ([value] bigint '$') AS [p0]
+      ) AND [p].[is_active] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [c].[address_id], [c].[customer_id], [c].[detailed_address], [c].[district], [c].[is_default], [c].[province], [c].[recipient_name], [c].[recipient_phone], [c].[ward]
+      FROM [customer_addresses] AS [c]
+      WHERE [c].[customer_id] = @__customerId_0
+      ORDER BY [c].[is_default] DESC, [c].[address_id] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [c].[address_id], [c].[customer_id], [c].[detailed_address], [c].[district], [c].[is_default], [c].[province], [c].[recipient_name], [c].[recipient_phone], [c].[ward]
+      FROM [customer_addresses] AS [c]
+      WHERE [c].[customer_id] = @__customerId_0
+      ORDER BY [c].[is_default] DESC, [c].[address_id] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__productIds_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] IN (
+          SELECT [p0].[value]
+          FROM OPENJSON(@__productIds_0) WITH ([value] bigint '$') AS [p0]
+      ) AND [p].[is_active] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[is_active] = @__isActive_Value_0
+      ORDER BY [p].[created_at] DESC
+      OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[cart_id], [t].[customer_id], [t].[updated_at], [t0].[cart_item_id], [t0].[cart_id], [t0].[created_at], [t0].[product_id], [t0].[quantity], [t0].[product_id0], [t0].[author], [t0].[category], [t0].[created_at0], [t0].[description], [t0].[hold_quantity], [t0].[image_url], [t0].[is_active], [t0].[isbn], [t0].[price], [t0].[publisher], [t0].[stock_quantity], [t0].[title], [t0].[updated_at]
+      FROM (
+          SELECT TOP(1) [c].[cart_id], [c].[customer_id], [c].[updated_at]
+          FROM [carts] AS [c]
+          WHERE [c].[customer_id] = @__customerId_0
+      ) AS [t]
+      LEFT JOIN (
+          SELECT [c0].[cart_item_id], [c0].[cart_id], [c0].[created_at], [c0].[product_id], [c0].[quantity], [p].[product_id] AS [product_id0], [p].[author], [p].[category], [p].[created_at] AS [created_at0], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+          FROM [cart_items] AS [c0]
+          INNER JOIN [products] AS [p] ON [c0].[product_id] = [p].[product_id]
+      ) AS [t0] ON [t].[cart_id] = [t0].[cart_id]
+      ORDER BY [t].[cart_id], [t0].[cart_item_id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [f].[favorite_id] AS [FavoriteId], [f].[product_id] AS [ProductId], [p].[title] AS [Title], [p].[author] AS [Author], [p].[category] AS [Category], [p].[price] AS [Price], [p].[stock_quantity] AS [StockQuantity], [p].[image_url] AS [ImageUrl], [p].[is_active] AS [IsActive], [f].[created_at] AS [CreatedAt]
+      FROM [favorites] AS [f]
+      INNER JOIN [products] AS [p] ON [f].[product_id] = [p].[product_id]
+      WHERE [f].[customer_id] = @__customerId_0
+      ORDER BY [f].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [p].[product_id], [p].[author], [p].[category], [p].[created_at], [p].[description], [p].[hold_quantity], [p].[image_url], [p].[is_active], [p].[isbn], [p].[price], [p].[publisher], [p].[stock_quantity], [p].[title], [p].[updated_at]
+      FROM [products] AS [p]
+      WHERE [p].[product_id] = @__p_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int64), @__customerId_Value_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [order_items] AS [o]
+              INNER JOIN [orders] AS [o0] ON [o].[order_id] = [o0].[order_id]
+              WHERE [o].[product_id] = @__id_0 AND [o0].[customer_id] = @__customerId_Value_1 AND (UPPER([o0].[order_status]) NOT IN ('CANCELLED', 'EXPIRED', 'RETURNED', 'PENDING_PAYMENT', 'PENDING_CONFIRMATION') OR UPPER([o0].[order_status]) IS NULL) AND (([o0].[payment_method] = 'COD' AND (UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED')) OR (([o0].[payment_method] <> 'COD' OR [o0].[payment_method] IS NULL) AND (UPPER([o0].[order_status]) = 'PAID' OR UPPER([o0].[order_status]) = 'PROCESSING' OR UPPER([o0].[order_status]) = 'SHIPPING' OR UPPER([o0].[order_status]) = 'DELIVERED' OR UPPER([o0].[order_status]) = 'COMPLETED')))) THEN CAST(1 AS bit)
+          ELSE CAST(0 AS bit)
+      END
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[@__customerId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT [n].[notification_id] AS [NotificationId], [n].[title] AS [Title], [n].[message] AS [Message], [n].[type] AS [Type], [n].[is_read] AS [IsRead], [n].[created_at] AS [CreatedAt], [n].[read_at] AS [ReadAt]
+      FROM [notifications] AS [n]
+      WHERE [n].[customer_id] = @__customerId_0
+      ORDER BY [n].[created_at] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[customer_id], [c].[created_at], [c].[email], [c].[full_name], [c].[is_active], [c].[password_hash], [c].[phone_number], [c].[role]
+      FROM [customers] AS [c]
+      WHERE [c].[customer_id] = @__userId_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[@__cartItemId_0='?' (DbType = Int64), @__customerId_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [c].[cart_item_id], [c].[cart_id], [c].[created_at], [c].[product_id], [c].[quantity], [c0].[cart_id], [c0].[customer_id], [c0].[updated_at]
+      FROM [cart_items] AS [c]
+      INNER JOIN [carts] AS [c0] ON [c].[cart_id] = [c0].[cart_id]
+      WHERE [c].[cart_item_id] = @__cartItemId_0 AND [c0].[customer_id] = @__customerId_1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (15ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[order_id]
+      FROM [orders] AS [o]
+      WHERE [o].[order_status] = 'PENDING_PAYMENT' AND [o].[expires_at] IS NOT NULL AND [o].[expires_at] <= @__now_0

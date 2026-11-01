@@ -1,0 +1,2385 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html amp class="no-js" lang="vi">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+		<!--[if lt IE 9]><script src="//hsta tic.net/0/0/global/design/theme-default/html5shiv.js"></script><![endif]-->
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0' name='viewport' />
+		<meta name="revisit-after" content="1 day" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="HandheldFriendly" content="true">
+		<link rel="shortcut icon" href="//theme.hstatic.net/200000845405/1001223012/14/favicon.png?v=476" type="image/png" />
+		<title>
+			
+		</title>
+<meta name="description" content="Hiệu sách online hiện đại và kho sách ebook online tiện lợi, Vinabook là nơi giúp bạn có những cuốn sách đúng với sở thích và cập nhật những đầu sách hay nhất" />
+		<link rel="canonical" href="https://www.vinabook.com/search?q=Tr%C3%AD+tu%E1%BB%87+x%C3%BAc+c%E1%BA%A3m" />
+		<link rel="amphtml" href="https://www.vinabook.com/search?q=Tr%C3%AD+tu%E1%BB%87+x%C3%BAc+c%E1%BA%A3m?view=amp">
+		<link rel="alternate" href="https://www.vinabook.com/search?q=Tr%C3%AD+tu%E1%BB%87+x%C3%BAc+c%E1%BA%A3m" hreflang="vi-vn" />	
+		<meta name="keywords" content="Vinabook">
+			<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+		 
+		<meta http-equiv="x-dns-prefetch-control" content="on">
+		<meta name="theme-color" content="#ec8000">
+		<link rel="dns-prefetch" href="https://www.vinabook.com">
+		<link rel="dns-prefetch" href="//hstatic.net">
+		<link rel="dns-prefetch" href="//theme.hstatic.net/">
+		<link rel="dns-prefetch" href="//file.hstatic.net/">
+		<link rel="dns-prefetch" href="//www.google-analytics.com/">
+		<link rel="dns-prefetch" href="//www.googletagmanager.com/">
+
+		<!--+++++++++++++++++++++++++  CSS ++++++++++++++++++++++++-->
+
+<link rel="preconnect" href="https://theme.hstatic.net">
+
+<link rel="preconnect" href="//theme.hstatic.net/200000845405/1001223012/14/plugin-min.css?v=476">
+<link rel="preconnect" href="//theme.hstatic.net/200000845405/1001223012/14/custom-styles.scss.css?v=476">
+<link rel="preload" href="//theme.hstatic.net/200000845405/1001223012/14/plugin-min.css?v=476" as="style">
+<link rel="preload" href="//theme.hstatic.net/200000845405/1001223012/14/custom-styles.scss.css?v=476" as="style">
+
+
+
+
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_1.jpg?v=476"  media="screen and (max-width: 768px)">
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_1.jpg?v=476" media="screen and (min-width: 768px)" >
+
+
+
+
+
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_2.jpg?v=476"  media="screen and (max-width: 768px)">
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_2.jpg?v=476" media="screen and (min-width: 768px)" >
+
+
+
+
+
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_3.jpg?v=476"  media="screen and (max-width: 768px)">
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_3.jpg?v=476" media="screen and (min-width: 768px)" >
+
+
+
+
+
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_4.jpg?v=476"  media="screen and (max-width: 768px)">
+<link rel="preload" as="image" href="//theme.hstatic.net/200000845405/1001223012/14/home_slider_image_4.jpg?v=476" media="screen and (min-width: 768px)" >
+
+
+<link href='//theme.hstatic.net/200000845405/1001223012/14/plugin-min.css?v=476' rel='stylesheet' type='text/css'  media='all'  />
+<link href='//theme.hstatic.net/200000845405/1001223012/14/custom-styles.scss.css?v=476' rel='stylesheet' type='text/css'  media='all'  />
+<!--+++++++++++++++++++++++++  JS ++++++++++++++++++++++++-->
+<script src='//theme.hstatic.net/200000845405/1001223012/14/jquery.min.js?v=476' type='text/javascript'></script>
+<script>
+	var template = 'search';
+	var formatMoney = '{{amount}}₫';
+	jQuery.themeAssets = {
+		arrowDown: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 8" style="enable-background:new 0 0 12 8; width: 12px; height: 8px;" xml:space="preserve"><polyline points="0,2 2,0 6,4 10,0 12,2 6,8 0,2 "/></svg>',
+		arrowRight: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31 10" style="enable-background:new 0 0 31 10; width: 31px; height: 10px;" xml:space="preserve"><polygon points="31,5 25,0 25,4 0,4 0,6 25,6 25,10 "/></svg>',
+	};
+	jQuery.themeCartSettings = 'overlay';	
+</script>
+
+		<meta property="og:type" content="website" />
+<meta property="og:title" content="" />
+<meta property="og:image" content="http://theme.hstatic.net/200000845405/1001223012/14/share_fb_home.png?v=476" />
+<meta property="og:image:secure_url" content="https://theme.hstatic.net/200000845405/1001223012/14/share_fb_home.png?v=476" />
+<meta property="og:description" content="Hiệu sách online hiện đại và kho sách ebook online tiện lợi, Vinabook là nơi giúp bạn có những cuốn sách đúng với sở thích và cập nhật những đầu sách hay nhất" /><meta property="og:url" content="https://www.vinabook.com/search?q=Tr%C3%AD+tu%E1%BB%87+x%C3%BAc+c%E1%BA%A3m" />
+<meta property="og:site_name" content="Vinabook" />
+
+
+
+
+
+		<!-- SEO META DESCRIPTION -->
+<meta name="description" content="Kết quả tìm kiếm với từ khóa Tr&#237; tuệ x&#250;c cảm" />
+<!-- END SEO META DESCRIPTION -->
+<!-- SEO PAGI -->
+<meta name="robots" content="noindex, nofollow">
+
+<!-- END SEO PAGI -->
+		
+		<script type='text/javascript'>
+//<![CDATA[
+if ((typeof Haravan) === 'undefined') {
+  Haravan = {};
+}
+Haravan.culture = 'vi-VN';
+Haravan.shop = 'vinabook.myharavan.com';
+Haravan.theme = {"name":"Mai 809228","id":1001223012,"role":"main"};
+Haravan.domain = 'www.vinabook.com';
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() { function asyncLoad() { var urls = ["https://app.hstatic.net/socialloginplus/200000845405/script-tag.js?v=1708318146844"];for (var i = 0; i < urls.length; i++) {var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = urls[i];var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}}window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);})();
+//]]>
+</script>
+<script defer src='https://stats.hstatic.net/beacon.min.js' hrv-beacon-t='200000845405'></script><style>.grecaptcha-badge{visibility:hidden;}</style>
+<script type='text/javascript'>
+window.HaravanAnalytics = window.HaravanAnalytics || {};
+window.HaravanAnalytics.meta = window.HaravanAnalytics.meta || {};
+window.HaravanAnalytics.meta.currency = 'VND';
+var meta = {"page":{"pageType":"searchresults"},"search":{"query":"Tr&#237; tuệ x&#250;c cảm"}};
+for (var attr in meta) {
+	window.HaravanAnalytics.meta[attr] = meta[attr];
+}
+window.HaravanAnalytics.AutoTrack = true;
+</script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-5V3M5CS23C'></script><script>
+window.HaravanAnalytics.ga4 = "G-5V3M5CS23C";
+window.HaravanAnalytics.enhancedEcommercev4 = true;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-5V3M5CS23C');
+</script>
+		
+		<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"www.vinabook.com","url":"https://www.vinabook.com","potentialAction":{"@type":"SearchAction","target":"https://www.vinabook.com/search?&q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+		<script async>
+			if ((typeof Haravan) === 'undefined') {
+				Haravan = {};
+			}
+			var template = "search";
+			let loadDeferredStyles = () =>{
+				//let addStylesNode = $("#deferred-styles").text();
+				//$('head').append(addStylesNode);
+				//$("#deferred-styles").remove();
+			};
+			let recapcha = () =>{
+				$.getScript('https://www.google.com/recaptcha/api.js?render=6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-').done(function(s,r){			
+					$('head').append(s);
+					grecaptcha.ready(function() {grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {action: 'submit'}).then(function(token) {document.querySelector('.contact-form input[name="g-recaptcha-response"]').value = token;});});
+				});
+			};
+
+			$(window).on('load', function(){
+				function resolveAfter5Seconds() {
+					return new Promise(resolve => {
+						setTimeout(() => {
+							recapcha();
+							loadDeferredStyles();
+						},4000);
+					});
+				}
+				async function asyncCall() {
+					let resul2t = await resolveAfter5Seconds();
+					return resul2t;
+				}		
+				asyncCall();
+			});
+
+		</script>
+		<script>
+			window.file_url = "//file.hstatic.net/200000845405/file/"; 
+			window.asset_url = "//theme.hstatic.net/200000845405/1001223012/14/?v=476";
+			var check_variant = true;
+			var check_variant_quickview = true;
+		</script>
+	</head>
+	<body id="hogwarts-theme" class="search" style="background: #f9f5ee">
+	
+		<div class="nav-overlay" onclick="initNav('close')"></div>
+		<nav id="menu-mobile" class="hidden" >
+	<ul>
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-kinh-te">Sách Kinh Tế</a>
+							
+
+			<ul class="child count-nav-10">
+				
+				
+				<li><a href="/collections/ngoai-thuong">Ngoại Thương</a></li>
+				
+				
+				
+				<li><a href="/collections/marketing-ban-hang">Marketing - Bán Hàng</a></li>
+				
+				
+				
+				<li><a href="/collections/nhan-su-viec-lam">Nhân Sự & Việc Làm</a></li>
+				
+				
+				
+				<li><a href="/collections/nhan-vat-bai-hoc-kinh-doanh">Nhân Vật & Bài Học Kinh Doanh</a></li>
+				
+				
+				
+				<li><a href="/collections/phan-tich-moi-truong-kinh-te">Phân Tích & Môi Trường Kinh Tế</a></li>
+				
+				
+				
+				<li><a href="/collections/quan-tri-lanh-dao">Quản Trị - Lãnh Đạo</a></li>
+				
+				
+				
+				<li><a href="/collections/tai-chinh-tien-te">Tài Chính & Tiền Tệ</a></li>
+				
+				
+				
+				<li><a href="/collections/tai-chinh-ke-toan">Tài Chính – Kế Toán</a></li>
+				
+				
+				
+				<li><a href="/collections/van-ban-luat">Văn Bản Luật</a></li>
+				
+				
+				
+				<li><a href="/collections/khoi-nghiep-ky-nang-lam-viec">Khởi Nghiệp/Kỹ Năng Làm Việc</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-van-hoc-trong-nuoc">Sách Văn Học Trong Nước</a>
+							
+
+			<ul class="child count-nav-14">
+				
+				
+				<li><a href="/collections/nhan-vat-van-hoc-nhan-vat-lich-su">Nhân Vật Văn Học/Nhân Vật Lịch Sử</a></li>
+				
+				
+				
+				<li><a href="/collections/phe-binh-van-hoc-1">Phê Bình Văn Học</a></li>
+				
+				
+				
+				<li><a href="/collections/phong-su-ky-su-1">Phóng Sự, Ký Sự</a></li>
+				
+				
+				
+				<li><a href="/collections/tho-ca-1">Thơ Ca</a></li>
+				
+				
+				
+				<li><a href="/collections/tieu-thuyet-1">Tiểu Thuyết</a></li>
+				
+				
+				
+				<li><a href="/collections/tieu-thuyet-lich-su">Tiểu Thuyết Lịch Sử</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-tho-ca-dan-gian">Truyện & Thơ Ca Dân Gian</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-dai">Truyện Dài</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-gia-tuong-than-bi">Truyện Giả Tưởng – Thần Bí</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-kiem-hiep">Truyện Kiếm Hiệp</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-ngan-tan-van">Truyện Ngắn – Tản Văn</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-thieu-nhi-1">Truyện Thiếu Nhi</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-trinh-tham-vu-an-1">Truyện Trinh Thám, Vụ Án</a></li>
+				
+				
+				
+				<li><a href="/collections/tu-truyen-hoi-ky-1">Tự Truyện - Hồi Ký</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-van-hoc-nuoc-ngoai">Sách Văn Học Nước Ngoài</a>
+							
+
+			<ul class="child count-nav-15">
+				
+				
+				<li><a href="/collections/co-tich-than-thoai">Cổ Tích & Thần Thoại</a></li>
+				
+				
+				
+				<li><a href="/collections/phe-binh-van-hoc">Phê Bình Văn Học</a></li>
+				
+				
+				
+				<li><a href="/collections/phong-su-ky-su">Phóng Sự, Ký Sự</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-ve-nhan-vat-van-hoc-nhan-vat-lich-su">Sách Về Nhân Vật Văn Học/Nhân Vật Lịch Sử</a></li>
+				
+				
+				
+				<li><a href="/collections/tho-ca">Thơ Ca</a></li>
+				
+				
+				
+				<li><a href="/collections/tieu-thuyet">Tiểu Thuyết</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-kiem-hiep-phieu-luu">Truyện Kiếm Hiệp - Phiêu Lưu</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-lich-su">Truyện Lịch Sử</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-ngan">Truyện Ngắn</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-thieu-nhi">Truyện Thiếu Nhi</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-trinh-tham-vu-an">Truyện Trinh Thám, Vụ Án</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-vien-tuong-kinh-d">Truyện Viễn Tưởng - Kinh D</a></li>
+				
+				
+				
+				<li><a href="/collections/tu-truyen-hoi-ky">Tự Truyện - Hồi Ký</a></li>
+				
+				
+				
+				<li><a href="/collections/tieu-thuyet-ngon-tinh">Tiểu Thuyết Ngôn Tình</a></li>
+				
+				
+				
+				<li><a href="/collections/tieu-thuyet-dam-my">Tiểu Thuyết Đam Mỹ</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-thuong-thuc-doi-song">Sách Thưởng Thức Đời Sống</a>
+							
+
+			<ul class="child count-nav-5">
+				
+				
+				<li><a href="/collections/bi-quyet-lam-dep">Bí Quyết Làm Đẹp</a></li>
+				
+				
+				
+				<li><a href="/collections/gia-dinh-nuoi-day-con">Gia Đình, Nuôi Dạy Con</a></li>
+				
+				
+				
+				<li><a href="/collections/nha-o-vat-nuoi">Nhà Ở, Vật Nuôi</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-tam-ly-gioi-tinh">Sách Tâm Lý - Giới Tính</a></li>
+				
+				
+				
+				<li><a href="/collections/nu-cong-gia-chanh">Nữ Công Gia Chánh</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-thieu-nhi">Sách Thiếu Nhi</a>
+							
+
+			<ul class="child count-nav-5">
+				
+				
+				<li><a href="/collections/khoa-hoc-tu-nhien">Khoa Học Tự Nhiên</a></li>
+				
+				
+				
+				<li><a href="/collections/khoa-hoc-xa-hoi">Khoa Học Xã Hội</a></li>
+				
+				
+				
+				<li><a href="/collections/my-thuat-am-nhac">Mỹ Thuật, Âm Nhạc</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-ngoai-ngu">Sách Ngoại Ngữ</a></li>
+				
+				
+				
+				<li><a href="/collections/truyen-tranh">Truyện Tranh</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-phat-trien-ban-than">Sách Phát Triển Bản Thân</a>
+							
+
+			<ul class="child count-nav-3">
+				
+				
+				<li><a href="/collections/sach-hoc-lam-nguoi">Sách Học Làm Người</a></li>
+				
+				
+				
+				<li><a href="/collections/danh-nhan">Danh Nhân</a></li>
+				
+				
+				
+				<li><a href="/collections/tam-ly-ky-nang-song">Tâm Lý - Kỹ Năng Sống</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-tin-hoc-ngoai-ngu">Sách Tin Học Ngoại Ngữ</a>
+							
+
+			<ul class="child count-nav-3">
+				
+				
+				<li><a href="/collections/sach-ngoai-ngu-1">Sách Ngoại Ngữ</a></li>
+				
+				
+				
+				<li><a href="/collections/tu-dien">Từ Điển</a></li>
+				
+				
+				
+				<li><a href="/collections/tin-hoc">Tin Học</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-chuyen-nganh">Sách Chuyên Ngành</a>
+							
+
+			<ul class="child count-nav-16">
+				
+				
+				<li><a href="/collections/am-nhac">Âm Nhạc</a></li>
+				
+				
+				
+				<li><a href="/collections/chinh-tri-triet-hoc">Chính Trị, Triết Học</a></li>
+				
+				
+				
+				<li><a href="/collections/du-lich">Du Lịch</a></li>
+				
+				
+				
+				<li><a href="/collections/khoa-hoc-co-ban">Khoa Học Cơ Bản</a></li>
+				
+				
+				
+				<li><a href="/collections/khoa-hoc-ky-thuat">Khoa Học Kỹ Thuật</a></li>
+				
+				
+				
+				<li><a href="/collections/khoa-hoc-tu-nhien-xa-hoi">Khoa Học Tự Nhiên - Xã Hội</a></li>
+				
+				
+				
+				<li><a href="/collections/my-thuat-kien-truc">Mỹ Thuật, Kiến Trúc</a></li>
+				
+				
+				
+				<li><a href="/collections/nong-lam-nghiep">Nông Lâm Nghiệp</a></li>
+				
+				
+				
+				<li><a href="/collections/phap-luat">Pháp Luật</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-hoc-nghe">Sách Học Nghề</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-ton-giao">Sách Tôn Giáo</a></li>
+				
+				
+				
+				<li><a href="/collections/the-thao">Thể Thao</a></li>
+				
+				
+				
+				<li><a href="/collections/van-hoa-nghe-thuat">Văn Hoá Nghệ Thuật</a></li>
+				
+				
+				
+				<li><a href="/collections/y-hoc">Y Học</a></li>
+				
+				
+				
+				<li><a href="/collections/nghiep-vu-bao-chi">Nghiệp Vụ Báo Chí</a></li>
+				
+				
+				
+				<li><a href="/collections/cac-chu-de-khac">Các Chủ Đề Khác</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-giao-khoa-giao-trinh">Sách Giáo Khoa - Giáo Trình</a>
+							
+
+			<ul class="child count-nav-6">
+				
+				
+				<li><a href="/collections/cap-1">Cấp 1</a></li>
+				
+				
+				
+				<li><a href="/collections/cap-2">Cấp 2</a></li>
+				
+				
+				
+				<li><a href="/collections/cap-3">Cấp 3</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-tham-khao">Sách Tham Khảo</a></li>
+				
+				
+				
+				<li><a href="/collections/dai-hoc">Đại Học</a></li>
+				
+				
+				
+				<li><a href="/collections/bo-sach-giao-khoa">Bộ Sách Giáo Khoa</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/">Sách Phát Hành 2024</a>
+							
+
+			<ul class="child count-nav-9">
+				
+				
+				<li><a href="/collections/sach-moi-thang-4-2024">Sách Mới Tháng 4/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-5-2024">Sách Mới Tháng 5/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-6-2024">Sách mới tháng 6/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-7-2024">Sách Mới Tháng 7/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-8-2024">Sách Mới Tháng 8/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-9-2024">Sách Mới Tháng 9/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-10">Sách Mới Tháng 10/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-11-2024">Sách Mới Tháng 11/2024</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-12-2024">Sách Mới Tháng 12/2024</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li class="has-children">
+			<a href="/collections/sach-moi-2025">Sách Mới 2025</a>
+							
+
+			<ul class="child count-nav-12">
+				
+				
+				<li><a href="/collections/sach-moi-thang-1-2026">Sách Mới Tháng 1</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-2-2025">Sách Mới Tháng 2</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-3-2025">Sách Mới Tháng 3</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-4-2025">Sách Mới Tháng 4</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-5-2025">Sách Mới Tháng 5</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-6-2025">Sách Mới Tháng 6</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-7-2025">Sách Mới Tháng 7</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-8-2025">Sách Mới Tháng 8</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-9-2025">Sách Mới Tháng 9</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-10-2025">Sách Mới Tháng 10</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-11-2025">Sách Mới Tháng 11</a></li>
+				
+				
+				
+				<li><a href="/collections/sach-moi-thang-12-2025">Sách Mới Tháng 12</a></li>
+				
+				
+			</ul>
+
+		</li>
+		
+		
+		
+		<li><a href="/blogs/review-sach">Review Sách</a></li>
+		
+		
+
+
+
+	</ul>
+</nav>
+		<svg xmlns="http://www.w3.org/2000/svg" class="hidden">	
+	<symbol id="icon-add-cart">
+		<svg xmlns="http://www.w3.org/2000/svg"   xmlns:xlink="http://www.w3.org/1999/xlink"  x="0px" y="0px"
+				 viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+			<g >
+				<g>
+					<polygon points="447.992,336 181.555,336 69.539,80 0.008,80 0.008,48 90.477,48 202.492,304 447.992,304 		"/>
+				</g>
+				<path d="M287.992,416c0,26.5-21.5,48-48,48s-48-21.5-48-48s21.5-48,48-48S287.992,389.5,287.992,416z"/>
+				<path d="M447.992,416c0,26.5-21.5,48-48,48s-48-21.5-48-48s21.5-48,48-48S447.992,389.5,447.992,416z"/>
+				<g>
+					<polygon points="499.18,144 511.992,112 160.008,112 172.805,144 		"/>
+					<polygon points="211.195,240 223.992,272 447.992,272 460.805,240 		"/>
+					<polygon points="486.398,176 185.602,176 198.398,208 473.586,208 		"/>
+				</g>
+			</g>
+		</svg>
+	</symbol>
+	<symbol id="icon-list-switch">
+		<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 194.828 194.828" style="enable-background:new 0 0 194.828 194.828;" xml:space="preserve">
+			<g>
+				<g>
+					<g>
+						<path d="M190.931,17.534H3.897C1.745,17.534,0,19.279,0,21.431v19.483c0,2.152,1.745,3.897,3.897,3.897h187.034
+										 c2.152,0,3.897-1.745,3.897-3.897V21.431C194.828,19.279,193.083,17.534,190.931,17.534z M187.034,37.017H7.793v-11.69h179.241
+										 V37.017z"/>
+						<path d="M190.931,64.293H3.897C1.745,64.293,0,66.038,0,68.19v31.172c0,2.152,1.745,3.897,3.897,3.897h187.034
+										 c2.152,0,3.897-1.745,3.897-3.897V68.19C194.828,66.038,193.083,64.293,190.931,64.293z M187.034,95.466H7.793v-23.38h179.241
+										 V95.466z"/>
+						<path d="M190.931,122.741H3.897c-2.152,0-3.897,1.745-3.897,3.897v46.759c0,2.152,1.745,3.897,3.897,3.897h187.034
+										 c2.152,0,3.897-1.745,3.897-3.897v-46.759C194.828,124.486,193.083,122.741,190.931,122.741z M187.034,169.5H7.793v-38.966
+										 h179.241V169.5z"/>
+					</g>
+				</g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+		</svg>
+
+	</symbol>
+	<symbol id="icon-sort-by">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+			<g>
+				<polygon points="85.877,154.014 85.877,428.309 131.706,428.309 131.706,154.014 180.497,221.213 217.584,194.27 108.792,44.46 
+												 0,194.27 37.087,221.213 	"/>
+				<polygon points="404.13,335.988 404.13,61.691 358.301,61.691 358.301,335.99 309.503,268.787 272.416,295.73 381.216,445.54 
+												 490,295.715 452.913,268.802 	"/>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+			<g>
+			</g>
+		</svg>
+	</symbol>
+	<symbol id="icon-search_white" viewBox="0 0 1024 1024">
+		<path class="path1" d="M1014.176 968.256l-264.32-260.128c69.184-75.264 111.68-174.688 111.68-284.128 0-234.080-192.8-423.872-430.688-423.872s-430.72 189.792-430.72 423.872c0 234.112 192.864 423.872 430.72 423.872 102.752 0 197.088-35.552 271.072-94.688l265.376 261.12c12.928 12.736 33.952 12.736 46.88 0 12.96-12.672 12.96-33.376 0-46.048zM430.848 782.688c-201.312 0-364.48-160.64-364.48-358.688 0-198.080 163.168-358.656 364.48-358.656 201.28 0 364.448 160.576 364.448 358.656 0.032 198.048-163.168 358.688-364.448 358.688z"></path>
+	</symbol>
+	<symbol id="icon-user" viewBox="0 0 1024 1024">
+		<title>user</title>
+		<path class="path1" d="M622.826 702.736c-22.11-3.518-22.614-64.314-22.614-64.314s64.968-64.316 79.128-150.802c38.090 0 61.618-91.946 23.522-124.296 1.59-34.054 48.96-267.324-190.862-267.324s-192.45 233.27-190.864 267.324c-38.094 32.35-14.57 124.296 23.522 124.296 14.158 86.486 79.128 150.802 79.128 150.802s-0.504 60.796-22.614 64.314c-71.22 11.332-337.172 128.634-337.172 257.264h896c0-128.63-265.952-245.932-337.174-257.264z"></path>
+	</symbol>
+</svg>
+
+		
+		
+		
+		<div class="main-body   ">
+			<div class="topbar">
+	<div class="container">
+		<div class="topbar-wrap d-flex align-items-center justify-content-between">
+			<div class="header-contact d-none d-lg-flex flex-grow-1">
+				
+				
+				
+				
+				<div class="item d-flex align-items-center">
+					<div class="icon">
+						<i class="fal fa-phone-volume"></i>
+					</div>
+					<div class="info">
+						<a href="tel:028.73008182">028.73008182</a>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="item d-flex align-items-center">
+					<div class="icon">
+						<i class="fal fa-envelope"></i>
+					</div>
+					<div class="info">
+						<a href="mailto:hotro@vinabook.com">hotro@vinabook.com</a>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="item d-flex align-items-center">
+					<div class="icon">
+						<i class="fal fa-map-marker-alt"></i>
+					</div>
+					<div class="info">
+						<a href="/">332 Lũy Bán Bích, Phường Tân Phú, TP. Hồ Chí Minh</a>
+					</div>
+				</div>
+				
+			</div>
+			<div class="header-account ml-5">
+				
+				
+				<a class="mr-3 text-uppercase font-weight-bold" href="/account/login">Đăng nhập</a>
+				<a class="mr-3 text-uppercase font-weight-bold" href="/account/register">Đăng ký</a>
+				
+			</div>
+			<div class="header-action_cart">							
+				<div class="header-action_text cursor-pointer" id="dropdownCartButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<div class="header-action__link header-action-toggle"  aria-label="Giỏ hàng" title="Giỏ hàng">
+						<span class="box-icon">								
+							<i class="fal fa-shopping-cart"></i>
+							<span class="count-holder">
+								<span class="count">0</span>
+							</span>									
+						</span>		
+					</div>
+				</div>
+				<div class="header-action_dropdown dropdown-menu dropdown-menu-right" aria-labelledby="dropdownCartButton">
+					<span class="box-triangle">
+						<svg viewBox="0 0 20 9">
+							<path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+						</svg>
+					</span>
+					<div class="header-dropdown_content">
+						<div class="site-cart">
+	<div class="cart-view clearfix">
+		<div class="cart-view-scroll">
+			<table id="clone-item-cart" class="table-clone-cart">
+				<tr class="item_2 hidden">
+					<td class="img"><a href="" title=""><img src="//theme.hstatic.net/200000845405/1001223012/14/1x1.jpg?v=476" alt="" /></a></td>
+					<td>
+						<p class="pro-title">	
+							<a class="pro-title-view" href="" title=""></a>
+							<span class="variant"></span>
+						</p>
+						<div class="mini-cart_quantity">
+							<div class="pro-quantity-view"><span class="qty-value"></span></div>					
+							<div class="pro-price-view"></div>
+						</div>
+						<div class="remove_link remove-cart"></div>	
+					</td>
+				</tr>   
+			</table>
+			<table id="cart-view">
+				
+				<tr class="item-cart_empty">
+					<td>			
+						<div class="svgico-mini-cart">
+							<i class="fal fa-shopping-cart"></i>
+						</div>					
+						Hiện chưa có sản phẩm					
+					</td>								
+				</tr>
+				
+			</table>
+		</div>
+		<div class="line"></div>
+		<div class="cart-view-total">
+			<table class="table-total">
+				<tr>
+					<td class="text-left">TỔNG TIỀN:</td>
+					<td class="text-right" id="total-view-cart">0₫</td>
+				</tr>
+				<tr>
+					<td><a href="/cart" class="linktocart btn btn-primary btn-sm text-uppercase">Xem giỏ hàng</a></td>
+					<td><a href="/checkout" class="linktocheckout btn btn-primary btn-sm text-uppercase">Thanh toán</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<header id="header">
+	<div class="container">
+		<div class="d-flex align-items-center justify-content-between">
+			<div class="header-logo">		
+				<div class="header-logo wrap-logo" itemscope="" itemtype="http://schema.org/Organization">
+					
+					<a href="https://www.vinabook.com" itemprop="url" aria-label="Vinabook">
+						<img itemprop="logo" src="//theme.hstatic.net/200000845405/1001223012/14/logo.png?v=476" alt="Vinabook" class="img-responsive logoimg"/>
+					</a>
+					
+				</div>
+
+			</div>
+			<div class="header-search">
+				<div class="main-search d-flex align-items-center justify-content-center">
+					<a class="close-search" href="javascript:void(0);" onclick="initSearch('close')">
+						<img src="//theme.hstatic.net/200000845405/1001223012/14/icon-close.png?v=476" alt="close" />
+					</a>
+					<div class="search-box wpo-wrapper-search">
+						<form action="/search" class="searchform-product ultimate-search">
+							<div class="wpo-search-inner">
+								<input type="hidden" name="type" value="product" />
+								<input required id="inputSearchAuto-3" class="input-search" name="q" maxlength="40" autocomplete="off"  type="text" size="20" placeholder="Tìm kiếm sản phẩm..." aria-label="input search">
+								<span class="close-search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></span>
+							</div>
+							<button type="submit" class="btn-search " id="btnSearchAuto-3" aria-label="Tìm kiếm" >Tìm kiếm</button>
+						</form>
+						<div class="smart-search-wrapper ajaxSearchResults" id="ajaxSearchResults-3" style="display: none">
+							<div class="resultsContent"></div>
+						</div>
+						<div class="searchform-backdrop"></div>	
+					</div>
+				</div>
+			</div>
+			<div class="header-support d-none d-md-flex align-items-center">
+				<div class="header-support__icon">
+					<img src="//theme.hstatic.net/200000845405/1001223012/14/phone-call.png?v=476" alt="phone" />
+				</div>
+				<div class="header-support__detail">
+					<p>Tư vấn bán hàng</p>
+					<span>028.73008182</span>
+				</div>
+			</div>
+			<div class="header-upper-icon d-lg-none">			
+				<div class="header-wrap-icon d-flex justify-content-end">
+					<div class="header-search ml-5 d-md-none">
+						<a href="javascript:void(0);" onclick="initSearch('open')"><i class="fal fa-search fz-20"></i></a>
+					</div>
+
+					<div class="header-action_menu ml-5 d-lg-none">
+						<a class="close-nav" href="#menu-mobile"  id="site-menu-handle"><i class="fal fa-bars fz-20"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+			<div class="searchPage py-5" id="layout-search">
+	<div class="container">
+		<div class="row pd-page">
+			<div class="col-12">
+				<div class="heading-page">
+					<h1>Tìm kiếm</h1>
+					<p class="subtxt">Có <span>7 sản phẩm</span> cho tìm kiếm</p>
+				</div>
+				<div class="wrapbox-content-page">
+					
+					
+					
+					<div class="content-page" id="search">					
+						<p class="subtext-result">	Kết quả tìm kiếm cho  <strong>"Tr&#237; tuệ x&#250;c cảm"</strong>.		</p>
+
+						<div class="results content-product-list section-box-bg">
+							<div class=" search-list-results row">
+								<!-- Begin results -->
+								
+								
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+		<div class="product-sale" style="background: #f03737;"><span>-10%</span></div>		
+		<a href="/products/eq-ung-dung-tri-tue-cam-xuc-trong-cong-viec">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p97858meq_222fb73970a74842a2def1a76c3efd5f_medium.jpg"  
+					 
+					 alt="EQ - Ứng Dụng Tr&#237; Tuệ Cảm X&#250;c Trong C&#244;ng Việc" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/eq-ung-dung-tri-tue-cam-xuc-trong-cong-viec" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120370324');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/eq-ung-dung-tri-tue-cam-xuc-trong-cong-viec" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/eq-ung-dung-tri-tue-cam-xuc-trong-cong-viec" title="EQ - Ứng Dụng Trí Tuệ Cảm Xúc Trong Công Việc">EQ - Ứng Dụng Trí Tuệ Cảm Xúc Trong Công Việc</a></h3>
+		<p class="pro-price highlight">
+			<span class="current-price">125,000₫</span>
+			
+			<del class="compare-price">139,000₫</del>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/tri-tue-cam-xuc-trong-kinh-doanh">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p97441mbia1_trituecamxuctrongkinhdoanh_7c604b771b9745bb8b48f1199228d3ed_medium.jpg"  
+					 
+					 alt="TR&#205; TUỆ CẢM X&#218;C TRONG KINH DOANH" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/tri-tue-cam-xuc-trong-kinh-doanh" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120160373');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/tri-tue-cam-xuc-trong-kinh-doanh" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/tri-tue-cam-xuc-trong-kinh-doanh" title="Trí Tuệ Cảm Xúc Trong Kinh Doanh - Bí Quyết Kết Nối Và Thu Phục Khách Hàng Hiệu Quả">Trí Tuệ Cảm Xúc Trong Kinh Doanh - Bí Quyết Kết Nối Và Thu Phục Khách Hàng Hiệu Quả</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">168,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+	<div class="sold-out"><span>Hết hàng</span></div>	
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/giai-ma-tri-tue-cam-xuc-tai-ban-2017">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p94905mgiai_ma_tri_tue_cam_xuc_1_2018_07_06_14_27_56_6ee8e9de9f0f44d4b2da261a32788e53_medium.jpg"  
+					 
+					 alt="Giải M&#227; Tr&#237; Tuệ Cảm X&#250;c (T&#225;i Bản 2017)" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/giai-ma-tri-tue-cam-xuc-tai-ban-2017" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120158081');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/giai-ma-tri-tue-cam-xuc-tai-ban-2017" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/giai-ma-tri-tue-cam-xuc-tai-ban-2017" title="Giải Mã Trí Tuệ Cảm Xúc (Tái Bản 2017)">Giải Mã Trí Tuệ Cảm Xúc (Tái Bản 2017)</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">75,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/phat-trien-tri-tue-cam-xuc-con-duoc-la-chinh-minh">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p92282mchinh_minh_7e9b094ccae54c5f880c8a334486b8ea_medium.jpg"  
+					 
+					 alt="Ph&#225;t Triển Tr&#237; Tuệ Cảm X&#250;c - Con Được L&#224; Ch&#237;nh M&#236;nh!" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/phat-trien-tri-tue-cam-xuc-con-duoc-la-chinh-minh" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120152022');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/phat-trien-tri-tue-cam-xuc-con-duoc-la-chinh-minh" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/phat-trien-tri-tue-cam-xuc-con-duoc-la-chinh-minh" title="Phát Triển Trí Tuệ Cảm Xúc - Con Được Là Chính Mình! (Tái Bản 2025)">Phát Triển Trí Tuệ Cảm Xúc - Con Được Là Chính Mình! (Tái Bản 2025)</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">63,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/phat-trien-tri-tue-cam-xuc-cam-xuc-cua-con-mau-gi">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p92281mcam_xuc_570ce1ec94ed4ec385627edefff2de1a_medium.jpg"  
+					 
+					 alt="Ph&#225;t Triển Tr&#237; Tuệ Cảm X&#250;c - Cảm X&#250;c Của Con M&#224;u G&#236;?" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/phat-trien-tri-tue-cam-xuc-cam-xuc-cua-con-mau-gi" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120152021');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/phat-trien-tri-tue-cam-xuc-cam-xuc-cua-con-mau-gi" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/phat-trien-tri-tue-cam-xuc-cam-xuc-cua-con-mau-gi" title="Phát Triển Trí Tuệ Cảm Xúc - Cảm Xúc Của Con Màu Gì? (Tái Bản 2025)">Phát Triển Trí Tuệ Cảm Xúc - Cảm Xúc Của Con Màu Gì? (Tái Bản 2025)</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">63,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/phat-trien-tri-tue-cam-xuc-gau-oi-con-lo-lang-den-chung-nao">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p92280mlo_lang_fe1b5ef41e024347a874b721ad749aed_medium.jpg"  
+					 
+					 alt="Ph&#225;t Triển Tr&#237; Tuệ Cảm X&#250;c - Gấu Ơi, Con Lo Lắng Đến Chừng N&#224;o?" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/phat-trien-tri-tue-cam-xuc-gau-oi-con-lo-lang-den-chung-nao" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120152020');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/phat-trien-tri-tue-cam-xuc-gau-oi-con-lo-lang-den-chung-nao" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/phat-trien-tri-tue-cam-xuc-gau-oi-con-lo-lang-den-chung-nao" title="Phát Triển Trí Tuệ Cảm Xúc - Gấu Ơi, Con Lo Lắng Đến Chừng Nào?">Phát Triển Trí Tuệ Cảm Xúc - Gấu Ơi, Con Lo Lắng Đến Chừng Nào?</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">63,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+								
+								
+
+								<div class="col-md-3 col-sm-6 col-xs-6 col-6">
+									
+
+
+
+
+
+
+
+
+  
+
+<div class="product-item">
+		
+	<div class="product-img " style="border: none;">
+				
+		<a href="/products/phat-trien-tri-tue-cam-xuc-su-tu-te-dep-nhu-bong-hoa">
+			<img 
+					 
+					 src="//product.hstatic.net/200000845405/product/p92279mtu_te_42edfde84c0040c9b4bd8ed1516353cc_medium.jpg"  
+					 
+					 alt="Ph&#225;t Triển Tr&#237; Tuệ Cảm X&#250;c - Sự Tử Tế Đẹp Như B&#244;ng Hoa" />
+
+		</a>	
+		<div class="button-add d-none d-md-flex">
+			<button type="button" class="btnQuickView quick-view" data-handle="/products/phat-trien-tri-tue-cam-xuc-su-tu-te-dep-nhu-bong-hoa" data-tooltip="Xem nhanh"><i class="fal fa-search-plus" aria-hidden="true"></i></button>
+			<button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1120152019');" data-tooltip="Thêm vào giỏ"><i class="fal fa-cart-plus"></i></button>
+			<a href="/products/phat-trien-tri-tue-cam-xuc-su-tu-te-dep-nhu-bong-hoa" data-tooltip="Chi tiết"><i class="fal fa-eye"></i></a>
+		</div>	
+
+	</div>
+	<div class="product-detail">
+		<h3 class="pro-name"><a href="/products/phat-trien-tri-tue-cam-xuc-su-tu-te-dep-nhu-bong-hoa" title="Phát Triển Trí Tuệ Cảm Xúc - Sự Tử Tế Đẹp Như Bông Hoa (Tái Bản 2025)">Phát Triển Trí Tuệ Cảm Xúc - Sự Tử Tế Đẹp Như Bông Hoa (Tái Bản 2025)</a></h3>
+		<p class="pro-price ">
+			<span class="current-price">63,000₫</span>
+			
+		</p>
+	</div>
+</div>
+
+								</div>
+
+								
+							</div>
+						</div>	<!-- End results -->
+						<div class="row pagination-theme clearfix text-center">
+							<div id="pagination" class="clearfix">
+	
+
+</div>
+						</div>
+					</div>
+					
+
+					
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$('form.search-page').submit(function(e){
+	e.preventDefault();
+	var q = $(this).find('input[type="text"]').val();
+	if(q.indexOf('script') > -1 || q.indexOf('>') > -1){
+		alert("Key word của bạn có chứa mã độc hại");
+		$(this).find('input[type="text"]').val('');
+	}
+	else{
+		window.location.href= "/search?type=product&q="+ $('input.search_box').val() ;
+	}
+})
+</script>
+
+<footer class="footer">
+	<div class="footer-newsletter">
+		<div class="container">
+			<div class="footer-newsletter--wrap">
+				<div class="footer-title">
+					<h3>ĐĂNG KÝ NHẬN EMAIL</h3>
+					<p>
+						Đăng ký nhận thông tin sách mới, sách bán
+					</p>
+				</div>
+				<div class="footer-newsletter-form" > 
+					
+					
+					<form accept-charset='UTF-8' action='/account/contact' class='contact-form' method='post'>
+<input name='form_type' type='hidden' value='customer'>
+<input name='utf8' type='hidden' value='✓'>
+
+					<div class="input-group d-flex justify-content-center flex-nowrap">
+						<input type="hidden" id="newsletter-tags" name="contact[tags]" value="khách hàng tiềm năng, bản tin" />     
+						<input required type="email" id="newsletter-email" value="" placeholder="Nhập email" name="contact[email]"  aria-label="Email Address">
+						<button type="submit" class="btn btn-dark">ĐĂNG KÝ NGAY</button>
+					</div>
+					<div class="sitebox-recaptcha hidden" >
+						This site is protected by reCAPTCHA and the Google
+						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Privacy Policy</a> 
+						and <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">Terms of Service</a> apply.
+					</div>	
+					
+					
+					
+<input name='__RequestVerificationToken' type='hidden' value='CfDJ8FyFPV59mBtNhmQGz0fYZt8ug9O5BnDBwgFqaZVECgB5QJ7elwbdHa66pBL4-6vShrBbaugIQ3O_s4Gj-uTEtwV7ioDLOReZywaPwqNSFfUj0-el3r9s4upgNxpBE0KxujKiB9Ixhi_5B5cp4sqDIvE'>
+<input id='5d2d04027d894a26aecfaa8be02a0027' name='g-recaptcha-response' type='hidden'><noscript src='https://www.google.com/recaptcha/api.js?render=6LchSLkqAAAAABVHBpeFgg8N-WgkYsr5fO6GUF_s'></noscript><noscript>let recaptchaElm=document.getElementById('5d2d04027d894a26aecfaa8be02a0027');let recaptchaForm=recaptchaElm.parentNode;recaptchaForm.addEventListener("submit",function(formEvent){if(!recaptchaElm.value){formEvent.preventDefault();grecaptcha.ready(function(){grecaptcha.execute('6LchSLkqAAAAABVHBpeFgg8N-WgkYsr5fO6GUF_s',{action:'submit'}).then(function(token){recaptchaElm.value=token;recaptchaForm.requestSubmit(formEvent.submitter)})})}})</noscript></form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-top">
+		<div class="container">
+			<div class="inner">
+				<div class="row">	
+					<div class="col-12 col-md-6">
+						<div class="w-100">
+							<div class="row">
+								
+								<div class="col-12 col-md-4 col-lg-4">
+									<h3 class="footer-title title-block-mb">
+										VỀ CÔNG TY
+									</h3>
+									<ul class="footer-menu ft-mb-content">
+										
+										<li class="item">
+											<a href="/pages/about-us" title="Giới thiệu công ty">Giới thiệu công ty</a>
+										</li>
+										
+										<li class="item">
+											<a href="/" title="Tuyển dụng">Tuyển dụng</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/hop-tac-phat-hanh" title="Chương trình đại lý">Chương trình đại lý</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/chinh-sach-doi-tra" title="Chính sách đổi trả">Chính sách đổi trả</a>
+										</li>
+											
+									</ul>
+								</div>
+								
+								
+								<div class="col-12 col-md-4 col-lg-4">
+									<h3 class="footer-title title-block-mb">
+										TRỢ GIÚP
+									</h3>
+									<ul class="footer-menu ft-mb-content">
+										
+										<li class="item">
+											<a href="/pages/quy-dinh-su-dung">Quy định sử dụng</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/huong-dan-mua-hang">Hướng dẫn mua hàng</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/phuong-thuc-thanh-toan">Phương thức thanh toán</a>
+										</li>
+										
+										<li class="item">
+											<a href="/pages/phuong-thuc-van-chuyen">Phương thức vận chuyển</a>
+										</li>
+										
+										<li class="item">
+											<a href="https://reader.vinabook.com/?ref=bottom-footer">Ứng dụng đọc ebook</a>
+										</li>
+											
+									</ul>
+								</div>
+								
+								
+								<div class="col-12 col-md-4 col-lg-4">
+									<h3 class="footer-title title-block-mb">
+										TIN TỨC SÁCH
+									</h3>
+									<ul class="footer-menu ft-mb-content">
+										
+										<li class="item">
+											<a href="/">Tin tức</a>
+										</li>
+										
+										<li class="item">
+											<a href="/">Chân dung</a>
+										</li>
+										
+										<li class="item">
+											<a href="/">Điểm sách</a>
+										</li>
+										
+										<li class="item">
+											<a href="/">Phê bình</a>
+										</li>
+											
+									</ul>
+								</div>
+								
+								
+								
+
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="w-100">
+							<div class="row">
+								
+								<div class="col-12 col-md-4 col-payment">
+									<h3 class="footer-title title-block-mb">
+										CHẤP NHẬN THANH TOÁN
+									</h3>
+									<div class="footer-menu ft-mb-content">
+										<div class="d-flex flex-wrap mb-4">
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_1.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_2.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_3.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_4.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_5.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_6.png?v=476"/>
+										</div>
+										<h3 class="footer-title">
+											THANH TOÁN AN TOÀN
+										</h3>
+										<div class="d-flex">
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_7.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_8.png?v=476"/>
+											<img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_payment_9.png?v=476"/>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="col-12 col-md-4">
+									<h3 class="footer-title title-block-mb">
+										ĐỐI TÁC VẬN CHUYỂN
+									</h3>
+									<div class="ft-mb-content">
+										<div class="d-flex flex-wrap">
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_shipment_1.png?v=476"/>
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_shipment_2.png?v=476"/>
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_shipment_3.png?v=476"/>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="col-12 col-md-4">
+									<h3 class="footer-title title-block-mb">
+										ĐỐI TÁC BÁN HÀNG
+									</h3>
+									<div class="ft-mb-content">
+										<div class="d-flex flex-wrap">
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_seller_1.png?v=476"/>
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_seller_2.png?v=476"/>
+											<img class="w-100 mb-2" src="//theme.hstatic.net/200000845405/1001223012/14/footer_logo_seller_3.png?v=476"/>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12 col-topsearch">
+						<h3 class="footer-title title-block-mb">
+							THƯỜNG ĐƯỢC TÌM KIẾM
+						</h3>
+						<div class="ft-mb-content">
+							<ul class="footer-menu d-flex flex-wrap">
+								
+								<li class="item">
+									<a href="https://v2.vinabook.com/search?type=product&q=t%C3%ACm%20ki%E1%BA%BFm">truyện dan brown</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách warren buffett</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách digital marketing</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">truyện mới của nguyễn nhật ánh</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách cho con</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách hay về gia đình</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">giáo trình tiếng anh trẻ em</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách hay về kinh tế</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách về đầu tư</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách doanh nhân</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sach hoc tieng trung</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">tiểu thuyết tình yêu</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách y học</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">tủ sách gia đình</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách dạy kỹ năng giao tiếp</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách blockchain</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách du học</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách kỹ năng mềm</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách làm giàu</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách phong thủy cổ</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách khởi nghiệp</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách bán hàng</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách về đầu tư chứng khoán</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách dạy nấu ăn</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách tâm lý về tình yêu</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách quản lý nhân sự</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách về quản trị kinh doanh</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách tài chính</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách hay cho thiếu nhi</a>
+								</li>
+								
+								<li class="item">
+									<a href="/">sách tự học tiếng anh giao tiếp</a>
+								</li>
+									
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-12 col-md-3">
+					<div class="footer-logo">
+						<a href="http://online.gov.vn/Home/WebDetails/610"><img src="//theme.hstatic.net/200000845405/1001223012/14/footer_logobct.png?v=476" alt="logo" /></a>
+					</div>
+				</div>
+				
+				
+				<div class="col-12 col-md-9">
+					<div class="footer-contact">
+						<h3 class="footer-title">
+							CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ MÊ KÔNG COM
+						</h3>
+						<p>Địa chỉ:<span>332 Lũy Bán Bích, Phường Tân Phú, TP. Hồ Chí Minh</span></p>
+						<p>MST:<span>0303615027 do Sở Kế Hoạch Và Đầu Tư Tp.HCM cấp ngày 10/03/2011</span></p>
+						<p>Tel:<span>028.73008182</span>- Fax:<span>028.39733234</span>- Email:<span><a href="mailto:hotro@vinabook.com">hotro@vinabook.com</a></span></p>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+</footer>
+			<div id="site-overlay" class="site-overlay"></div>
+		</div>  	
+		<div class="overlay-filter">
+
+		</div>
+		<link rel="preload" as="script" href="https://cdn.hstatic.net/shared/option_selection.js">
+<link rel="preload" as="script" href="https://cdn.hstatic.net/shared/api.jquery.js">
+<link rel="preload" as="script" href="//theme.hstatic.net/200000845405/1001223012/14/plugins.js?v=476">
+<link rel="preload" as="script" href="//theme.hstatic.net/200000845405/1001223012/14/scripts.js?v=476">
+<script src='https://cdn.hstatic.net/shared/api.jquery.js' type='text/javascript'></script>
+<script src='https://cdn.hstatic.net/shared/option_selection.js' type='text/javascript'></script>
+
+<script src="//theme.hstatic.net/200000845405/1001223012/14/plugins.js?v=476" defer></script>
+<script src="//theme.hstatic.net/200000845405/1001223012/14/scripts.js?v=476" defer></script>
+<script>
+	setTimeout(function(){
+		animation_check();
+	}, 100);
+	function animation_check(){
+		var scrollTop = $(window).scrollTop() - 300;
+		$('.animation-tran').each(function(){
+			if($(this).offset().top < scrollTop + $(window).height()){
+				$(this).addClass('active');
+			}
+		})
+	}
+	$(window).scroll(function(){
+		//setTimeout(function(){
+		animation_check();
+		//}, 500);
+	})
+
+	function tab_custom(link, content) {
+		$(link).on('click', function () {
+			var id = $(this).data('id');
+			$(this).siblings().removeClass('active');
+			$(this).addClass('active');
+			$(content + '[data-id='+id+']').siblings().removeClass('active');
+			$(content + '[data-id='+id+']').addClass('active');
+		});
+	}
+
+	if ($('.htp-tablink').length) {
+		tab_custom('.htp-tablink', '.htp-tabcontent');
+	}
+
+</script>
+
+
+<script>
+	$(function() {
+		$('nav#menu-mobile').mmenu({
+			offCanvas: {
+				position  : "right"
+			}
+		});
+	});
+	$(document).ready(function(){
+		flagg = true;
+		if(flagg){
+			$('.header-action_menu a').click(function(e){
+				e.preventDefault();
+				$('#menu-mobile').removeClass('hidden');
+				flagg = false;
+			})
+		}
+
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('#back-to-top').fadeIn(duration);
+			} else {
+				jQuery('#back-to-top').fadeOut(duration);
+			}
+		});
+
+		jQuery('#back-to-top').click(function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({
+				scrollTop: 0
+			}, duration);
+			return false;
+		});
+		
+	});
+</script>
+
+<!-- popup loaded -->
+<script>
+$(document).ready(function(){
+	if ($(window).width() < 768) {
+		$('.title-block-mb').click(function(){
+			$(this).toggleClass('active');
+			$(this).next().stop().slideToggle();
+		});
+	}
+	var date = new Date();
+	var minutes = 60;
+	date.setTime(date.getTime() + (minutes * 60 * 1000));
+
+	if (getCookie('popupNewLetterStatus') != 'closed') {
+		$('#popup-btn').trigger('click');
+		setCookie('popupNewLetterStatus', 'closed', date);
+	};
+})
+</script>
+
+<!-- quick view -->
+<style>
+
+	.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto !important;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 780px;
+	transform: translatey(-30px);
+	transition: all .5s;
+	}
+
+	.close {
+	color: #aaa;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	text-align: center;
+	}
+
+	.close:hover,
+	.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	}
+</style>
+<div class="modal" id="productQuickView">
+	<div class="modal-content">
+		<span id="close" class="close">&times;</span>
+		<form class="row" id="form-quick-view" >
+			<div class="col-12 col-md-6">
+				<div class="image-zoom">
+					<img id="p-product-image-feature" class="p-product-image-feature" src="" alt="">
+					<div id="p-sliderproduct" class="flexslider">
+						<ul class="slides"></ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<h4 class="p-title modal-title" id="">Tên sản phẩm</h4>
+				<p class="product-more-info">
+					<span class="product-sku">
+						Mã sản phẩm: <span id="ProductSku">01923123</span> 
+					</span>
+				</p>
+				<div class="form-input product-price-wrapper">
+					<div class="product-price">
+						<span class="p-price "></span>
+						<del></del>
+					</div>
+					<em id="PriceSaving"></em>
+				</div>
+				<div class="p-option-wrapper">
+					<select name="id" class="" id="p-select-quickview"></select>
+				</div>
+				<div id="swatch-quick-view" class="select-swatch">
+
+				</div>
+				<div class="form-input">
+					<label>Số lượng</label>
+					<div class="quantity-area clearfix">
+						<input type="button" value="-" onclick="minusQuantity2()" class="qty-btn">
+						<input type="text" id="quantity_qv" name="quantity_qv" value="1" class="quantity-selector">
+						<input type="button" value="+" onclick="plusQuantity2()" class="qty-btn">
+					</div>
+				</div>
+
+				<div class="form-input" style="width: 100%">
+					<button type="submit" class="btn btn-addcart" id="AddToCardQuickView">Thêm vào giỏ</button>
+					<button disabled class="btn btn-soldout">Hết hàng</button>
+					<div class="qv-readmore">
+						<span> hoặc </span><a class="read-more p-url" href="" role="button">Xem chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div id="loading"><div></div></div>
+</div>
+<script>
+$('#AddToCardQuickView').on('click', function(e){
+	e.preventDefault();
+	console.log(jQuery('#form-quick-view').serialize());
+	jQuery.ajax({
+		type: 'POST',
+		url: '/cart/add.js',
+		async : false,
+		data: {quantity: $('#quantity_qv').val() , id: $('#p-select-quickview').val() },
+		dataType: 'json',
+		success: function() {
+			$(".close").trigger('click');
+			updateCart();
+			updateCartModal();
+		},
+		error: function(XMLHttpRequest, textStatus) {
+			Haravan.onError(XMLHttpRequest, textStatus);
+		}
+	});
+});
+var callBack = function (variant, selector) {
+	if (variant) {
+		modal = $('#productQuickView');
+		$('.p-price').html(Haravan.formatMoney(variant.price, "{{amount}}₫"));
+		if(variant.sku){
+			$('#ProductSku').html(variant.sku);
+			$('.product-sku').show();
+		}else{
+			$('.product-sku').hide();
+		}
+		if(variant.compare_at_price - variant.price > 0){
+			$('#PriceSaving').html('(Bạn đã tích kiệm được ' + Haravan.formatMoney(variant.compare_at_price - variant.price, "{{amount}}₫")+')')
+		}else{
+			$('#PriceSaving').html('')
+		}
+		if (variant.compare_at_price > 0)
+			modal.find('del').html(Haravan.formatMoney(variant.compare_at_price, "{{amount}}₫"));
+		else
+			modal.find('del').html('');
+		if (variant.available) {
+			modal.find('.btn-addcart').css('display', 'block');
+			modal.find('.btn-soldout').css('display', 'none');
+			if (variant.featured_image) {
+				var newImg = variant.featured_image,
+						el = $('.p-product-image-feature')[0];
+				Haravan.Image.switchImage(newImg, el, timber.switchImage);
+			}
+			check_variant_quickview = true;
+		}
+		else {
+			modal.find('.btn-addcart').css('display', 'none');
+			modal.find('.btn-soldout').css('display', 'block');
+
+		}
+	}
+	else {
+		modal.find('.btn-addcart').css('display', 'none');
+		modal.find('.btn-soldout').css('display', 'block');
+		check_variant_quickview = false;
+
+	}
+}
+var p_select_data = $('.p-option-wrapper').html();
+var p_zoom = $('.image-zoom').html();
+var quickViewProduct = function (purl) {
+
+	if ($(window).width() < 680) { window.location = purl; return false; }
+	modal = $('#productQuickView');
+	$.ajax({
+		url: purl + '.js',
+		async: false,
+		success: function (product) {
+			$.each(product.options, function (i, v) {
+				product.options[i] = v.name;
+			})
+			modal.find('.p-title').html(product.title);
+			modal.find('.p-option-wrapper').html(p_select_data);
+			modal.find('#swatch-quick-view').html('');
+			$('.image-zoom').html(p_zoom);
+			modal.find('.p-url').attr('href', product.url);
+
+			$.each(product.variants, function (i, v) {
+				modal.find('select#p-select-quickview').append("<option value='" + v.id + "'>" + v.title + ' - ' + v.price + "</option>");
+			})
+			if (product.variants.length == 1 && product.variants[0].title.indexOf('Default') != -1)
+				$('.p-option-wrapper').hide();
+			else
+				$('.p-option-wrapper').show();
+			if (product.variants.length == 1 && product.variants[0].title.indexOf('Default') != -1) {
+				callBack(product.variants[0], null);
+			}
+			else {
+				new Haravan.OptionSelectors("p-select-quickview", { product: product, onVariantSelected: callBack });
+				if (product.options.length == 1 && product.options[0].indexOf('Tiêu đề')==-1)
+					modal.find('.selector-wrapper:eq(0)').prepend('<label>' + product.options[0] + '</label>');
+				$('.p-option-wrapper select:not(#p-select-quickview)').each(function () {
+					$(this).wrap('<span class="custom-dropdown custom-dropdown--white"></span>');
+					$(this).addClass("custom-dropdown__select custom-dropdown__select--white");
+				});
+				var filePath = window.file_url.substring(0, window.file_url.lastIndexOf('?'));
+				var assetUrl = window.asset_url.substring(0, window.asset_url.lastIndexOf('?'));
+
+				product.options.forEach(function(item){
+
+				})
+				var variantSwatch = '';
+				for(var j = 0; j< product.options.length; j++){
+					var option_index = j;
+					var op_index_plus = option_index + 1;
+					var swatch = product.options[option_index];
+					variantSwatch += '<div id="variant-swatch-'+ option_index +'-quickview" class="swatch swatch-quick-view clearfix" data-option="option'+ op_index_plus +'" data-option-index="'+ option_index +'">';
+					variantSwatch += '<div class="header"> '+ product.options[j]+' </div><div class="select-swap">';
+					var is_color = false;
+					if(product.options[j] == "Màu sắc" || product.options[j] == "Màu"){
+						is_color = true;
+					}					
+					var values = '';
+					for(var i = 0; i< product.variants.length; i++){
+						var value = convertToSlug(product.variants[i].options[option_index]); //value handle :(
+						var _value = product.variants[i].options[option_index];
+
+						if(values.indexOf(value) < 0){
+							values += ',';
+							values += ',' + value;
+							values = values.split(',');
+							if(is_color){
+								variantSwatch += '<div data-value="'+_value+'" class="n-sd swatch-element color '+ value;
+
+							}else{
+								variantSwatch += '<div data-value="'+_value+'" class="n-sd swatch-element '+ value;
+							}
+
+							if(option_index == 2){
+								variantSwatch += 'variant-3">';
+							}else{
+								variantSwatch +='">';
+							}
+
+							variantSwatch += '<input class="variant-'+option_index+' input-quickview" id="qv-swatch-'+option_index+'-'+value+'" type="radio" name="option'+op_index_plus+'" value="'+_value+'"';
+							if(j==0){
+								variantSwatch += ' checked/>';
+							}else{
+								variantSwatch += ' />';
+							}
+
+							if(is_color){
+								var img_url = '';
+								if(product.variants[i].featured_image != null){
+									img_url = Haravan.resizeImage(product.variants[i].featured_image.src, 'thumb');
+								}
+								if(img_url !== ''){
+									if(img_url.indexOf('noDefaultImage6') < 0){
+										variantSwatch += '<label class="'+value+' has-thumb" for="qv-swatch-'+option_index+'-'+value+'" style="background: url('+img_url+') top left no-repeat" >';
+									}
+								}
+								//fix o day
+								else{
+									variantSwatch += 	'<label class="'+value+' no-thumb" for="qv-swatch-'+option_index+'-'+value+'">';
+								}
+								variantSwatch +='	<span>'+_value+'</span><img class="crossed-out" src="'+assetUrl+'soldout.png" /><img class="img-check" src="'+assetUrl+'select-pro.png" /></label>';
+
+							}else{
+								variantSwatch += '<label for="qv-swatch-'+option_index+'-'+value+'">'+ _value +'<img class="crossed-out" src="'+assetUrl+'soldout.png" /><img class="img-check" src="'+assetUrl+'select-pro.png" /></label>';
+							}
+							//console.log(variantSwatch);
+							//console.log(product.variants[i])
+							variantSwatch += '</div>';
+						}
+					}
+
+					variantSwatch += '</div>';
+					variantSwatch += '</div>';
+				}
+
+				modal.find('#swatch-quick-view').html(variantSwatch);
+
+				callBack(product.variants[0], null);
+				callFirstVariantQuickView();
+			}
+			if (product.images.length == 0) {
+				modal.find('.p-product-image-feature').attr('src', '//hstatic.net/0/0/global/noDefaultImage6_large.gif');
+			}
+			else {
+				$('#p-sliderproduct').remove();
+				$('.image-zoom').append("<div id='p-sliderproduct'>");
+				$('#p-sliderproduct').append("<ul class='owl-carousel inline-list'>");
+				$.each(product.images, function (i, v) {
+					elem = $('<li class="item">').append('<a href="#" data-image="" data-zoom-image=""><img /></a>');
+					elem.find('a').attr('data-image', Haravan.resizeImage(v, 'medium'));
+					elem.find('a').attr('data-zoom-image', Haravan.resizeImage(v, 'large'));
+					elem.find('img').attr('data-image', Haravan.resizeImage(v, 'medium'));
+					elem.find('img').attr('data-zoom-image',Haravan.resizeImage(v, 'large'));
+					elem.find('img').attr('src', Haravan.resizeImage(v, 'medium'));
+					modal.find('.owl-carousel').append(elem);
+				});
+				var owl = $('#p-sliderproduct .owl-carousel');
+				owl.owlCarousel({
+					items:3,
+					navigation : true,
+					navigationText :['<i class="fal fa-angle-right"></i>', '<i class="fal fa-angle-left"></i>']
+				});
+				$('#p-sliderproduct .owl-carousel .owl-item').first().children('.item').addClass('active');
+				modal.find('.p-product-image-feature').attr('src', Haravan.resizeImage(product.featured_image, 'large') );
+				$(".modal-footer .btn-readmore").attr('href', purl);
+			}
+		}
+	});
+
+	return false;
+}
+$('#productQuickView').on('click', '.item img', function (event) {
+	event.preventDefault();
+	modal = $('#quick-view-modal');
+	modal.find('.p-product-image-feature').attr('src', $(this).attr('data-zoom-image'));
+	modal.find('.item').removeClass('active');
+	$(this).parents('li').addClass('active');
+	return false;
+});
+$(function(){
+	$('#close').click(function(){
+		$('#productQuickView .modal-content').css('opacity', '0');
+		$('#productQuickView .modal-content').css('transform', 'translateY(-30px)');
+		$('#productQuickView').css('background-color', 'rgba(0,0,0,0)');
+		setTimeout(function(){
+			$('#productQuickView').hide();
+		}, 500);
+		document.getElementById("form-quick-view").reset();
+	})
+	window.onclick = function(event) {
+		if (event.target == document.getElementById('productQuickView')) {
+			$('#productQuickView .modal-content').css('opacity', '0');
+			$('#productQuickView .modal-content').css('transform', 'translateY(-30px)');
+			$('#productQuickView').css('background-color', 'rgba(0,0,0,0)');
+			setTimeout(function(){
+				$('#productQuickView').hide();
+			}, 500);
+			document.getElementById("form-quick-view").reset();
+		}
+	}
+})
+$(document).on("click",".quick-view", function(event){
+	event.preventDefault();
+
+	if(!quickViewProduct($(this).attr('data-handle'))){
+		if ($(window).width() > 680) {
+			$('#productQuickView .modal-content').css('opacity', '0');
+			$('#productQuickView').show();
+			$('#productQuickView').css('background-color', 'rgba(0,0,0,0.4)');
+			$('#loading').show();
+
+			var images = $("#productQuickView img");
+			var loadedImgNum = 0;
+
+			images.on('load', function(){
+				loadedImgNum += 1;
+				if (loadedImgNum == images.length) {
+					var topPQZ =  ($('#productQuickView').height() - $('.modal-content').height())/2;
+					$('#loading').hide();
+					$('#productQuickView .modal-content').css('opacity', '1');
+					$('#productQuickView .modal-content').css('transform', 'translateY(0)');
+					$('#productQuickView .modal-content').css('margin-top', topPQZ - 50);
+				}
+			});
+		}
+		$('#p-sliderproduct a').on('click', function(evt) {
+			evt.preventDefault();
+			var newImage = $(this).data('zoom-image');
+			$('.p-product-image-feature').attr('src', newImage);
+		});
+	}
+});
+function callFirstVariantQuickView(){
+	var _chage = '';
+	$('#productQuickView .swatch-element[data-value="'+$('.selector-wrapper .single-option-selector').eq(0).val()+'"]').find('input').click();
+	$('#productQuickView .swatch-element[data-value="'+$('.selector-wrapper .single-option-selector').eq(1).val()+'"]').find('input').click();
+	if(swatch_size == 2){
+		var _avi_op1 = '';
+		var _avi_op2 = '';
+		var _count = $('#variant-swatch-1-quickview .swatch-element').size();
+		$('#variant-swatch-0-quickview .swatch-element').each(function(ind,value){
+			var _key = $(this).data('value');
+			var _unavi = 0;
+			$('#productQuickView .single-option-selector').eq(0).val(_key).change();
+			$('#variant-swatch-1-quickview .swatch-element').each(function(i,v){
+				var _val = $(this).data('value');
+				$('#productQuickView .single-option-selector').eq(1).val(_val).change();
+				if(check_variant_quickview == true){
+					if(_avi_op1 == ''){
+						_avi_op1 = _key;
+					}
+					if(_avi_op2 == ''){
+						_avi_op2 = _val;
+					}
+				}else{
+					_unavi += 1;
+				}
+			})
+			if(_unavi == _count){
+				$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_key+'"]').addClass('soldout');
+				$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_key+'"]').find('input').attr('disabled','disabled');					
+			}
+		})
+		$('#variant-swatch-1-quickview .swatch-element[data-value = "'+_avi_op2+'"] input').click();
+		$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_avi_op1+'"] input').click();
+	}else if(swatch_size == 3){
+		var _avi_op1 = '';
+		var _avi_op2 = '';
+		var _avi_op3 = '';
+		var _size_op2 = $('#variant-swatch-1-quickview .swatch-element').size();
+		var _size_op3 = $('#variant-swatch-2-quickview .swatch-element').size();
+
+		$('#variant-swatch-0-quickview .swatch-element').each(function(ind,value){
+			var _key_va1 = $(this).data('value');
+			var _count_unavi = 0;
+			$('#productQuickView .single-option-selector').eq(0).val(_key_va1).change();
+			$('#variant-swatch-1-quickview .swatch-element').each(function(i,v){
+				var _key_va2 = $(this).data('value');
+				var _unavi_2 = 0;
+				$('#productQuickView .single-option-selector').eq(1).val(_key_va2).change();
+				$('#variant-swatch-2-quickview .swatch-element').each(function(j,z){
+					var _key_va3 = $(this).data('value');
+					$('#productQuickView .single-option-selector').eq(2).val(_key_va3).change();
+					if(check_variant_quickview == true){
+						if(_avi_op1 == ''){
+							_avi_op1 = _key_va1;
+						}
+						if(_avi_op2 == ''){
+							_avi_op2 = _key_va2;
+						}
+						if(_avi_op3 == ''){
+							_avi_op3 = _key_va3;
+						}
+					}else{
+						_unavi_2 += 1;
+					}
+				})
+				if(_unavi_2 == _size_op3){
+					_count_unavi += 1;
+				}
+			})
+			if(_size_op2 == _count_unavi){
+				$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_key_va1+'"]').addClass('soldout');
+				$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_key_va1+'"]').find('input').attr('disabled','disabled');					
+			}
+		})
+		$('#variant-swatch-0-quickview .swatch-element[data-value = "'+_avi_op1+'"] input').click();
+	}
+	var img_ = $('#variant-swatch-0-quickview .swatch-element[data-value = "'+_avi_op1+'"] input').data('img-src');
+}
+</script>
+
+
+
+
+		<div id="modalAddComplete">
+</div>
+
+<button type="button" id="modalAddCompleteBtn" style="display: none;"></button>
+
+<script>
+// Get the modal
+var modalAddComplete = document.getElementById('modalAddComplete');
+
+// Get the button that opens the modal
+var modalAddCompleteBtn = document.getElementById("modalAddCompleteBtn");
+
+// When the user clicks the button, open the modal 
+modalAddCompleteBtn.onclick = function() {
+	modalAddComplete.style.display = "block";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+	if (event.target == modalAddComplete) {
+		modalAddComplete.style.display = "none";
+	}
+}
+</script>
+
+
+
+
+		<div id="fixed-social-network" class="d-none d-sm-block">
+	
+	<a href="https://zalo.me/0765808644" class="zalo-icon" target="_blank">
+		<img class="img-fluid" alt="Icon-Zalo" src="https://file.hstatic.net/200000259495/file/zalo_d9dc3417eb744b91a44643f29b8c7161.svg">
+		Zalo
+	</a>
+	
+	
+	<a href="https://www.facebook.com/vinabook" class="messenger-icon" target="_blank">
+		<img class="img-fluid" alt="Icon-Messager" src="https://file.hstatic.net/200000259495/file/messager_208d7389c4ac46b5a01afad457684cd6.svg">
+		Messenger
+	</a>
+	
+	
+	
+	
+	
+	<a href="https://www.tiktok.com/@vinabook.com" target="_blank">
+		<img class="img-fluid" alt="Icon-tiktok" src="//theme.hstatic.net/200000845405/1001223012/14/tik-tok-cc.png?v=476">
+		TikTok
+	</a>
+	
+	
+	<a href="javascript:;" id="back-to-top">
+		<i class="fal fa-angle-up"></i>
+		Lên đầu trang
+	</a>
+</div>
+		<div class="back-to-top hidden">
+			<a href="javascript:void(0);">
+				<div class="btt-back">
+					<span class="btt-label-back">back to top</span>
+					<span class="btt-icon-back"><i class="fa fa-long-arrow-up"></i></span>
+				</div>
+			</a>
+		</div>
+		
+	</body>
+</html>

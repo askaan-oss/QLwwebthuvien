@@ -1,0 +1,1816 @@
+PAGE 1
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP HCM
+BÁO CÁO CUỐI KỲ
+WEBSITE BÁN VÀ THANH TOÁN
+CHO THƯ VIỆN LIBRA
+Giảng viên hướng dẫn: Nguyễn Hữu Trung
+Nhóm 11 | Anzio Vulcan 25 | Lớp 23DTHC4
+Họ và tên MSSV
+Nguyễn Trương Quốc Huy 2380600863
+Nguyễn Đình Kiên 2380601126
+Nguyễn Trọng Khánh 2380601035
+Trịnh Châu Hồng Phát 2380601651
+Huỳnh Minh Nhựt 2380601594
+TP Hồ Chí Minh, năm 2026
+
+PAGE 2
+2
+MỤC LỤC
+TÓM TẮT BÁO CÁO ............................................................................................................................ 5
+CHƯƠNG 1 TỔNG QUAN.................................................................................................................... 6
+1.1 Đề tài nhóm .................................................................................................................................. 6
+1.2 Tên nhóm...................................................................................................................................... 6
+1.3 Ý nghĩa nhóm ............................................................................................................................... 6
+1.4 Danh sách thành viên.................................................................................................................... 6
+CHƯƠNG 2 QUẢN LÝ PHẠM VI DỰ ÁN .......................................................................................... 7
+2.1 Phát biểu bài toán – Statement of Work ....................................................................................... 7
+2.2 Tôn chỉ dự án – Project Charter.................................................................................................. 10
+2.3 Phát biểu phạm vi – Scope Statement......................................................................................... 15
+2.4 Cấu trúc phân rã công việc – Work Breakdown Structure (WBS)............................................. 16
+CHƯƠNG 3 QUẢN LÝ THỜI GIAN DỰ ÁN .................................................................................... 19
+3.1 Cơ sở lập lịch.............................................................................................................................. 19
+3.2 Mạng công việc ban đầu............................................................................................................. 19
+3.3 Tính tiến và tính lùi..................................................................................................................... 20
+3.4 Phương án đáp ứng mục tiêu 48 ngày......................................................................................... 20
+CHƯƠNG 4 QUẢN LÝ CHI PHÍ DỰ ÁN........................................................................................... 22
+4.1 Bảng ngân sách theo lịch cơ sở 48 ngày..................................................................................... 22
+4.2 Kịch bản chi phí tại mốc bàn giao dự kiến ................................................................................. 22
+4.3 Bảng tính toán các chỉ số EVM .................................................................................................. 23
+4.4 Sơ đồ Gantt đối chiếu hai phương án ......................................................................................... 24
+4.5 Kết luận chương.......................................................................................................................... 25
+CHƯƠNG 5 QUẢN LÝ CHẤT LƯỢNG DỰ ÁN............................................................................... 26
+5.1 Mục tiêu quản lý chất lượng ....................................................................................................... 26
+5.2 Tiêu chí đánh giá chất lượng ...................................................................................................... 26
+5.3 Kế hoạch kiểm thử chất lượng.................................................................................................... 26
+5.4 Quy trình quản lý lỗi................................................................................................................... 27
+5.5 Đánh giá và nghiệm thu chất lượng............................................................................................ 28
+5.6 Kết luận chương.......................................................................................................................... 28
+CHƯƠNG 6 QUẢN LÝ NHÂN SỰ DỰ ÁN ....................................................................................... 29
+6.1 Mục tiêu quản lý nhân sự............................................................................................................ 29
+6.2 Cơ cấu tổ chức dự án .................................................................................................................. 29
+6.3 Tiêu chí đánh giá nhân sự........................................................................................................... 29
+6.4 Đánh giá các thành viên trong dự án .......................................................................................... 30
+6.5 Nhận xét kết quả đánh giá .......................................................................................................... 31
+6.6 Kết luận chương.......................................................................................................................... 31
+CHƯƠNG 7 QUẢN LÝ TRUYỀN THÔNG........................................................................................ 32
+7.1 Các bên liên quan và đối tượng nhận thông tin .......................................................................... 32
+7.2 Nhu cầu thông tin của dự án ....................................................................................................... 32
+7.3 Kênh và hình thức truyền thông ................................................................................................. 32
+7.4 Kế hoạch truyền thông................................................................................................................ 33
+7.5 Theo dõi và xử lý vấn đề trao đổi thông tin................................................................................ 33
+7.6 Đề xuất trợ lý AI hỗ trợ truyền thông trên Zalo.......................................................................... 34
+7.7 Kết luận chương.......................................................................................................................... 36
+CHƯƠNG 8 QUẢN LÝ RỦI RO ......................................................................................................... 37
+8.1 Mục tiêu quản lý rủi ro ............................................................................................................... 37
+8.2 Nhận diện rủi ro.......................................................................................................................... 37
+8.3 Phân tích và đánh giá rủi ro ........................................................................................................ 37
+8.4 Phương án phòng ngừa và xử lý rủi ro ....................................................................................... 38
+8.5 Theo dõi và kiểm soát rủi ro....................................................................................................... 39
+8.6 Kết luận chương.......................................................................................................................... 39
+
+PAGE 3
+3
+CHƯƠNG 9 QUẢN LÝ MUA SẮM.................................................................................................... 40
+9.1 Mục tiêu quản lý mua sắm.......................................................................................................... 40
+9.2 Xác định nhu cầu mua sắm......................................................................................................... 40
+9.3 Lựa chọn nhà cung cấp và công cụ............................................................................................. 40
+9.4 Kế hoạch mua sắm...................................................................................................................... 41
+9.5 Quản lý và nghiệm thu mua sắm ................................................................................................ 41
+9.6 Kết luận chương.......................................................................................................................... 42
+CHƯƠNG 10 TRÌNH BÀY SẢN PHẨM LIBRA ............................................................................... 43
+10.1 Tổng quan sản phẩm................................................................................................................. 43
+10.2 Công nghệ sử dụng ................................................................................................................... 43
+10.3 Chức năng và phân quyền......................................................................................................... 43
+10.4 Quy trình xử lý nghiệp vụ......................................................................................................... 44
+10.5 Kiến trúc và dữ liệu .................................................................................................................. 45
+10.6 Giao diện sản phẩm .................................................................................................................. 45
+10.7 Kết quả và phạm vi kiểm chứng ............................................................................................... 57
+10.8 Hướng phát triển và kết luận .................................................................................................... 58
+TÀI LIỆU THAM KHẢO VÀ HỒ SƠ DỰ ÁN ................................................................................... 59
+
+PAGE 4
+4
+DANH MỤC BẢNG VÀ HÌNH
+Bảng 1.1. Danh sách thành viên nhóm.................................................................................................... 6
+Hình 2.1 Quy trình xem xét yêu cầu thay đổi ......................................................................................... 9
+Bảng 2.2. Danh sách sản phẩm bàn giao............................................................................................... 11
+Bảng 2.3. Các cột mốc dự kiến ............................................................................................................. 11
+Bảng 2.4. Bảng ngân sách dự kiến ........................................................................................................ 11
+Bảng 2.5. Quan hệ phụ thuộc công việc................................................................................................ 12
+Bảng 2.6. Rủi ro dự án .......................................................................................................................... 13
+Bảng 2.7. Phân công vai trò đề xuất...................................................................................................... 14
+Bảng 2.8. Xác nhận và phê duyệt dự án................................................................................................ 14
+Hình 3.1 Mạng công việc ban đầu và thời điểm bắt đầu kết thúc sớm ................................................. 19
+Hình 3.2 Mạng công việc theo phương án 48 ngày .............................................................................. 21
+Bảng 4.1. Ngân sách theo lịch cơ sở 48 ngày........................................................................................ 22
+Bảng 4.2 Chi phí minh họa tại mốc 31/10/2026.................................................................................... 22
+Bảng 4.3 Các chỉ số EVM theo kịch bản minh họa .............................................................................. 24
+Hình 4.1 So sánh lịch công việc gốc và phương án 48 ngày................................................................. 25
+Bảng 5.1. Tiêu chí đánh giá chất lượng dự án....................................................................................... 26
+Bảng 5.2. Kế hoạch kiểm thử................................................................................................................ 26
+Bảng 5.3. Phân loại mức độ lỗi ............................................................................................................. 27
+Bảng 6.1. Danh sách nhân sự dự án ...................................................................................................... 29
+Bảng 6.2. Tiêu chí đánh giá nhân sự ..................................................................................................... 29
+Bảng 6.3. Bảng đánh giá thành viên...................................................................................................... 31
+Hình 10.1 Trang chủ trên website Libra................................................................................................ 46
+Hình 10.2 Danh sách sách trên website Libra ....................................................................................... 47
+Hình 10.3 Chi tiết sách trên website Libra............................................................................................ 48
+Hình 10.4 Nội dung đọc thử trên website Libra.................................................................................... 49
+Hình 10.5 Đăng nhập trên website Libra .............................................................................................. 50
+Hình 10.6 Giỏ hàng trên website Libra ................................................................................................. 51
+Hình 10.7 Đặt hàng COD trên website Libra........................................................................................ 52
+Hình 10.8 Trang quản lý trên website Libra ......................................................................................... 53
+Hình 10.9 Trang quản trị tài khoản trên website Libra ......................................................................... 54
+Hình 10.10 Dashboard thống kê trên website Libra.............................................................................. 55
+Hình 10.11 Tư vấn sách trên website Libra .......................................................................................... 56
+Hình 10.12 Thông báo trong website trên website Libra ...................................................................... 57
+
+PAGE 5
+5
+TÓM TẮT BÁO CÁO
+Báo cáo trình bày quá trình quản lý dự án xây dựng website bán và thanh toán cho thư 
+viện Libra của Nhóm 11. Nội dung gồm quản lý phạm vi, thời gian, chi phí, chất lượng, 
+nhân sự, truyền thông, rủi ro và mua sắm; phần cuối mô tả sản phẩm, công nghệ, chức 
+năng và giao diện thực tế.
+Libra hỗ trợ khách hàng tìm sách, đọc phần giới thiệu, quản lý giỏ hàng và đặt đơn thanh 
+toán khi nhận hàng. Hệ thống có bốn vai trò Khách hàng, Nhân viên, Quản lý và Quản trị 
+viên; bổ sung tư vấn sách, thống kê và thông báo trong website. Phiên bản trình bày sử 
+dụng HTML, CSS, JavaScript, ASP.NET Core Web API .NET 8 và SQL Server.
+Ngân sách 143.000.000 đồng và bảng EVM được sử dụng trong bài toán quản lý dự án. 
+Các chi phí minh họa được tách khỏi kết quả vận hành phần mềm; thanh toán trực tuyến 
+qua cổng thanh toán chưa được bật trong phiên bản trình diễn.
+
+PAGE 6
+6
+CHƯƠNG 1 TỔNG QUAN
+1.1 Đề tài nhóm
+Tên đề tài: Xây dựng Website bán và thanh toán cho thư viện.
+Dự án được thực hiện nhằm xây dựng một website hỗ trợ hoạt động bán sách trực tuyến. 
+Khách hàng có thể tìm kiếm sách, xem thông tin, thêm sách vào giỏ hàng, đặt hàng và 
+thanh toán bằng hình thức: COD.
+1.2 Tên nhóm
+Tên nhóm: Anzio Vulcan 25
+Nhóm gồm 5 thành viên cùng tham gia phân tích, thiết kế, phát triển và quản lý dự án 
+Website bán và thanh toán cho thư viện.
+1.3 Ý nghĩa nhóm
+Nhóm được thành lập nhằm vận dụng kiến thức về quản lý dự án công nghệ thông tin vào 
+quá trình xây dựng một sản phẩm phần mềm thực tế.
+Thông qua dự án, các thành viên có cơ hội rèn luyện kỹ năng lập kế hoạch, phân chia 
+công việc, quản lý thời gian, kiểm soát chi phí và phối hợp nhóm.
+1.4 Danh sách thành viên
+Bảng 1.1. Danh sách thành viên nhóm
+STT Họ và tên MSSV Lớp
+1 Nguyễn Trương Quốc Huy 2380600863 23DTHC4
+2 Nguyễn Đình Kiên 2380601126 23DTHC4
+3 Nguyễn Trọng Khánh 2380601035 23DTHC4
+4 Trịnh Châu Hồng Phát 2380601651 23DTHC4
+5 Huỳnh Minh Nhựt 2380601594 23DTHC4
+
+PAGE 7
+7
+CHƯƠNG 2 QUẢN LÝ PHẠM VI DỰ ÁN
+2.1 Phát biểu bài toán – Statement of Work
+2.1.1 Thời gian và vật liệu (Time and Materials)
+Các biểu phí, điều khoản hợp đồng và mốc phê duyệt trong chương này phục vụ tình 
+huống quản lý dự án của học phần. Việc ký kết, thanh toán và nghiệm thu thực tế được 
+xác lập bằng hồ sơ riêng.
+Tên khách hàng Phạm Thế Cường
+Người quản lý phía khách hàng Đào Quang Vinh
+Tên dự án Website bán và thanh toán cho thư viện
+Thời gian quy ước 2 tháng
+Ngày bắt đầu 07/09/2026
+Ngày kết thúc 31/10/2026
+Lịch Biểu Phí (Schedule of rates)
+Biểu phí nhân lực:
+Mô tả Thời gian 
+(ngày công)
+Số 
+lượng Giá/ngày (VNĐ) Chi phí VND (dự kiến)
+Quản lý dự án (PM) 48 1 625.000 30.000.000
+Nhân viên phân tích yêu cầu 
+(BA) 48 1 500.000 24.000.000
+Nhân viên IT (Lập trình viên / 
+Developer) 48 2 500.000 48.000.000
+Nhân viên kiểm thử (Tester / 
+QC) 48 1 375.000 18.000.000
+Tổng cộng 5 120.000.000
+Biểu phí thiết bị và bản quyền phần mềm:
+Đơn giá và chi phí dưới đây là dự toán của bài toán; chưa phản ánh khoản thanh toán thực 
+tế.
+Mô tả thiết bị, licence / dịch vụ Số lượng Đơn Giá (VNĐ) Chi phí VND 
+(dự kiến)
+Thuê Cloud Server VPS 2 gói 1.250.000 2.500.000
+Dịch vụ Quản trị CSDL đám mây 1 gói 1.500.000 1.500.000
+Hạn mức gọi API Chatbot 1 gói 3.000.000 3.000.000
+Chi phí tích hợp và kiểm thử chức năng đặt hàng 
+COD 1 dịch vụ 2.000.000 2.000.000
+
+PAGE 8
+8
+Mô tả thiết bị, licence / dịch vụ Số lượng Đơn Giá (VNĐ) Chi phí VND 
+(dự kiến)
+Tên miền (.vn) và Chứng chỉ bảo mật SSL/TLS (1 
+năm) 1 gói 1.000.000 1.000.000
+Bản quyền công cụ cộng tác & quản lý mã nguồn 
+(GitHub, Figma, Postman - 2 tháng) 1 gói 2.000.000 2.000.000
+Tổng cộng 12.000.000
+Quỹ dự phòng rủi ro và chi phí hành chính:
+Quỹ dự phòng rủi ro kỹ thuật và phát sinh (Contingency Reserve): 11.000.000 VNĐ 
+(dùng dự phòng trường hợp gọi vượt token API Chatbot AI, phát sinh lỗi giao dịch thanh 
+toán cần kiểm thử thêm giờ, hoặc biến động chi phí hạ tầng).
+Chính sách thanh toán (Payment terms)
+Giai 
+đoạn Điều kiện kích hoạt thanh toán Tỷ lệ 
+(%)
+Số tiền VND 
+(dự kiến)
+Ngày hoàn 
+thành
+Hạn thanh 
+toán
+Đợt 1
+Thanh toán 50% ngay sau khi ký hợp 
+đồng dịch vụ phát triển phần mềm và 
+phê duyệt SOW / Project Charter
+50% 71.500.000 07/09/2026 12/09/2026
+Đợt 2
+Thanh toán 50% còn lại của hợp 
+đồng phát triển phần mềm sau khi 
+hoàn tất kiểm thử và ký biên bản 
+nghiệm thu
+50% 71.500.000 31/10/2026 06/11/2026
+Tổng 
+cộng 100% 143.000.000
+2.1.2 Phát biểu bài toán (Statement of Work)
+A. Giả định và Ràng buộc (Assumptions and Constraints)
+Giả định (Assumptions):
+Nhóm dự án gồm 5 thành viên, được trang bị thiết bị và có kiến thức nền tảng phù hợp để 
+thực hiện các công việc được phân công.
+Các công nghệ và dịch vụ phục vụ phát triển hệ thống, bao gồm ASP.NET Core Web API, 
+Entity Framework Core, Microsoft SQL Server và API Chatbot AI, có thể sử dụng ổn 
+định trong thời gian triển khai dự án.
+Các cuộc họp định kỳ với giảng viên hướng dẫn diễn ra theo lịch trình thống nhất.
+Ràng buộc (Constraints):
+Thời gian: Hoàn thành dự án trong khoảng thời gian từ ngày 07/09/2026 đến ngày 
+31/10/2026, theo lịch làm việc đã xác định.
+Ngân sách: Tổng ngân sách dự toán theo F02 là 143.000.000 VNĐ, bao gồm quỹ dự 
+phòng 11.000.000 VNĐ.
+
+PAGE 9
+9
+Phạm vi kỹ thuật: Xây dựng website bán sách, hỗ trợ quản lý đơn hàng, thanh toán khi 
+nhận hàng (COD) và tích hợp Chatbot AI thông qua API dịch vụ có sẵn. Chatbot AI hỗ 
+trợ tư vấn sách và trả lời câu hỏi thường gặp, không tự động xác nhận đơn hàng hoặc thực 
+hiện giao dịch thanh toán.
+B. Quy trình quản lý thay đổi (Change Request management)
+Hình 2.1 Quy trình xem xét yêu cầu thay đổi
+Chi tiết quy trình:
+Yêu cầu (CR): Thành viên hoặc người liên quan lập văn bản mô tả nội dung và lý do thay 
+đổi.
+Phân tích ảnh hưởng: PM phối hợp với BA đánh giá tác động của yêu cầu thay đổi đến 
+phạm vi công việc, tiến độ (mốc hoàn thành ngày 31/10/2026), ngân sách dự toán và chất 
+lượng sản phẩm.
+Duyệt / Từ chối: PM phê duyệt nếu nằm trong phạm vi dự phòng; nếu vượt ngân sách 
+hoặc trễ hạn mốc chính, phải có ý kiến chấp thuận của Giảng viên hướng dẫn.
+Thực hiện: Cập nhật công việc mới vào WBS và tiến độ thực tế sau khi được ký duyệt.
+Kiểm tra: Tester kiểm thử lại để đảm bảo không phát sinh lỗi thứ cấp trước khi đóng yêu 
+cầu thay đổi.
+C. Các chi phí liên quan (Engagement Related Expense)
+Chi phí cá nhân (điện, nước, internet, laptop cá nhân, đi lại) do các thành viên tự chi trả.
+Dự án chỉ hạch toán các chi phí phục vụ trực tiếp cho sản phẩm chung, bao gồm thù lao 
+nhân sự theo kế hoạch công việc, thuê Cloud VPS, dịch vụ cơ sở dữ liệu Microsoft SQL 
+Server, hạn mức API Chatbot AI, tên miền, chứng chỉ bảo mật và công cụ cộng tác. Các 
+chi phí kiểm thử tập trung vào chức năng đặt hàng, xử lý đơn hàng COD và tích hợp hệ 
+thống.
+D. Thỏa thuận dịch vụ & Bảo hành (Professional Service Agreement)
+Bàn giao: Nhóm bàn giao mã nguồn phần mềm, cơ sở dữ liệu Microsoft SQL Server, tài 
+liệu kỹ thuật và tài liệu hướng dẫn sử dụng sau khi hoàn tất nghiệm thu dự án vào ngày 
+31/10/2026.
+Bảo hành: Nhóm cam kết hỗ trợ sửa lỗi (bug fixing) miễn phí trong vòng 30 ngày kể từ 
+ngày ký biên bản nghiệm thu.
+Giới hạn: Không bảo hành miễn phí đối với lỗi phát sinh từ thay đổi chính sách/kỹ thuật 
+của nhà cung cấp API bên thứ ba hoặc can thiệp dữ liệu trái phép từ bên ngoài.
+
+PAGE 10
+10
+2.1.3 Chấp thuận và cấp quyền (Acceptance and Authorization)
+Dự án được xem xét chấp thuận khi các chức năng chính hoàn thành, vượt qua kiểm thử 
+và bàn giao đầy đủ mã nguồn, cơ sở dữ liệu cùng tài liệu liên quan.
+Đại diện Phê duyệt Đại diện Đơn vị Thực Hiện
+Đào Quang Vinh Nguyễn Trương Quốc Huy
+Ký và ghi rõ họ tên Ký và ghi rõ họ tên
+Ngày dự kiến xác nhận: 07/09/2026 Ngày dự kiến xác nhận: 07/09/2026
+2.2 Tôn chỉ dự án – Project Charter
+2.2.1 Mục đích dự án (Project Purpose)
+Xây dựng website giúp thư viện bán sách trực tuyến, quản lý đơn hàng và thanh toán tập 
+trung. Đồng thời, tích hợp Chatbot AI nhằm hỗ trợ khách hàng trong quá trình mua sách.
+2.2.2 Phạm vi dự án (Project Scope)
+Dự án gồm những thành phần chính:
+Website bán sách dành cho khách hàng, hỗ trợ tra cứu, tìm kiếm, lọc sách và xem thông 
+tin chi tiết của sách.
+Chức năng quản lý giỏ hàng, đặt hàng, theo dõi lịch sử đơn hàng và thanh toán khi nhận 
+hàng (COD).
+Trang quản trị hỗ trợ quản lý sách, danh mục, khách hàng và đơn hàng.
+Backend API phục vụ xử lý nghiệp vụ, xác thực người dùng và trao đổi dữ liệu giữa giao 
+diện với hệ thống.
+Cơ sở dữ liệu Microsoft SQL Server dùng để lưu trữ và quản lý dữ liệu của hệ thống.
+Chatbot AI hỗ trợ khách hàng tra cứu thông tin, tư vấn sách và trả lời các câu hỏi thường 
+gặp thông qua API dịch vụ có sẵn.
+2.2.3 Điều kiện chấp thuận (Acceptance Criteria)
+Các chức năng chính đáp ứng yêu cầu.
+Chức năng đặt hàng và thanh toán được kiểm thử thành công.
+Chatbot AI phản hồi được các câu hỏi hỗ trợ cơ bản.
+Không còn lỗi nghiêm trọng chưa được xử lý hoặc chấp thuận.
+Bàn giao đầy đủ mã nguồn, cơ sở dữ liệu và tài liệu.
+
+PAGE 11
+11
+2.2.4 Bàn giao dự án (Project Deliverables)
+Bảng 2.2. Danh sách sản phẩm bàn giao
+STT Sản phẩm bàn giao
+1 Website bán sách dành cho khách hàng
+2 Trang quản trị hệ thống
+3 Backend REST API xây dựng bằng ASP.NET Core Web API .NET 8
+4 Cơ sở dữ liệu Microsoft SQL Server, sử dụng Entity Framework Core 8 để truy xuất dữ liệu
+5 Chatbot AI hỗ trợ tư vấn sách và trả lời câu hỏi thường gặp
+6 Mã nguồn hệ thống Frontend và Backend
+7 Tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật và báo cáo kiểm thử
+2.2.5 Các cột mốc thời gian (Milestones)
+Bảng 2.3. Các cột mốc dự kiến
+Mốc Ngày hoàn 
+thành Nội dung
+M1 12/09/2026 Khởi động
+M2 25/09/2026 Phân tích yêu cầu
+M3 01/10/2026 Thiết kế CSDL
+M4 14/10/2026 Backend
+M5 16/10/2026 Frontend
+M6 20/10/2026 Chatbot và báo cáo
+M7 26/10/2026 Kiểm thử tích hợp
+M8 31/10/2026 Bàn giao
+Các mốc này là kế hoạch dự kiến, chưa phải kết quả thực tế.
+2.2.6 Ngân sách dự án (Project Budget)
+Tổng ngân sách của dự án là 143.000.000 VNĐ.
+Bảng 2.4. Bảng ngân sách dự kiến
+STT Thành phần dự án (Project Component) Tỷ lệ (%) Chi phí (VNĐ)
+1 Chi phí nhân lực (Labor Cost) 83,92% 120.000.000
+2 Hạ tầng Cloud và cơ sở dữ liệu 2,80% 4.000.000
+3 Tích hợp API Chatbot AI và công cụ phát triển 5,59% 8.000.000
+4
+Quỹ dự phòng rủi ro và chi phí phát sinh 
+(Contingency Reserve) 7,69% 11.000.000
+TỔNG CỘNG 100,00% 143.000.000
+
+PAGE 12
+12
+2.2.7 Ràng buộc (Project Constraints)
+Ràng buộc (Project Constraints)
+Thời gian thực hiện: 08 tuần, từ ngày 07/09/2026 đến ngày 31/10/2026.
+Nhân sự: 05 thành viên.
+Lịch làm việc: Từ thứ Hai đến thứ Bảy, nghỉ Chủ Nhật.
+Ngân sách: Thực hiện theo ngân sách dự toán và cơ chế kiểm soát chi phí đã được phê 
+duyệt. Mọi thay đổi làm phát sinh chi phí phải được xem xét theo quy trình quản lý thay 
+đổi.
+Công nghệ chính: Frontend sử dụng HTML5, CSS3 và JavaScript thuần; Backend sử 
+dụng C# và ASP.NET Core Web API trên nền tảng .NET 8; truy xuất dữ liệu bằng Entity 
+Framework Core 8; cơ sở dữ liệu sử dụng Microsoft SQL Server.
+Xác thực và bảo mật: Sử dụng JWT Bearer Token để xác thực và BCrypt để băm mật 
+khẩu.
+Phương thức thanh toán: Hỗ trợ thanh toán khi nhận hàng (COD), không bao gồm tích 
+hợp cổng thanh toán trực tuyến.
+Chatbot AI: Tích hợp API dịch vụ AI có sẵn để hỗ trợ tư vấn sách và trả lời câu hỏi 
+thường gặp.
+2.2.8 Các phụ thuộc (Dependencies)
+Bảng 2.5. Quan hệ phụ thuộc công việc
+Công việc Phụ thuộc
+N1 – Khởi động Không
+N2 – Phân tích yêu cầu N1
+N3 – Thiết kế CSDL N2
+N4 – Thiết kế UI N2
+N5 – Thiết kế chatbot N2
+N6 – Backend N3
+N7 – Frontend N3, N4
+N8 – Chatbot và báo cáo N5, N6
+N9 – Kiểm thử tích hợp N7, N8
+N10 – Bàn giao N9
+2.2.9 Các giả định (Assumptions)
+Các thành viên có đủ thời gian tham gia và hoàn thành nhiệm vụ được phân công theo kế 
+hoạch dự án.
+
+PAGE 13
+13
+Nhóm có máy tính và môi trường phát triển phù hợp để xây dựng, chạy thử và kiểm thử 
+hệ thống.
+Các công nghệ sử dụng trong dự án, bao gồm ASP.NET Core Web API, Entity 
+Framework Core và Microsoft SQL Server, có thể triển khai trong môi trường phát triển 
+của nhóm.
+Chatbot AI sử dụng API của dịch vụ AI có sẵn để tư vấn sách và trả lời câu hỏi thường 
+gặp.
+Phương thức thanh toán của hệ thống là COD; không phụ thuộc vào cổng thanh toán trực 
+tuyến hoặc môi trường Sandbox.
+Các yêu cầu chính của dự án được thống nhất trước khi triển khai; các yêu cầu phát sinh 
+được xử lý theo quy trình quản lý thay đổi.
+2.2.10 Các rủi ro đã nhận biết (Known Risks)
+Bảng 2.6. Rủi ro dự án
+Rủi ro Biện pháp xử lý
+Chậm tiến độ Theo dõi và điều chỉnh công việc hằng tuần
+Phát sinh chức năng Kiểm soát bằng Change Request
+Lỗi đặt hàng hoặc cập nhật trạng 
+thái đơn hàng COD Kiểm thử giao dịch và trạng thái thanh toán
+Chatbot AI phản hồi sai Giới hạn phạm vi và kiểm thử câu trả lời
+Vượt ngân sách Theo dõi chi phí định kỳ
+Thành viên vắng mặt Phân công người hỗ trợ
+2.2.11 Quản lý dự án (Project Manager)
+Họ và tên: Nguyễn Trương Quốc Huy
+Vai trò: Trưởng nhóm kiêm Quản lý dự án (Project Manager).
+Trách nhiệm chính:
+Điều phối toàn bộ hoạt động của nhóm 05 thành viên, lập kế hoạch, kiểm soát tiến độ (08 
+tuần) và quản lý chất lượng kỹ thuật của hệ thống.
+Là đầu mối giao tiếp duy nhất báo cáo tiến độ định kỳ hàng tuần với Giảng viên hướng 
+dẫn môn học.
+Quyền hạn được cấp:
+Được quyền phân công, điều phối nhiệm vụ và giám sát khối lượng công việc của các 
+thành viên theo WBS.
+Được theo dõi, kiểm soát chi phí và đề xuất sử dụng ngân sách dự phòng theo kế hoạch 
+được phê duyệt. Các khoản chi phải được ghi nhận và thực hiện theo phạm vi ngân sách 
+đã thống nhất.
+
+PAGE 14
+14
+Mọi phát sinh vượt quá thẩm quyền, làm thay đổi phạm vi, chi phí hoặc các mốc tiến độ 
+chính phải được lập Yêu cầu thay đổi (CR) và trình Giảng viên hướng dẫn xem xét trước 
+khi thực hiện.
+2.2.12 Vai trò và trách nhiệm (Roles and Responsibilities)
+Bảng 2.7. Phân công vai trò đề xuất
+ST
+T
+Vai trò Họ tên Trách nhiệm chính trong dự án
+1
+Quản lý dự án 
+(Project Manager 
+- PM)
+Nguyễn Trương Quốc 
+Huy
+Lập kế hoạch và theo dõi tiến độ theo WBS; 
+kiểm soát chi phí và chất lượng; quản trị rủi ro; 
+xử lý yêu cầu thay đổi (CR); báo cáo tiến độ với 
+Giảng viên hướng dẫn.
+2
+Phân tích nghiệp 
+vụ (Business 
+Analyst - BA)
+Trịnh Châu Hồng Phát
+Khảo sát và phân tích yêu cầu nghiệp vụ; xây 
+dựng Use Cases và tài liệu SRS; xác định yêu 
+cầu cho các chức năng bán sách, quản lý đơn 
+hàng COD và Chatbot AI; xây dựng kịch bản 
+câu hỏi thường gặp (FAQ).
+3
+Lập trình viên 
+Frontend 
+(Frontend 
+Developer - FE)
+Nguyễn Đình Kiên
+Xây dựng giao diện khách hàng và quản trị 
+bằng HTML5, CSS3 và JavaScript thuần; phát 
+triển giao diện tìm kiếm sách, giỏ hàng, đặt 
+hàng COD, lịch sử đơn hàng và Chatbot AI; 
+tích hợp giao diện với Backend API.
+4
+Lập trình viên 
+Backend và cơ sở 
+dữ liệu (Backend 
+& DB Developer -
+BE)
+Huỳnh Minh Nhựt
+Xây dựng REST API bằng C# và ASP.NET 
+Core Web API .NET 8; thiết kế và truy xuất dữ 
+liệu bằng Entity Framework Core 8 với 
+Microsoft SQL Server; phát triển chức năng xác 
+thực, quản lý sách, giỏ hàng, đơn hàng COD, 
+quản trị và tích hợp API Chatbot AI.
+5
+Kiểm thử viên 
+(Tester / QA) Nguyễn Trọng Khánh
+Lập kế hoạch và viết kịch bản kiểm thử; kiểm 
+thử chức năng, phân quyền, đặt hàng COD, 
+quản lý trạng thái đơn hàng và Chatbot AI; ghi 
+nhận lỗi, theo dõi quá trình sửa lỗi và kiểm thử 
+lại trước khi nghiệm thu.
+2.2.13 Ký duyệt (Authorised)
+Bảng 2.8. Xác nhận và phê duyệt dự án
+Đại diện Phê duyệt Đại diện Đơn vị Thực Hiện
+Đào Quang Vinh Nguyễn Trương Quốc Huy
+Ký và ghi rõ họ tên Ký và ghi rõ họ tên
+Ngày dự kiến xác nhận: 07/09/2026 Ngày dự kiến xác nhận: 07/09/2026
+Việc ký duyệt xác nhận sự thống nhất về mục tiêu, phạm vi, thời gian, nguồn lực và ngân 
+sách của dự án.
+
+PAGE 15
+15
+2.3 Phát biểu phạm vi – Scope Statement
+Tên dự án (Project Title): Xây dựng Website bán và thanh toán cho thư viện
+Ngày (Date): 07/09/2026
+Người lập: Nhóm 11; đại diện nhóm: Nguyễn Trương Quốc Huy.
+Lý giải về dự án (Project Justification)
+Việc tra cứu thông tin sách và quản lý quy trình đặt mua có thể mất thời gian nếu thực 
+hiện thủ công hoặc thiếu một hệ thống quản lý tập trung. Vì vậy, nhóm thực hiện dự án 
+xây dựng website bán sách cho thư viện nhằm hỗ trợ khách hàng tra cứu sách, xem thông 
+tin chi tiết, quản lý giỏ hàng, đặt mua và theo dõi đơn hàng. Hệ thống cũng hỗ trợ nhân 
+viên quản lý thông tin sách và xử lý đơn hàng. Bên cạnh đó, Chatbot AI được tích hợp để 
+hỗ trợ tư vấn sách và trả lời các câu hỏi thường gặp. Dự án giúp nhóm vận dụng kiến thức 
+đã học trong môn Quản lý dự án Công nghệ thông tin vào quá trình lập kế hoạch, phát 
+triển, kiểm thử và bàn giao sản phẩm.
+Các tính chất và yêu cầu của sản phẩm (Product Characteristics and Requirements)
+1. Kiến trúc và nền tảng
+Hệ thống được xây dựng dưới dạng ứng dụng web. Frontend sử dụng HTML5, CSS3 và 
+JavaScript thuần để xây dựng giao diện tương thích với các kích thước màn hình phù hợp. 
+Backend sử dụng C# và ASP.NET Core Web API trên nền tảng .NET 8. Entity 
+Framework Core 8 được sử dụng để truy xuất dữ liệu từ Microsoft SQL Server. Frontend 
+trao đổi dữ liệu với Backend thông qua REST API và định dạng JSON.
+2. Phân hệ khách hàng
+Cho phép khách hàng đăng ký, đăng nhập; tra cứu, tìm kiếm và lọc sách theo danh mục; 
+xem thông tin chi tiết sách; quản lý giỏ hàng; đặt mua sách bằng phương thức thanh toán 
+khi nhận hàng (COD) và theo dõi lịch sử đơn hàng.
+3. Phân hệ quản trị
+Cho phép người có quyền phù hợp quản lý thông tin sách, danh mục sách, thông tin khách 
+hàng và đơn hàng; cập nhật thông tin cần thiết và trạng thái xử lý đơn hàng theo chức 
+năng được phân quyền.
+4. Phương thức thanh toán
+Hệ thống hỗ trợ phương thức thanh toán khi nhận hàng (Cash on Delivery - COD). Hệ 
+thống ghi nhận đơn hàng và hỗ trợ quản lý, xác nhận trạng thái đơn hàng theo quy trình 
+xử lý COD. Phạm vi dự án không bao gồm tích hợp cổng thanh toán trực tuyến.
+5. Trợ lý ảo Chatbot AI
+Tích hợp giao diện Chatbot AI và gọi API của dịch vụ AI có sẵn để hỗ trợ tư vấn thông tin 
+sách, trả lời câu hỏi thường gặp (FAQ) và hướng dẫn khách hàng sử dụng website. 
+Chatbot AI không tự động xác nhận đơn hàng, thay đổi trạng thái đơn hàng hoặc thực hiện 
+giao dịch thanh toán.
+6. Xác thực và bảo mật
+
+PAGE 16
+16
+Hệ thống sử dụng JWT Bearer Token để xác thực người dùng và BCrypt để băm mật 
+khẩu. Các chức năng được phân quyền theo vai trò người dùng đã xác định trong hệ 
+thống.
+Tổng kết về các sản phẩm chuyển giao của dự án (Summary of Project Deliverables)
+Các kết quả liên quan đến quản lý dự án (Project Management-related Deliverables)
+Báo cáo đề xuất dự án, bản tuyên bố công việc (SOW), tôn chỉ dự án (Project Charter) và 
+phát biểu phạm vi (Scope Statement).
+Cấu trúc phân rã công việc (WBS) và kế hoạch tiến độ dự án, bao gồm sơ đồ PERT, 
+đường găng và biểu đồ Gantt.
+Dự toán ngân sách và bảng theo dõi chi phí dự án.
+Các kế hoạch quản lý chất lượng, nhân sự, truyền thông và rủi ro.
+Báo cáo tiến độ, slide thuyết trình và biên bản tổng kết, nghiệm thu dự án.
+Sản phẩm liên quan (Product-related Deliverables)
+Báo cáo đồ án môn học, tài liệu phân tích và thiết kế hệ thống, cùng slide thuyết trình.
+Mã nguồn Frontend được xây dựng bằng HTML5, CSS3 và JavaScript thuần; mã nguồn 
+Backend được xây dựng bằng C# và ASP.NET Core Web API .NET 8.
+Cơ sở dữ liệu Microsoft SQL Server và các thành phần truy xuất dữ liệu sử dụng Entity 
+Framework Core 8, kèm dữ liệu mẫu nếu có.
+Chức năng website bán sách, trang quản trị, quản lý đơn hàng COD và Chatbot AI theo 
+phạm vi dự án.
+Tài liệu hướng dẫn cài đặt, tài liệu hướng dẫn sử dụng và báo cáo kiểm thử hệ thống.
+2.4 Cấu trúc phân rã công việc – Work Breakdown Structure (WBS)
+Mã 
+WBS Nhóm công việc Thời lượng Bắt đầu Kết thúc
+1.0 Khởi động và lập kế hoạch 6 ngày 07/09/2026 12/09/2026
+2.0 Phân tích yêu cầu 11 ngày 14/09/2026 25/09/2026
+3.0 Thiết kế hệ thống 5 ngày 26/09/2026 01/10/2026
+4.0 Phát triển Backend 11 ngày 02/10/2026 14/10/2026
+5.0 Phát triển Frontend 13 ngày 02/10/2026 16/10/2026
+6.0 Tích hợp AI, báo cáo và kiểm thử 10 ngày 15/10/2026 26/10/2026
+7.0 Triển khai và bàn giao 5 ngày 27/10/2026 31/10/2026
+Các ngày được tính theo lịch thứ Hai đến thứ Bảy, nghỉ Chủ nhật. N1 là gói khởi động; 
+PM vẫn theo dõi, quản lý thay đổi và chi phí xuyên suốt 48 ngày trong định mức nhân sự 
+Chương 1. N3, N4 và N5 được giao cho BE, FE và BA để triển khai song song. Đây là 
+lịch kế hoạch điều chỉnh, không phải nhật ký hoàn tất thực tế.
+
+PAGE 17
+17
+2.4.1 Danh sách công việc chi tiết
+1.0. Khởi động và lập kế hoạch
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+1.1 N1: Khởi động và thống nhất phạm vi 2 ngày 07/09/2026 08/09/2026 PM
+1.2 N1: Lập và chốt Project Charter 2 ngày 09/09/2026 10/09/2026 PM
+1.3 N1: Lập kế hoạch và phân công 2 ngày 11/09/2026 12/09/2026 PM
+2.0. Phân tích yêu cầu
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+2.1 N2: Khảo sát và thu thập yêu cầu 3 ngày 14/09/2026 16/09/2026 BA
+2.2 N2: Phân tích nghiệp vụ và Use Case 3 ngày 17/09/2026 19/09/2026 BA
+2.3 N2: Phân tích yêu cầu AI 2 ngày 21/09/2026 22/09/2026 BA
+2.4 N2: Hoàn thiện và chốt SRS 3 ngày 23/09/2026 25/09/2026 BA
+3.0. Thiết kế hệ thống
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+3.1 N3: Thiết kế kiến trúc và dữ liệu 2 ngày 26/09/2026 28/09/2026 BE
+3.2 N3: Thiết kế CSDL và hợp đồng API 3 ngày 29/09/2026 01/10/2026 BE
+3.3 N4: Thiết kế giao diện khách hàng và 
+quản trị 3 ngày 26/09/2026 29/09/2026 FE
+3.4 N5: Thiết kế luồng chatbot và báo cáo 2 ngày 26/09/2026 28/09/2026 BA
+4.0. Phát triển Backend
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+4.1 N6: Khởi tạo API, CSDL và xác thực 2 ngày 02/10/2026 03/10/2026 BE
+4.2 N6: API sách, danh mục và tìm kiếm 2 ngày 05/10/2026 06/10/2026 BE
+4.3 N6: Giỏ hàng, địa chỉ và yêu thích 2 ngày 07/10/2026 08/10/2026 BE
+4.4 N6: Đơn hàng COD, tồn kho và phân 
+quyền 3 ngày 09/10/2026 12/10/2026 BE
+4.5 N6: Thông báo, kiểm thử mô-đun và 
+hoàn thiện API 2 ngày 13/10/2026 14/10/2026 BE
+5.0. Phát triển Frontend
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+5.1 N7: Khung giao diện và đăng nhập 2 ngày 02/10/2026 03/10/2026 FE
+
+PAGE 18
+18
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+5.2 N7: Danh mục, tìm kiếm, chi tiết và đọc 
+thử 3 ngày 05/10/2026 07/10/2026 FE
+5.3 N7: Giỏ hàng, địa chỉ và đặt hàng COD 3 ngày 08/10/2026 10/10/2026 FE
+5.4 N7: Đơn hàng và trang theo vai trò 3 ngày 12/10/2026 14/10/2026 FE
+5.5 N7: Hoàn thiện giao diện và kiểm thử 
+mô-đun 2 ngày 15/10/2026 16/10/2026 FE
+6.0. Tích hợp AI, báo cáo và kiểm thử
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+6.1 N8: Tích hợp chatbot với dữ liệu sách 3 ngày 15/10/2026 17/10/2026 BE/BA
+6.2 N8: Tích hợp dashboard, thông báo và 
+báo cáo 2 ngày 19/10/2026 20/10/2026 BE/BA
+6.3 N9: Kiểm thử tích hợp và luồng COD 2 ngày 21/10/2026 22/10/2026 QA/Dev
+6.4 N9: Kiểm thử phân quyền, sửa lỗi và hồi 
+quy
+2 ngày 23/10/2026 24/10/2026 QA/Dev
+6.5 N9: Kiểm tra sẵn sàng nghiệm thu 1 ngày 26/10/2026 26/10/2026 QA/Dev
+7.0. Triển khai và bàn giao
+Mã 
+WBS Công việc / CPM Thời 
+lượng Bắt đầu Kết thúc Phụ trách
+7.1 N10: Chuẩn bị triển khai và tài liệu 2 ngày 27/10/2026 28/10/2026 PM/QA/Dev
+7.2 N10: Triển khai, hướng dẫn sử dụng 2 ngày 29/10/2026 30/10/2026 PM/QA/Dev
+7.3 N10: Nghiệm thu và bàn giao 1 ngày 31/10/2026 31/10/2026 PM/QA/Dev
+
+PAGE 19
+19
+CHƯƠNG 3 QUẢN LÝ THỜI GIAN DỰ ÁN
+3.1 Cơ sở lập lịch
+Mốc mục tiêu của dự án là từ 07/09/2026 đến 31/10/2026. Với lịch làm việc từ thứ Hai 
+đến thứ Bảy và nghỉ Chủ nhật, khoảng thời gian này có 48 ngày làm việc. WBS ở Chương 
+2, mạng CPM điều chỉnh và bảng chi phí ở Chương 4 dùng chung lịch cơ sở 48 ngày. 
+Mạng 64 ngày chỉ được giữ để so sánh phương án trước điều chỉnh.
+Các thời lượng N1–N10 là ước lượng một giá trị. Vì chưa có bộ ba ước lượng lạc quan, 
+khả dĩ và bi quan, báo cáo sử dụng phương pháp đường găng CPM trên sơ đồ mạng công 
+việc; không tính phương sai hay xác suất hoàn thành theo PERT.
+3.2 Mạng công việc ban đầu
+Mã Gói công việc Tiền nhiệm Ngày
+N1 Khởi động Không 6
+N2 Phân tích yêu cầu N1 11
+N3 Thiết kế CSDL N2 5
+N4 Thiết kế UI N2 3
+N5 Thiết kế chatbot N2 2
+N6 Backend N3 16
+N7 Frontend N4, N6 13
+N8 Chatbot và báo cáo N5, N6 5
+N9 Kiểm thử tích hợp N7, N8 8
+N10 Bàn giao N9 5
+Hình 3.1 Mạng công việc ban đầu và thời điểm bắt đầu kết thúc sớm
+Theo quan hệ N7 phải đợi cả N4 và N6, thời gian hoàn thành của mạng gốc là 64 ngày, 
+vượt mục tiêu 48 ngày. Đường găng là N1 → N2 → N3 → N6 → N7 → N9 → N10. 
+Tổng 74 ngày là tổng thời lượng của mọi hoạt động, không phải độ dài đường găng.
+Đườn
+g
+Chuỗi công việc Tổng ngày
+1 N1 → N2 → N3 → N6 → N7 → N9 → N10 64
+
+PAGE 20
+20
+Đườn
+g
+Chuỗi công việc Tổng ngày
+2 N1 → N2 → N3 → N6 → N8 → N9 → N10 56
+3 N1 → N2 → N4 → N7 → N9 → N10 46
+4 N1 → N2 → N5 → N8 → N9 → N10 37
+3.3 Tính tiến và tính lùi
+Tính tiến: ES của hoạt động bằng EF lớn nhất của các tiền nhiệm; EF = ES + thời lượng. 
+Tính lùi: LF bằng LS nhỏ nhất của các công việc kế tiếp; LS = LF − thời lượng. Độ dự trữ 
+toàn phần TF = LS − ES; hoạt động có TF bằng 0 thuộc đường găng. Mốc đầu tiên được 
+quy ước bằng ngày 0.
+Mã Ngày ES EF LS LF TF
+N1 6 0 6 0 6 0
+N2 11 6 17 6 17 0
+N3 5 17 22 17 22 0
+N4 3 17 20 35 38 18
+N5 2 17 19 44 46 27
+N6 16 22 38 22 38 0
+N7 13 38 51 38 51 0
+N8 5 38 43 46 51 8
+N9 8 51 59 51 59 0
+N10 5 59 64 59 64 0
+3.4 Phương án đáp ứng mục tiêu 48 ngày
+Phương án đề xuất gồm ba điều chỉnh: cho N7 phát triển giao diện sau N3 và N4 bằng 
+hợp đồng API đã thống nhất, dữ liệu mô phỏng và các đầu API bàn giao từng phần; rút N6 
+từ 16 xuống 11 ngày nhờ tái sử dụng các mô-đun đã có và chốt hợp đồng API sớm; đồng 
+thời rút N9 từ 8 xuống 5 ngày nhờ thực hiện kiểm thử từng chức năng trong giai đoạn phát 
+triển. N9 vẫn chờ cả N7 và N8 để kiểm thử tích hợp cuối cùng.
+Báo cáo chọn phương án 48 ngày làm lịch cơ sở thống nhất cho WBS, mốc bàn giao và 
+phân bổ chi phí. Đây là lịch kế hoạch điều chỉnh, không phải xác nhận đã rút ngắn tiến độ 
+thực tế. Khi triển khai, PM cần kiểm soát nguồn lực, hợp đồng API và chất lượng kiểm 
+thử; nếu API thay đổi nhiều, công việc song song có thể phải làm lại.
+Chỉ tiêu Mạng gốc Phương án đề xuất
+Tiền nhiệm N7 N4 và N6 N3 và N4
+Thời lượng N6 16 ngày 11 ngày
+Thời lượng N9 8 ngày 5 ngày
+
+PAGE 21
+21
+Chỉ tiêu Mạng gốc Phương án đề xuất
+Tổng thời lượng hoạt động 74 ngày 66 ngày
+Thời gian hoàn thành 64 ngày 48 ngày
+Đường găng N1 N2 N3 N6 N7 N9 N10 N1 N2 N3 N6 N8 N9 N10
+Hình 3.2 Mạng công việc theo phương án 48 ngày
+Mã Ngày ES EF LS LF TF
+N1 6 0 6 0 6 0
+N2 11 6 17 6 17 0
+N3 5 17 22 17 22 0
+N4 3 17 20 22 25 5
+N5 2 17 19 31 33 14
+N6 11 22 33 22 33 0
+N7 13 22 35 25 38 3
+N8 5 33 38 33 38 0
+N9 5 38 43 38 43 0
+N10 5 43 48 43 48 0
+Theo mô hình đã điều chỉnh, thời gian hoàn thành giảm 16 ngày làm việc, từ 64 xuống 48 
+ngày. Đường găng chuyển qua N8; do đó cần theo dõi sát việc hoàn tất Backend, tích hợp 
+chatbot và báo cáo trước kiểm thử cuối cùng. Lịch WBS chi tiết đã được quy đổi theo 
+cùng ES và EF của phương án 48 ngày; ngày kết thúc được tính bao gồm ngày làm việc 
+cuối cùng của gói.
+
+PAGE 22
+22
+CHƯƠNG 4 QUẢN LÝ CHI PHÍ DỰ ÁN
+4.1 Bảng ngân sách theo lịch cơ sở 48 ngày
+Bảng thông tin hoạt động gốc được xây dựng nhằm xác định thời lượng và chi phí kế 
+hoạch của từng công việc trong dự án. Đây là cơ sở để so sánh với tình hình thực tế, đánh 
+giá hiệu quả sử dụng ngân sách và kiểm soát chi phí trong quá trình thực hiện.
+Bảng 4.1. Ngân sách theo lịch cơ sở 48 ngày
+Hoạt động Tiền nhiệm Ngày Bình quân/ngày Ngân sách đồng
+N1 – Khởi động và quản lý dự 
+án Không 6 1.333.333 8.000.000
+N2 – Phân tích yêu cầu và SRS N1 11 1.090.909 12.000.000
+N3 – Thiết kế kiến trúc và CSDL N2 5 1.600.000 8.000.000
+N4 – Thiết kế giao diện UI/UX N2 3 1.666.667 5.000.000
+N5 – Thiết kế và nghiên cứu 
+Chatbot N2 2 2.000.000 4.000.000
+N6 – Phát triển Backend Core N3 11 2.727.273 30.000.000
+N7 – Phát triển Frontend Web N3, N4 13 1.846.154 24.000.000
+N8 – Tích hợp Chatbot và báo 
+cáo N5, N6 5 2.000.000 10.000.000
+N9 – Tích hợp và kiểm thử toàn 
+diện N7, N8 5 3.600.000 18.000.000
+N10 – Triển khai và nghiệm thu N9 5 2.600.000 13.000.000
+Tổng cộng 66 132.000.000
+Ngân sách gói được giữ nguyên khi rút lịch; chi phí bình quân/ngày được tính lại theo thời 
+lượng điều chỉnh. Bảng nhân sự và dịch vụ ở Chương 1 là cách phân loại cùng tổng ngân 
+sách, không phải khoản cộng thêm.
+Ghi chú: Tổng 66 ngày là tổng thời lượng các hoạt động chạy nối tiếp hoặc song song; 
+lịch dự án dài 48 ngày làm việc. Ngân sách 132.000.000 đồng phân bổ theo gói và bao 
+gồm nguồn lực quản lý xuyên suốt; chi phí bình quân/ngày chỉ là tỷ số ngân sách gói trên 
+thời lượng, được làm tròn đến đồng.
+4.2 Kịch bản chi phí tại mốc bàn giao dự kiến
+Bảng 4.2 sử dụng một kịch bản minh họa tại mốc bàn giao dự kiến 31/10/2026: toàn bộ 
+N1–N10 hoàn thành 100%. Các khoản AC trong bảng là số liệu minh họa phục vụ tính 
+EVM, không phải xác nhận số tiền thực chi hay biên bản nghiệm thu.
+Bảng 4.2 Chi phí minh họa tại mốc 31/10/2026
+Hoạt động Hoàn thành giả 
+định Chi phí minh họa đồng
+N1 – Khởi động và quản lý dự án 100% 7.500.000
+
+PAGE 23
+23
+Hoạt động Hoàn thành giả 
+định Chi phí minh họa đồng
+N2 – Phân tích yêu cầu và SRS 100% 11.500.000
+N3 – Thiết kế kiến trúc và CSDL 100% 7.800.000
+N4 – Thiết kế giao diện UI/UX 100% 4.800.000
+N5 – Thiết kế và nghiên cứu Chatbot 100% 3.800.000
+N6 – Phát triển Backend Core 100% 29.000.000
+N7 – Phát triển Frontend Web 100% 23.500.000
+N8 – Tích hợp Chatbot và báo cáo 100% 9.500.000
+N9 – Tích hợp và kiểm thử toàn diện 100% 17.500.000
+N10 – Triển khai và nghiệm thu 100% 12.200.000
+Tổng cộng 100% 127.100.000
+4.3 Bảng tính toán các chỉ số EVM
+Earned Value Management (EVM) là phương pháp kết hợp giữa phạm vi công việc, tiến 
+độ và chi phí để đánh giá hiệu quả thực hiện dự án. Phương pháp này cho phép so sánh 
+giá trị công việc đã hoàn thành với ngân sách tương ứng và chi phí thực tế đã phát sinh.
+Các chỉ số được sử dụng gồm:
+ACWP (Actual Cost of Work Performed): chi phí thực tế đã phát sinh cho công việc.
+BCWP (Budgeted Cost of Work Performed): giá trị ngân sách của khối lượng công việc 
+đã hoàn thành.
+BCWS (Budgeted Cost of Work Scheduled): giá trị ngân sách của khối lượng công việc 
+theo kế hoạch tại ngày chốt.
+CPI (Cost Performance Index): chỉ số hiệu suất chi phí, được tính bằng BCWP chia 
+ACWP.
+CV (Cost Variance): chênh lệch chi phí, được tính bằng BCWP trừ ACWP.
+SPI (Schedule Performance Index): chỉ số hiệu suất tiến độ, được tính bằng BCWP chia 
+BCWS.
+SV (Schedule Variance): chênh lệch tiến độ, được tính bằng BCWP trừ BCWS.
+Công thức tính:
+EV (BCWP) = Ngân sách công việc × Tỷ lệ hoàn thành thực tế
+CPI = EV / AC; CV = EV − AC
+SPI = EV / PV; SV = EV − PV
+
+PAGE 24
+24
+Bảng 4.3 Các chỉ số EVM theo kịch bản minh họa
+Bảng dưới đây sử dụng chi phí minh họa tại Bảng 4.2. Giả định toàn bộ hoạt động đã hoàn 
+thành 100% và kế hoạch gốc cũng dự kiến hoàn thành toàn bộ khối lượng công việc vào 
+ngày 31/10/2026.
+Đơn vị AC, EV, PV, CV và SV: triệu đồng; CPI và SPI là tỷ số.
+Mã AC EV PV CPI CV SPI SV
+N1 7,5 8,0 8,0 1,07 0,5 1,00 0,0
+N2 11,5 12,0 12,0 1,04 0,5 1,00 0,0
+N3 7,8 8,0 8,0 1,03 0,2 1,00 0,0
+N4 4,8 5,0 5,0 1,04 0,2 1,00 0,0
+N5 3,8 4,0 4,0 1,05 0,2 1,00 0,0
+N6 29,0 30,0 30,0 1,03 1,0 1,00 0,0
+N7 23,5 24,0 24,0 1,02 0,5 1,00 0,0
+N8 9,5 10,0 10,0 1,05 0,5 1,00 0,0
+N9 17,5 18,0 18,0 1,03 0,5 1,00 0,0
+N10 12,2 13,0 13,0 1,07 0,8 1,00 0,0
+Tổng 127,1 132,0 132,0 1,04 4,9 1,00 0,0
+Nhận xét kết quả EVM
+Theo bộ số liệu minh họa, tổng chi phí thực tế là 127.100.000 VNĐ, trong khi giá trị ngân 
+sách của khối lượng công việc đã hoàn thành là 132.000.000 VNĐ. Chỉ số CPI xấp xỉ 
+1,04, cho thấy chi phí thực tế thấp hơn giá trị ngân sách tương ứng với khối lượng công 
+việc đã hoàn thành.
+Chỉ số CV bằng 4.900.000 VNĐ, thể hiện mức chênh lệch chi phí dương theo ví dụ. Chỉ 
+số SPI bằng 1,00 và SV bằng 0 cho thấy khối lượng công việc hoàn thành tương ứng với 
+kế hoạch tại ngày chốt.
+Các kết quả trên chỉ có giá trị minh họa. Để kết luận chính xác về hiệu quả quản lý chi phí 
+và tiến độ của nhóm, cần thay các khoản chi phí giả định bằng số liệu thực tế và xác minh 
+BCWS theo lịch trình gốc.
+4.4 Sơ đồ Gantt đối chiếu hai phương án
+Sơ đồ Gantt dưới đây dùng các giá trị ES và thời lượng đã tính tại Chương 3. Màu xám 
+thể hiện mạng gốc 64 ngày; màu cam thể hiện phương án 48 ngày. Các thanh là lịch kế 
+hoạch, không phải dữ liệu thực tế đã đo.
+
+PAGE 25
+25
+Hình 4.1 So sánh lịch công việc gốc và phương án 48 ngày
+4.5 Kết luận chương
+Tính tới thời điểm lập báo cáo, dự án “Xây dựng website bán và thanh toán sách cho thư 
+viện” có ngân sách dự kiến là 143.000.000 VNĐ, thời gian thực hiện từ ngày 07/09/2026 
+đến ngày 31/10/2026.
+Theo kịch bản minh họa, EV = PV = 132.000.000 đồng và AC = 127.100.000 đồng. Các 
+chỉ số được diễn giải như sau:
+Trước thưởng: CPI ≈ 1,04 và CV = 4.900.000 đồng. Khoản chênh lệch này được phân bổ 
+làm thưởng nhân sự sau nghiệm thu. Sau tính đủ thưởng, tổng chi phí là 132.000.000 
+đồng, CPI = 1,00 và CV = 0. Bảng EVM trình bày trạng thái trước thưởng; đây là kịch 
+bản minh họa.
+SPI = 1,00 và SV = 0: khối lượng hoàn thành bằng kế hoạch tại mốc chốt của kịch bản. 
+SPI bằng 1 ở cuối dự án không tự chứng minh dự án đã bàn giao đúng ngày.
+Để nghiệm thu về tiến độ và chi phí, cần đối chiếu ngày hoàn tất thực tế, chứng từ chi phí, 
+phạm vi được chấp nhận và lịch cơ sở đã phê duyệt.
+Ngân sách công việc giữ ở mức 132.000.000 đồng theo gói, không giảm tự động theo thời 
+lượng. Trong kịch bản quyết toán: chi phí thực hiện 127.100.000 đồng; chênh lệch 
+4.900.000 đồng được dành làm thưởng cho nhân sự sau nghiệm thu. Tổng chi phí gồm 
+thưởng là 132.000.000 đồng, còn 11.000.000 đồng dự phòng chưa sử dụng. Không cộng 
+khoản thưởng thêm một lần vào ngân sách 143.000.000 đồng. Việc chia thưởng theo cá 
+nhân chờ nhóm thống nhất; báo cáo chưa ghi nhận đã chi thưởng thực tế.
+
+PAGE 26
+26
+CHƯƠNG 5 QUẢN LÝ CHẤT LƯỢNG DỰ ÁN
+5.1 Mục tiêu quản lý chất lượng
+Quản lý chất lượng nhằm đảm bảo website bán và thanh toán sách cho thư viện đáp ứng 
+các yêu cầu đã thống nhất, hoạt động ổn định và thuận tiện cho người sử dụng.
+Các mục tiêu chính gồm:
+Đảm bảo các chức năng chính của website hoạt động đúng yêu cầu.
+Đảm bảo dữ liệu sách, khách hàng và đơn hàng được lưu trữ chính xác.
+Đảm bảo quy trình đặt hàng và thanh toán COD hoạt động đúng.
+Đảm bảo Chatbot AI có thể hỗ trợ tư vấn sách và trả lời các câu hỏi thường gặp.
+Phát hiện và xử lý lỗi trước khi triển khai, bàn giao sản phẩm.
+5.2 Tiêu chí đánh giá chất lượng
+Bảng 5.1. Tiêu chí đánh giá chất lượng dự án
+ST
+T
+Hạng mục Tiêu chí đánh giá
+1 Giao diện website Hiển thị rõ ràng, dễ sử dụng và tương thích với các kích thước màn 
+hình phù hợp.
+2 Chức năng khách hàng Đăng ký, đăng nhập, tìm kiếm sách, xem chi tiết và quản lý giỏ hàng 
+hoạt động đúng.
+3 Chức năng đặt hàng Khách hàng có thể tạo đơn hàng và xem lịch sử đơn hàng.
+4 Thanh toán COD Đơn hàng được ghi nhận đúng hình thức thanh toán khi nhận hàng.
+5 Quản trị hệ thống Quản lý thêm sách, sửa giá và tồn kho; Quản trị viên quản lý tài 
+khoản và phân quyền.
+6 Cơ sở dữ liệu Dữ liệu được lưu trữ chính xác, hạn chế trùng lặp và mất mát.
+7 Chatbot AI Có thể trả lời câu hỏi thường gặp, tư vấn thông tin sách và hướng 
+dẫn mua hàng.
+8 Bảo mật Có cơ chế xác thực và phân quyền phù hợp với từng loại tài khoản.
+5.3 Kế hoạch kiểm thử chất lượng
+Nhóm thực hiện kiểm thử các chức năng theo từng giai đoạn phát triển để phát hiện lỗi và 
+đảm bảo các thành phần hoạt động đúng trước khi bàn giao.
+Bảng 5.2. Kế hoạch kiểm thử
+ST
+T
+Nội dung kiểm thử Mục tiêu Người phụ 
+trách
+1 Kiểm thử giao diện Kiểm tra bố cục, hiển thị và thao tác trên 
+website. Frontend, QA
+
+PAGE 27
+27
+ST
+T
+Nội dung kiểm thử Mục tiêu Người phụ 
+trách
+2
+Kiểm thử đăng ký, đăng 
+nhập
+Kiểm tra xác thực tài khoản và quyền truy 
+cập. Backend, QA
+3 Kiểm thử quản lý sách
+Kiểm tra thêm sách, sửa giá và tồn kho trên 
+giao diện; kiểm tra cập nhật đầy đủ và ngừng 
+kinh doanh qua API.
+Backend, 
+Frontend, QA
+4 Kiểm thử giỏ hàng Kiểm tra thêm, xóa và cập nhật số lượng sách. Frontend, QA
+5 Kiểm thử đặt hàng COD Kiểm tra tạo đơn hàng và lưu thông tin đơn 
+hàng. Backend, QA
+6 Kiểm thử quản trị Kiểm tra quản lý khách hàng, sách và đơn 
+hàng.
+Backend, 
+Frontend, QA
+7 Kiểm thử Chatbot AI Kiểm tra khả năng phản hồi câu hỏi và tư vấn 
+sách.
+BA, Backend, 
+QA
+8 Kiểm thử tích hợp Kiểm tra khả năng kết nối giữa Frontend, 
+Backend và cơ sở dữ liệu.
+Backend, 
+Frontend, QA
+5.4 Quy trình quản lý lỗi
+Khi phát hiện lỗi trong quá trình phát triển hoặc kiểm thử, nhóm thực hiện theo quy trình 
+sau:
+Ghi nhận lỗi: Người phát hiện mô tả lỗi, chức năng xảy ra lỗi và các bước tái hiện.
+Phân loại lỗi: Xác định mức độ ảnh hưởng của lỗi để ưu tiên xử lý.
+Phân công xử lý: PM phân công lỗi cho thành viên phụ trách Frontend, Backend hoặc bộ 
+phận liên quan.
+Sửa lỗi: Thành viên được giao kiểm tra nguyên nhân và thực hiện sửa chữa.
+Kiểm thử lại: Tester kiểm tra chức năng sau khi sửa lỗi để đảm bảo lỗi đã được khắc phục.
+Đóng lỗi: Cập nhật trạng thái hoàn thành khi kết quả kiểm thử đạt yêu cầu.
+Bảng 5.3. Phân loại mức độ lỗi
+Mức độ Mô tả Hướng xử lý
+Nghiêm trọng Làm hệ thống không hoạt động hoặc ảnh hưởng 
+đến dữ liệu, đơn hàng. Ưu tiên xử lý ngay.
+Cao Chức năng chính hoạt động sai hoặc không thể 
+sử dụng. Xử lý trước khi bàn giao.
+Trung bình Một chức năng phụ hoạt động chưa đúng nhưng 
+vẫn có cách sử dụng khác.
+Sắp xếp xử lý trong giai đoạn 
+kiểm thử.
+Thấp Lỗi giao diện hoặc hiển thị nhỏ, không ảnh 
+hưởng chức năng chính.
+Khắc phục khi có thời gian phù 
+hợp.
+
+PAGE 28
+28
+5.5 Đánh giá và nghiệm thu chất lượng
+Sản phẩm được xem xét nghiệm thu khi đáp ứng các điều kiện sau:
+Các chức năng chính của website hoạt động theo yêu cầu.
+Quy trình đặt hàng COD được kiểm thử thành công.
+Chức năng quản lý sách và đơn hàng hoạt động đúng.
+Chatbot AI có thể thực hiện các chức năng tư vấn trong phạm vi đã xác định.
+Không còn lỗi nghiêm trọng chưa được xử lý hoặc chấp thuận.
+Mã nguồn, cơ sở dữ liệu và tài liệu hướng dẫn được chuẩn bị để bàn giao.
+5.6 Kết luận chương
+Chương 5 trình bày kế hoạch quản lý chất lượng cho dự án thông qua các tiêu chí đánh 
+giá, kế hoạch kiểm thử, quy trình quản lý lỗi và điều kiện nghiệm thu. Việc thực hiện các 
+hoạt động này giúp nhóm kiểm soát chất lượng sản phẩm, phát hiện lỗi kịp thời và đảm 
+bảo website đáp ứng yêu cầu trước khi bàn giao.
+
+PAGE 29
+29
+CHƯƠNG 6 QUẢN LÝ NHÂN SỰ DỰ ÁN
+6.1 Mục tiêu quản lý nhân sự
+Quản lý nhân sự nhằm phân công công việc phù hợp với năng lực của từng thành viên, 
+theo dõi quá trình thực hiện và đánh giá mức độ đóng góp của mỗi người trong dự án.
+Các mục tiêu chính:
+Xác định rõ vai trò và trách nhiệm của từng thành viên.
+Đảm bảo công việc được phân công phù hợp với chuyên môn.
+Theo dõi tiến độ và chất lượng công việc.
+Đánh giá mức độ hoàn thành nhiệm vụ và tinh thần phối hợp.
+Kịp thời hỗ trợ thành viên khi gặp khó khăn trong quá trình thực hiện dự án.
+6.2 Cơ cấu tổ chức dự án
+Bảng 6.1. Danh sách nhân sự dự án
+ST
+T
+Họ và tên Vai trò Trách nhiệm chính
+1
+Nguyễn Trương Quốc 
+Huy
+Project Manager 
+(PM)
+Lập kế hoạch, phân công công việc, theo dõi 
+tiến độ và kiểm soát dự án.
+2 Trịnh Châu Hồng Phát Business Analyst 
+(BA)
+Thu thập, phân tích yêu cầu và xây dựng tài 
+liệu nghiệp vụ.
+3 Nguyễn Đình Kiên Frontend 
+Developer
+Xây dựng giao diện website và kết nối với 
+Backend API.
+4 Huỳnh Minh Nhựt Backend 
+Developer
+Xây dựng API, xử lý nghiệp vụ và kết nối cơ 
+sở dữ liệu.
+5 Nguyễn Trọng Khánh Tester/QA Lập kế hoạch kiểm thử, phát hiện lỗi và kiểm 
+tra chất lượng sản phẩm.
+6.3 Tiêu chí đánh giá nhân sự
+Để đánh giá mức độ đóng góp của từng thành viên, nhóm sử dụng các tiêu chí liên quan 
+đến tiến độ, chất lượng công việc, trách nhiệm và khả năng phối hợp.
+Các tiêu chí được áp dụng chung cho tất cả thành viên, không phụ thuộc vào vị trí đảm 
+nhiệm.
+Bảng 6.2. Tiêu chí đánh giá nhân sự
+ST
+T
+Tiêu chí Nội dung đánh giá Trọng số
+1
+Mức độ hoàn thành 
+công việc
+Hoàn thành các nhiệm vụ được phân công theo yêu 
+cầu. 30%
+2 Tiến độ thực hiện Đảm bảo thời gian hoàn thành công việc theo kế hoạch. 25%
+
+PAGE 30
+30
+ST
+T
+Tiêu chí Nội dung đánh giá Trọng số
+3 Chất lượng công việc Kết quả thực hiện đáp ứng yêu cầu, hạn chế sai sót. 20%
+4 Tinh thần trách nhiệm Chủ động thực hiện nhiệm vụ, báo cáo khó khăn và 
+chịu trách nhiệm với công việc. 15%
+5 Khả năng phối hợp Trao đổi thông tin, hỗ trợ và phối hợp với các thành 
+viên khác. 10%
+Tổng cộng 100%
+Thang điểm đánh giá
+Mỗi tiêu chí được chấm theo thang điểm từ 1 đến 5:
+Điểm Mức đánh giá Ý nghĩa
+5 Rất tốt Hoàn thành vượt yêu cầu, chủ động và có đóng góp nổi bật.
+4 Tốt Hoàn thành tốt nhiệm vụ, đáp ứng yêu cầu.
+3 Đạt Hoàn thành cơ bản nhiệm vụ được giao.
+2 Chưa tốt Hoàn thành một phần, còn tồn tại hạn chế.
+1 Kém Không hoàn thành nhiệm vụ hoặc ảnh hưởng đáng kể đến công việc 
+chung.
+Công thức tính điểm tổng:
+Điểm tổng = (Điểm tiêu chí 1 × 30%) + (Điểm tiêu chí 2 × 25%) + (Điểm tiêu chí 3 × 
+20%) + (Điểm tiêu chí 4 × 15%) + (Điểm tiêu chí 5 × 10%)
+Xếp loại đề xuất:
+Điểm tổng Xếp loại
+Từ 4,50 đến 5,00 Xuất sắc
+Từ 3,50 đến dưới 4,50 Tốt
+Từ 2,50 đến dưới 3,50 Đạt
+Từ 1,50 đến dưới 2,50 Chưa đạt
+Dưới 1,50 Kém
+6.4 Đánh giá các thành viên trong dự án
+Việc đánh giá thành viên được thực hiện dựa trên 5 tiêu chí đã xác định tại mục 6.3. Mỗi 
+thành viên được đánh giá theo nhiệm vụ và trách nhiệm tương ứng với vị trí đảm nhiệm.
+Nguyễn Trương Quốc Huy – Project Manager: Đánh giá khả năng lập kế hoạch, phân 
+công công việc, theo dõi tiến độ, quản lý rủi ro và điều phối nhóm.
+Trịnh Châu Hồng Phát – Business Analyst: Đánh giá khả năng thu thập yêu cầu, phân tích 
+nghiệp vụ, xây dựng tài liệu SRS và phối hợp với nhóm phát triển.
+
+PAGE 31
+31
+Nguyễn Đình Kiên – Frontend Developer: Đánh giá khả năng xây dựng giao diện, triển 
+khai chức năng phía người dùng và tích hợp API.
+Huỳnh Minh Nhựt – Backend Developer: Đánh giá khả năng xây dựng API, xử lý nghiệp 
+vụ, thiết kế và kết nối cơ sở dữ liệu.
+Nguyễn Trọng Khánh – Tester/QA: Đánh giá khả năng xây dựng kịch bản kiểm thử, phát 
+hiện lỗi, ghi nhận kết quả và kiểm thử lại sau khi sửa lỗi.
+Bảng 6.3. Bảng đánh giá thành viên
+Thành viên Công việc
+30%
+Tiến độ
+25%
+Chất 
+lượng
+20%
+Trách 
+nhiệm
+15%
+Phối hợp
+10% Tổng
+Nguyễn Trương Quốc Huy
+Trịnh Châu Hồng Phát
+Nguyễn Đình Kiên
+Huỳnh Minh Nhựt
+Nguyễn Trọng Khánh
+Bảng 6.3 là biểu mẫu chấm điểm theo trọng số. Các ô để trống chờ nhóm thống nhất điểm 
+dựa trên kết quả công việc; không tự suy diễn điểm cá nhân từ phân công.
+6.5 Nhận xét kết quả đánh giá
+Sau khi hoàn thành bảng đánh giá, nhóm tổng hợp kết quả để xác định mức độ đóng góp 
+của từng thành viên.
+Việc nhận xét tập trung vào các nội dung:
+Mức độ hoàn thành nhiệm vụ được phân công.
+Khả năng đảm bảo tiến độ theo kế hoạch.
+Chất lượng công việc và khả năng xử lý vấn đề.
+Tinh thần trách nhiệm trong quá trình thực hiện.
+Khả năng phối hợp và hỗ trợ các thành viên khác.
+Kết quả đánh giá là cơ sở để nhóm ghi nhận đóng góp, rút kinh nghiệm và cải thiện cách 
+phối hợp trong các dự án tiếp theo.
+6.6 Kết luận chương
+Chương 6 trình bày cơ cấu tổ chức, vai trò, trách nhiệm và phương pháp đánh giá nhân sự 
+trong dự án. Thông qua hệ thống tiêu chí và bảng đánh giá, nhóm có thể theo dõi mức độ 
+hoàn thành công việc, chất lượng thực hiện và sự đóng góp của từng thành viên. Qua đó, 
+việc quản lý nhân sự trở nên rõ ràng và có cơ sở đánh giá hơn.
+
+PAGE 32
+32
+CHƯƠNG 7 QUẢN LÝ TRUYỀN THÔNG
+7.1 Các bên liên quan và đối tượng nhận thông tin
+Trong quá trình thực hiện dự án, việc xác định các bên liên quan giúp đảm bảo thông tin 
+được truyền đạt đúng người, đúng thời điểm và đúng nội dung. Các đối tượng nhận thông 
+tin chính của dự án bao gồm:
+Đối tượng Vai trò Thông tin cần nhận
+Nguyễn Trương Quốc 
+Huy Project Manager (PM) Tiến độ, công việc, khó khăn và tình trạng dự án
+Trịnh Châu Hồng Phát Business Analyst (BA) Yêu cầu, phạm vi, thay đổi và tài liệu phân tích
+Nguyễn Đình Kiên Frontend Developer Yêu cầu giao diện, API, tiến độ và phản hồi kiểm 
+thử
+Huỳnh Minh Nhựt Backend Developer Yêu cầu nghiệp vụ, thiết kế dữ liệu, API và lỗi 
+hệ thống
+Nguyễn Trọng Khánh Tester/QA Chức năng cần kiểm thử, kết quả kiểm thử và lỗi 
+cần xử lý
+Giảng viên hướng dẫn Người giám sát dự án Tiến độ tổng thể, kết quả thực hiện và báo cáo dự 
+án
+7.2 Nhu cầu thông tin của dự án
+Các thành viên cần được cung cấp thông tin phù hợp với vai trò và nhiệm vụ được giao. 
+Những thông tin quan trọng trong dự án bao gồm:
+Thông tin tiến độ: Công việc đã hoàn thành, đang thực hiện và chưa thực hiện theo WBS.
+Thông tin phân công: Người phụ trách, thời gian bắt đầu, thời hạn hoàn thành và công 
+việc liên quan.
+Thông tin kỹ thuật: Yêu cầu chức năng, giao diện, API, cơ sở dữ liệu và các vấn đề phát 
+sinh.
+Thông tin kiểm thử: Lỗi được phát hiện, mức độ nghiêm trọng, người xử lý và kết quả 
+kiểm tra lại.
+Thông tin thay đổi: Các yêu cầu thay đổi về phạm vi, chức năng hoặc kế hoạch thực hiện.
+Thông tin báo cáo: Kết quả công việc, khó khăn và tình hình chung của dự án.
+7.3 Kênh và hình thức truyền thông
+Nhóm sử dụng các kênh trao đổi phù hợp với hoạt động quản lý và phát triển phần mềm.
+Kênh truyền thông Hình thức sử dụng Mục đích
+Zalo nhóm Tin nhắn, thông báo, nhắc 
+lịch Trao đổi công việc và cập nhật tiến độ
+
+PAGE 33
+33
+Kênh truyền thông Hình thức sử dụng Mục đích
+Họp nhóm trực tiếp hoặc 
+trực tuyến Thảo luận, báo cáo Giải quyết vấn đề và thống nhất kế 
+hoạch
+Tài liệu Word/Excel Văn bản, bảng biểu Lưu trữ WBS, kế hoạch và báo cáo
+GitHub Quản lý mã nguồn, ghi chú 
+thay đổi Phối hợp phát triển phần mềm
+Email Gửi tài liệu, báo cáo Trao đổi thông tin chính thức với giảng 
+viên
+7.4 Kế hoạch truyền thông
+Kế hoạch truyền thông được xây dựng nhằm đảm bảo các thành viên nắm được tiến độ và 
+nhiệm vụ của mình trong suốt thời gian thực hiện dự án.
+Nội dung truyền thông Tần suất Người thực hiện Đối tượng nhận
+Thông báo công việc theo 
+WBS
+Khi bắt đầu hoặc 
+thay đổi công việc PM Thành viên liên quan
+Cập nhật tiến độ Hằng tuần Từng thành viên PM và nhóm
+Nhắc lịch và thời hạn Trước thời hạn 
+hoàn thành
+PM hoặc AI 
+Agent Thành viên phụ trách
+Báo cáo khó khăn, lỗi phát 
+sinh Khi có vấn đề Thành viên phát 
+hiện PM và người liên quan
+Họp đánh giá tiến độ Hằng tuần hoặc 
+khi cần PM Toàn bộ nhóm
+Báo cáo kết quả dự án Theo yêu cầu PM Giảng viên hướng dẫn
+Thông tin công việc cần thể hiện rõ tên nhiệm vụ, người phụ trách, thời gian thực hiện và 
+trạng thái hoàn thành để hạn chế tình trạng bỏ sót hoặc chậm tiến độ.
+7.5 Theo dõi và xử lý vấn đề trao đổi thông tin
+Trong quá trình thực hiện, nhóm cần theo dõi việc trao đổi thông tin để hạn chế tình trạng 
+thông tin không đầy đủ, phản hồi chậm hoặc phân công không rõ ràng.
+Quy trình xử lý vấn đề truyền thông gồm các bước:
+Tiếp nhận vấn đề: Thành viên thông báo khi phát sinh thông tin chưa rõ ràng, thiếu dữ liệu 
+hoặc có sự cố trong quá trình trao đổi.
+Xác định nguyên nhân: PM kiểm tra nội dung, người liên quan và mức độ ảnh hưởng.
+Thông báo và phân công xử lý: PM trao đổi với thành viên phụ trách và xác định hướng 
+giải quyết.
+Theo dõi kết quả: Thành viên cập nhật tình trạng xử lý trong nhóm.
+Lưu trữ thông tin: Những nội dung quan trọng được ghi nhận để làm căn cứ theo dõi và 
+báo cáo.
+
+PAGE 34
+34
+Một số vấn đề truyền thông thường gặp và cách xử lý:
+Vấn đề Cách xử lý
+Thành viên phản hồi chậm PM nhắc nhở và xác nhận lại thời hạn phản hồi
+Nội dung công việc không rõ ràng PM hoặc BA giải thích và cập nhật yêu cầu
+Hai thành viên hiểu khác nhau về 
+nhiệm vụ Tổ chức trao đổi để thống nhất cách thực hiện
+Công việc có nguy cơ trễ hạn PM kiểm tra nguyên nhân và điều chỉnh phân công nếu cần
+Thông tin bị thất lạc Lưu lại nội dung quan trọng trong tài liệu chung của dự án
+7.6 Đề xuất trợ lý AI hỗ trợ truyền thông trên Zalo
+Nhằm hỗ trợ quản lý truyền thông, nhóm đề xuất sử dụng AI Agent để tự động hóa việc 
+soạn thông báo, nhắc lịch làm việc và cập nhật tiến độ dựa trên WBS của dự án.
+Đây là đề xuất trong kế hoạch truyền thông, chưa phải chức năng đã tích hợp trong 
+website Libra. Trợ lý chỉ soạn thông báo từ WBS; việc gửi tự động cần kênh kết nối phù 
+hợp và quyền do người quản lý cấp.
+Prompt đề xuất cho AI Agent:
+Bạn là AI Agent hỗ trợ quản lý truyền thông cho dự án phần mềm "Xây dựng website bán 
+và thanh toán sách cho thư viện".
+1. Vai trò
+Bạn đóng vai trò trợ lý Project Manager (PM), có nhiệm vụ theo dõi lịch làm việc theo 
+WBS, soạn thông báo và nhắc nhở các thành viên về nhiệm vụ được giao.
+2. Thông tin nhóm dự án
+Nguyễn Trương Quốc Huy: Project Manager (PM).
+Trịnh Châu Hồng Phát: Business Analyst (BA).
+Nguyễn Đình Kiên: Frontend Developer.
+Huỳnh Minh Nhựt: Backend Developer.
+Nguyễn Trọng Khánh: Tester/QA.
+3. Nhiệm vụ của AI Agent
+Đọc và phân tích dữ liệu WBS do PM cung cấp.
+Xác định tên công việc, người phụ trách, ngày bắt đầu và ngày kết thúc.
+Nhắc thành viên khi sắp đến thời hạn thực hiện công việc.
+Thông báo các nhiệm vụ đang thực hiện, sắp đến hạn hoặc có nguy cơ trễ hạn.
+Yêu cầu thành viên cập nhật tiến độ khi cần thiết.
+Tổng hợp tình hình công việc để PM theo dõi.
+Soạn thông báo ngắn gọn, dễ hiểu và phù hợp với nhóm Zalo.
+
+PAGE 35
+35
+4. Quy tắc nhắc lịch
+Nhắc trước thời hạn hoàn thành 1 ngày.
+Nhắc vào ngày bắt đầu công việc.
+Nếu công việc đã quá hạn nhưng chưa hoàn thành, gửi thông báo nhắc nhở.
+Nếu công việc đã hoàn thành, không tiếp tục gửi thông báo nhắc việc.
+Nếu thiếu thông tin người phụ trách hoặc thời hạn, yêu cầu PM bổ sung.
+Không tự ý thay đổi thời gian hoặc người phụ trách trong WBS.
+5. Mẫu thông báo trên Zalo
+Thông báo bắt đầu công việc:
+[THÔNG BÁO CÔNG VIỆC]
+Công việc: [Tên công việc]
+Người phụ trách: [Tên thành viên]
+Ngày bắt đầu: [Ngày bắt đầu]
+Hạn hoàn thành: [Ngày kết thúc]
+Trạng thái: Chưa thực hiện
+Đề nghị thành viên phụ trách thực hiện đúng kế hoạch và cập nhật tiến độ cho PM.
+Thông báo nhắc hạn:
+[NHẮC NHỞ TIẾN ĐỘ]
+Công việc [Tên công việc] sắp đến hạn hoàn thành vào ngày [Ngày kết thúc].
+Người phụ trách: [Tên thành viên]
+Vui lòng kiểm tra tiến độ và thông báo cho PM nếu có khó khăn phát sinh.
+Thông báo công việc quá hạn:
+[CẢNH BÁO QUÁ HẠN]
+Công việc [Tên công việc] đã quá thời hạn theo kế hoạch WBS.
+Người phụ trách: [Tên thành viên]
+Đề nghị cập nhật tình trạng thực hiện và nguyên nhân chậm tiến độ để PM có phương án 
+xử lý.
+6. Báo cáo tiến độ
+Định kỳ hằng tuần, tổng hợp:
+Tổng số công việc trong WBS.
+Số công việc đã hoàn thành.
+Số công việc đang thực hiện.
+Số công việc chưa bắt đầu.
+Số công việc quá hạn.
+
+PAGE 36
+36
+Danh sách thành viên cần cập nhật tiến độ.
+7. Nguyên tắc hoạt động
+Chỉ sử dụng dữ liệu WBS được PM cung cấp.
+Không tự ý tạo nhiệm vụ hoặc thay đổi kế hoạch.
+Không tự đánh dấu công việc hoàn thành khi chưa có xác nhận.
+Nội dung thông báo phải chính xác, ngắn gọn và dễ hiểu.
+Các thay đổi quan trọng phải được PM xác nhận trước khi thông báo chính thức.
+Yêu cầu đầu ra: Tạo nội dung thông báo và báo cáo tiến độ theo đúng dữ liệu WBS để gửi 
+đến nhóm Zalo dự án.
+7.7 Kết luận chương
+Quản lý truyền thông giúp các thành viên trao đổi thông tin rõ ràng, phối hợp công việc và 
+theo dõi tiến độ trong quá trình thực hiện dự án. Việc đề xuất sử dụng AI Agent để hỗ trợ 
+nhắc lịch theo WBS có thể giảm bớt thao tác thủ công cho PM, hạn chế bỏ sót thời hạn và 
+nâng cao hiệu quả phối hợp giữa các thành viên.
+
+PAGE 37
+37
+CHƯƠNG 8 QUẢN LÝ RỦI RO
+8.1 Mục tiêu quản lý rủi ro
+Quản lý rủi ro nhằm xác định, đánh giá và đưa ra phương án xử lý những vấn đề có thể 
+xảy ra trong quá trình thực hiện dự án. Việc quản lý rủi ro giúp nhóm chủ động ứng phó 
+với các tình huống phát sinh, hạn chế ảnh hưởng đến tiến độ, chi phí và chất lượng sản 
+phẩm.
+Đối với dự án xây dựng website bán và thanh toán sách cho thư viện, nhóm tập trung quản 
+lý các rủi ro liên quan đến kỹ thuật, nhân sự, tiến độ, dữ liệu và quá trình kiểm thử hệ 
+thống.
+8.2 Nhận diện rủi ro
+Trong quá trình thực hiện dự án, nhóm xác định một số rủi ro có thể phát sinh như sau:
+Mã 
+rủi ro Rủi ro Nguyên nhân có thể xảy ra Ảnh hưởng
+R01 Chậm tiến độ thực hiện Công việc kéo dài hoặc phân bổ 
+thời gian chưa hợp lý
+Ảnh hưởng thời hạn hoàn 
+thành dự án
+R02 Thành viên không hoàn 
+thành nhiệm vụ
+Thiếu thời gian, kinh nghiệm 
+hoặc phối hợp chưa tốt Ảnh hưởng tiến độ chung
+R03 Yêu cầu thay đổi trong 
+quá trình phát triển
+Yêu cầu ban đầu chưa được xác 
+định đầy đủ Phát sinh thêm công việc
+R04 Lỗi giao diện website Sai sót trong quá trình lập trình 
+hoặc hiển thị trên các thiết bị
+Ảnh hưởng trải nghiệm người 
+dùng
+R05 Lỗi kết nối Frontend và 
+Backend
+API không thống nhất hoặc xử 
+lý dữ liệu chưa chính xác
+Các chức năng hoạt động 
+không đúng
+R06 Lỗi cơ sở dữ liệu Thiết kế hoặc truy vấn dữ liệu 
+chưa phù hợp Sai lệch hoặc mất dữ liệu
+R07 Lỗi đăng nhập và phân 
+quyền
+Xử lý xác thực hoặc kiểm soát 
+quyền chưa đầy đủ
+Ảnh hưởng đến bảo mật hệ 
+thống
+R08 Chức năng đặt hàng COD 
+hoạt động không đúng
+Xử lý giỏ hàng, đơn hàng hoặc 
+trạng thái đơn chưa chính xác Ảnh hưởng quá trình đặt hàng
+R09 Chatbot tư vấn sách phản 
+hồi không chính xác
+Dữ liệu tư vấn chưa đầy đủ 
+hoặc dịch vụ tích hợp gặp lỗi
+Ảnh hưởng trải nghiệm người 
+dùng
+R10 Phát hiện lỗi ở giai đoạn 
+cuối
+Thời gian kiểm thử chưa đủ 
+hoặc kiểm thử chưa bao quát
+Khó khăn trong việc hoàn 
+thiện sản phẩm
+8.3 Phân tích và đánh giá rủi ro
+Sau khi nhận diện, nhóm tiến hành đánh giá rủi ro dựa trên hai yếu tố:
+Khả năng xảy ra: Mức độ có thể xuất hiện của rủi ro.
+Mức độ ảnh hưởng: Mức độ tác động của rủi ro đến dự án nếu xảy ra.
+
+PAGE 38
+38
+Nhóm sử dụng thang đánh giá từ 1 đến 3:
+Điểm Khả năng xảy ra Mức độ ảnh hưởng
+1 Thấp Nhẹ
+2 Trung bình Trung bình
+3 Cao Nghiêm trọng
+Mức độ ưu tiên được xác định bằng công thức:
+Điểm rủi ro = Khả năng xảy ra × Mức độ ảnh hưởng
+Phân loại mức độ rủi ro:
+Từ 1 đến 2 điểm: Rủi ro thấp.
+Từ 3 đến 4 điểm: Rủi ro trung bình.
+Từ 6 đến 9 điểm: Rủi ro cao.
+Bảng đánh giá rủi ro đề xuất:
+Mã Rủi ro Khả năng Ảnh 
+hưởng Điểm Mức độ
+R01 Chậm tiến độ 3 3 9 Cao
+R02 Thành viên không hoàn thành nhiệm vụ 2 3 6 Cao
+R03 Thay đổi yêu cầu 2 2 4 Trung bình
+R04 Lỗi giao diện 2 2 4 Trung bình
+R05 Lỗi kết nối Frontend và Backend 3 3 9 Cao
+R06 Lỗi cơ sở dữ liệu 2 3 6 Cao
+R07 Lỗi đăng nhập và phân quyền 2 3 6 Cao
+R08 Lỗi đặt hàng COD 2 3 6 Cao
+R09 Chatbot phản hồi không chính xác 2 2 4 Trung bình
+R10 Phát hiện lỗi ở giai đoạn cuối 3 3 9 Cao
+Lưu ý: Điểm số trong bảng là mức đánh giá đề xuất phục vụ lập kế hoạch quản lý rủi ro, 
+không phải số liệu thống kê rủi ro thực tế.
+8.4 Phương án phòng ngừa và xử lý rủi ro
+Để hạn chế ảnh hưởng của các rủi ro, nhóm đề xuất phương án phòng ngừa và xử lý như 
+sau:
+Mã Rủi ro Phương án phòng ngừa và xử lý
+R01 Chậm tiến độ Theo dõi WBS thường xuyên, ưu tiên công việc quan trọng 
+và điều chỉnh phân công khi cần thiết
+R02 Thành viên không hoàn thành 
+nhiệm vụ
+Theo dõi tiến độ từng thành viên, hỗ trợ hoặc phân chia lại 
+công việc phù hợp
+
+PAGE 39
+39
+Mã Rủi ro Phương án phòng ngừa và xử lý
+R03 Thay đổi yêu cầu Ghi nhận yêu cầu thay đổi, đánh giá ảnh hưởng và thống 
+nhất với PM trước khi thực hiện
+R04 Lỗi giao diện Kiểm tra giao diện trên nhiều kích thước màn hình và sửa 
+lỗi trước khi nghiệm thu
+R05 Lỗi kết nối Frontend và 
+Backend
+Thống nhất cấu trúc API, kiểm tra dữ liệu trao đổi và phối 
+hợp giữa FE và BE
+R06 Lỗi cơ sở dữ liệu Kiểm tra thiết kế dữ liệu, sao lưu và kiểm tra các thao tác 
+truy vấn
+R07 Lỗi đăng nhập và phân quyền Kiểm tra xác thực JWT, băm mật khẩu và quyền truy cập 
+của từng vai trò
+R08 Lỗi đặt hàng COD Kiểm thử quy trình giỏ hàng, tạo đơn hàng và cập nhật trạng 
+thái đơn
+R09 Chatbot phản hồi không chính 
+xác
+Kiểm tra dữ liệu tư vấn, giới hạn nội dung trả lời và cung 
+cấp thông báo khi dịch vụ gặp lỗi
+R10 Phát hiện lỗi ở giai đoạn cuối Thực hiện kiểm thử theo từng chức năng ngay sau khi phát 
+triển và kiểm thử tích hợp trước khi hoàn thành
+8.5 Theo dõi và kiểm soát rủi ro
+Trong quá trình thực hiện dự án, PM chịu trách nhiệm theo dõi các rủi ro và phối hợp với 
+thành viên liên quan để xử lý khi có vấn đề phát sinh.
+Hoạt động theo dõi và kiểm soát rủi ro gồm:
+Theo dõi rủi ro: Kiểm tra các rủi ro đã được nhận diện và phát hiện rủi ro mới.
+Cập nhật tình trạng: Ghi nhận rủi ro đã xảy ra, đang có nguy cơ xảy ra hoặc đã được xử lý.
+Đánh giá mức độ ảnh hưởng: Xác định tác động đến tiến độ, chi phí và chất lượng dự án.
+Thực hiện phương án xử lý: Phân công thành viên phụ trách và triển khai biện pháp phù 
+hợp.
+Kiểm tra kết quả: Đánh giá hiệu quả xử lý và cập nhật tình trạng rủi ro.
+Việc theo dõi được thực hiện trong các buổi họp nhóm và quá trình cập nhật tiến độ theo 
+WBS. Những rủi ro có mức độ ảnh hưởng cao cần được ưu tiên xử lý và báo cáo cho PM.
+8.6 Kết luận chương
+Quản lý rủi ro giúp nhóm chủ động nhận diện và kiểm soát những vấn đề có thể ảnh 
+hưởng đến quá trình thực hiện dự án. Thông qua việc xác định rủi ro, đánh giá mức độ ảnh 
+hưởng và xây dựng phương án phòng ngừa, nhóm có thể hạn chế các sự cố về kỹ thuật, 
+nhân sự và tiến độ. Đây là cơ sở để dự án được triển khai ổn định và hoàn thành theo kế 
+hoạch đề ra.
+
+PAGE 40
+40
+CHƯƠNG 9 QUẢN LÝ MUA SẮM
+9.1 Mục tiêu quản lý mua sắm
+Quản lý mua sắm nhằm xác định và quản lý các sản phẩm, dịch vụ và công cụ cần thiết 
+phục vụ quá trình phát triển và triển khai dự án. Việc mua sắm cần đảm bảo phù hợp với 
+nhu cầu sử dụng, ngân sách và thời gian thực hiện.
+Đối với dự án xây dựng website bán và thanh toán sách cho thư viện, nhóm tập trung vào 
+các nhu cầu như môi trường lưu trữ, cơ sở dữ liệu, công cụ phát triển phần mềm và các 
+dịch vụ hỗ trợ tích hợp chatbot tư vấn sách.
+9.2 Xác định nhu cầu mua sắm
+Dựa trên phạm vi và công nghệ sử dụng của dự án, nhóm xác định một số nhu cầu mua 
+sắm hoặc sử dụng dịch vụ như sau:
+ST
+T
+Hạng mục Mục đích sử dụng Hình thức
+1 Tên miền (Domain) Cung cấp địa chỉ truy cập website Mua hoặc đăng ký
+2 Hosting/Server Lưu trữ và vận hành website, Backend 
+API
+Thuê hoặc sử dụng 
+dịch vụ có sẵn
+3 Dịch vụ cơ sở dữ liệu Lưu trữ thông tin sách, khách hàng và đơn 
+hàng
+Sử dụng máy chủ có 
+sẵn hoặc thuê dịch vụ
+4
+Dịch vụ API hỗ trợ 
+chatbot Hỗ trợ chức năng tư vấn sách Sử dụng dịch vụ phù 
+hợp
+5
+Công cụ phát triển 
+phần mềm
+Hỗ trợ lập trình, kiểm thử và quản lý mã 
+nguồn
+Ưu tiên công cụ miễn 
+phí hoặc có sẵn
+6 Công cụ quản lý dự án Theo dõi tiến độ và phân công công việc Sử dụng công cụ phù 
+hợp với nhóm
+Các hạng mục trên được đề xuất dựa trên nhu cầu của dự án. Việc lựa chọn mua mới hay 
+sử dụng công cụ có sẵn phụ thuộc vào điều kiện thực tế và ngân sách của nhóm.
+9.3 Lựa chọn nhà cung cấp và công cụ
+Khi lựa chọn nhà cung cấp hoặc công cụ, nhóm cần xem xét các tiêu chí nhằm đảm bảo 
+sản phẩm và dịch vụ đáp ứng yêu cầu của dự án.
+Các tiêu chí lựa chọn gồm:
+Chi phí: Phù hợp với ngân sách dự kiến của dự án.
+Chất lượng: Đáp ứng yêu cầu kỹ thuật và mục đích sử dụng.
+Tính ổn định: Đảm bảo khả năng hoạt động trong thời gian triển khai.
+Khả năng tương thích: Phù hợp với công nghệ sử dụng như ASP.NET Core Web API, 
+.NET 8 và Microsoft SQL Server.
+
+PAGE 41
+41
+Hỗ trợ kỹ thuật: Có tài liệu hướng dẫn hoặc hỗ trợ khi xảy ra sự cố.
+Bảo mật: Đảm bảo an toàn cho dữ liệu và thông tin của hệ thống.
+Bảng tiêu chí lựa chọn đề xuất:
+Tiêu chí Nội dung đánh giá
+Giá cả Chi phí sử dụng hợp lý
+Chất lượng Đáp ứng yêu cầu của dự án
+Tính ổn định Hạn chế gián đoạn dịch vụ
+Tương thích Phù hợp với công nghệ của hệ thống
+Bảo mật Có biện pháp bảo vệ dữ liệu
+Hỗ trợ Có tài liệu và hỗ trợ kỹ thuật
+9.4 Kế hoạch mua sắm
+Nhóm xây dựng kế hoạch mua sắm theo từng giai đoạn để đảm bảo các công cụ và dịch 
+vụ cần thiết được chuẩn bị đúng thời điểm.
+Hạng mục Thời điểm dự kiến Người phụ 
+trách Kết quả cần đạt
+Xác định nhu cầu sử dụng Giai đoạn lập kế 
+hoạch PM và BA Danh sách nhu cầu mua sắm
+Lựa chọn công cụ phát triển Giai đoạn chuẩn bị FE và BE Công cụ phù hợp với dự án
+Chuẩn bị môi trường lưu 
+trữ Giai đoạn triển khai BE Môi trường vận hành 
+Backend và dữ liệu
+Chuẩn bị dịch vụ chatbot Giai đoạn tích hợp 
+chức năng BE Dịch vụ hỗ trợ tư vấn sách
+Kiểm tra và đánh giá dịch 
+vụ
+Giai đoạn kiểm thử Tester/QA và BE Xác nhận dịch vụ đáp ứng 
+yêu cầu
+Kế hoạch trên là kế hoạch đề xuất. Thời điểm thực hiện thực tế có thể thay đổi tùy theo 
+tiến độ và nhu cầu của dự án.
+9.5 Quản lý và nghiệm thu mua sắm
+Sau khi lựa chọn và chuẩn bị các sản phẩm hoặc dịch vụ cần thiết, nhóm cần kiểm tra để 
+đảm bảo chúng đáp ứng yêu cầu sử dụng.
+Quy trình quản lý và nghiệm thu gồm các bước:
+Kiểm tra thông tin: Xác nhận sản phẩm hoặc dịch vụ phù hợp với nhu cầu đã xác định.
+Kiểm tra kỹ thuật: Kiểm tra khả năng tương thích với hệ thống và công nghệ sử dụng.
+Đánh giá chất lượng: Kiểm tra tính ổn định, khả năng hoạt động và các yêu cầu bảo mật.
+Xác nhận sử dụng: PM phối hợp với thành viên phụ trách xác nhận kết quả kiểm tra.
+
+PAGE 42
+42
+Lưu trữ thông tin: Ghi nhận chi phí, thông tin dịch vụ, thời hạn sử dụng và tài liệu liên 
+quan nếu có.
+Trong quá trình sử dụng, nếu phát hiện dịch vụ không đáp ứng yêu cầu, thành viên phụ 
+trách cần thông báo cho PM để đánh giá và lựa chọn phương án thay thế phù hợp.
+9.6 Kết luận chương
+Quản lý mua sắm giúp nhóm xác định và chuẩn bị các sản phẩm, dịch vụ và công cụ cần 
+thiết cho quá trình phát triển website. Việc lựa chọn nhà cung cấp dựa trên các tiêu chí về 
+chi phí, chất lượng, khả năng tương thích và bảo mật giúp hạn chế phát sinh không cần 
+thiết. Qua đó, nhóm có thể sử dụng nguồn lực hợp lý và đảm bảo các điều kiện phục vụ 
+quá trình triển khai dự án.
+
+PAGE 43
+43
+CHƯƠNG 10 TRÌNH BÀY SẢN PHẨM LIBRA
+10.1 Tổng quan sản phẩm
+Libra là website bán sách trực tuyến hỗ trợ khách hàng tìm kiếm và chọn sách, đọc phần 
+giới thiệu, lưu sách yêu thích, quản lý giỏ hàng, địa chỉ giao hàng và đơn hàng. Luồng 
+giao dịch chính của phiên bản trình diễn là đặt hàng và thanh toán khi nhận hàng (COD). 
+Tạo đơn COD là ghi nhận yêu cầu mua hàng, chưa đồng nghĩa với việc đã thu tiền.
+Hệ thống tách giao diện và máy chủ nghiệp vụ, dùng SQL Server để lưu dữ liệu. Danh 
+mục trình diễn có 70 sản phẩm. Phân quyền được áp dụng cho bốn vai trò: Customer, 
+Staff, Manager và Admin. Các hình ở mục 10.6 được chụp trực tiếp từ phiên bản chạy 
+trên máy tính ngày 30/10/2026.
+10.2 Công nghệ sử dụng
+Thành phần Công nghệ Vai trò
+Giao diện HTML5, CSS3, JavaScript thuần Xây dựng trang và xử lý thao tác; không sử dụng 
+React hoặc Vue.
+Bố cục Grid, Flexbox, media queries Điều chỉnh giao diện theo kích thước màn hình.
+Máy chủ giao 
+diện Node.js Phục vụ các tệp giao diện trong môi trường cục 
+bộ.
+Backend C#, ASP.NET Core Web API 
+.NET 8 Cung cấp REST API và kiểm soát nghiệp vụ.
+Truy xuất dữ liệu Entity Framework Core 8 Ánh xạ mô hình và làm việc với SQL Server.
+Cơ sở dữ liệu Microsoft SQL Server Lưu tài khoản, sách, giỏ hàng, đơn hàng và thông 
+báo.
+Giao tiếp Fetch API, REST, JSON Trao đổi dữ liệu giữa giao diện và backend.
+Xác thực JWT Bearer, BCrypt Xác thực phiên, kiểm tra quyền và băm mật khẩu.
+Tư vấn sách Dịch vụ Gemini và bộ gợi ý cục 
+bộ
+Tư vấn dựa trên danh mục; dùng phương án cục 
+bộ khi dịch vụ AI không sẵn sàng.
+Công cụ Visual Studio, Swagger, bộ kiểm 
+thử Node.js
+Phát triển backend, tra cứu API và kiểm thử tự 
+động.
+10.3 Chức năng và phân quyền
+10.3.1 Chức năng dành cho khách hàng
+Nhóm chức năng Nội dung
+Tài khoản Đăng ký, đăng nhập, đăng xuất; điều hướng theo vai trò và xử lý phiên hết 
+hạn.
+Khám phá sách Trang chủ, danh sách, tìm tên sách hoặc tác giả, lọc danh mục và giá tối đa, 
+phân trang, chi tiết và sách liên quan.
+
+PAGE 44
+44
+Nhóm chức năng Nội dung
+Đọc thử Mở nội dung giới thiệu hoặc đoạn xem trước. Backend kiểm tra quyền trước 
+khi cung cấp nội dung được mở khóa.
+Yêu thích Lưu hoặc bỏ sách trong danh sách yêu thích theo tài khoản.
+Giỏ hàng Thêm sách, tăng giảm số lượng, xóa, chọn từng sách hoặc chọn tất cả; chỉ 
+thanh toán các sách đã chọn.
+Địa chỉ Thêm, sửa, xóa địa chỉ và chọn địa chỉ mặc định.
+Ưu đãi và COD Áp dụng mã phù hợp, tính phí giao hàng, xem tổng tiền và xác nhận đơn COD.
+Đơn hàng Xem lịch sử, chi tiết và trạng thái; hủy khi trạng thái cho phép.
+Tư vấn sách Gửi câu hỏi về nhu cầu đọc; xem gợi ý và mở chi tiết sản phẩm liên quan.
+Thông báo Xem thông báo theo tài khoản, số chưa đọc; đánh dấu từng thông báo hoặc đọc 
+tất cả.
+10.3.2 Chức năng dành cho nhân sự vận hành
+Vai trò Chức năng chính Trang
+Nhân viên Staff Xem và lọc đơn hàng; cập nhật trạng thái theo quyền; xem 
+tồn kho. Nhân viên
+Quản lý 
+Manager
+Xử lý đơn; thêm sách; cập nhật giá và tồn kho; xem thống 
+kê.
+Quản lý và Thống 
+kê
+Quản trị viên 
+Admin
+Quản lý tài khoản, trạng thái hoạt động và vai trò; truy cập 
+các chức năng quản lý.
+Quản trị, Quản lý và 
+Thống kê
+Giao diện ẩn chức năng không thuộc quyền của người dùng; backend vẫn phải kiểm tra 
+quyền của từng yêu cầu. Customer và Staff không được truy cập dashboard; danh sách và 
+phân quyền tài khoản thuộc Admin. Một số chức năng có API nhưng chưa có biểu mẫu 
+riêng trên giao diện, như sửa đầy đủ thông tin sách, ngừng kinh doanh sách và quản lý nội 
+dung điện tử.
+10.3.3 Thống kê và thông báo
+Dashboard dành cho Manager và Admin, gồm các chỉ số doanh thu, số đơn hàng, khách 
+hàng, sách bán chạy và sách tồn kho thấp; có bộ lọc khoảng thời gian. Thông báo được tải 
+từ backend theo tài khoản, cập nhật định kỳ và hỗ trợ đánh dấu đã đọc. Đây là thông báo 
+trong website, chưa triển khai thông báo đẩy, email hay SMS.
+10.4 Quy trình xử lý nghiệp vụ
+1. Khách hàng tìm sách, xem chi tiết hoặc nội dung đọc thử và thêm sách vào giỏ.
+2. Trong giỏ hàng, khách chọn các sản phẩm cần mua, sửa số lượng và nhập mã ưu đãi 
+nếu có.
+3. Backend tính lại giá, mức giảm và phí vận chuyển. Khách kiểm tra địa chỉ giao hàng, 
+chọn COD và xác nhận.
+
+PAGE 45
+45
+4. Hệ thống lưu đơn hàng; nhân viên tiếp nhận và chuyển trạng thái theo quy trình xử lý.
+5. Khách theo dõi đơn hàng và thông báo. Đơn COD đủ điều kiện hoàn tất mới được dùng 
+để xác định quyền đọc nội dung đã mua.
+Với tư vấn sách, backend tìm các sản phẩm đang cung cấp theo chủ đề, tên sách hoặc tác 
+giả rồi tạo câu trả lời. Dữ liệu gợi ý lấy từ danh mục của Libra. Khi không gọi được dịch 
+vụ AI, bộ gợi ý cục bộ trả lời theo dữ liệu đã lọc; hệ thống không mặc định có thông tin 
+đầy đủ về mọi sách trên thị trường.
+10.5 Kiến trúc và dữ liệu
+Luồng chính: Trình duyệt → REST API → lớp xử lý nghiệp vụ → Entity Framework 
+Core → SQL Server. Backend xác thực JWT, phân quyền, kiểm tra dữ liệu và xử lý đơn 
+hàng. API key của dịch vụ AI nằm ở backend, không đưa vào mã JavaScript phía khách 
+hàng.
+Nhóm dữ liệu Mục đích
+Tài khoản và địa chỉ Xác định người dùng, vai trò, trạng thái và thông tin giao hàng.
+Sách và nội dung Lưu thông tin sản phẩm, giá, ảnh bìa, tồn kho; cung cấp phần xem trước 
+và nội dung theo quyền.
+Giỏ hàng và yêu thích Lưu lựa chọn mua và danh sách quan tâm theo tài khoản.
+Đơn hàng và chi tiết Ghi nhận sách, số lượng, đơn giá, phí giao hàng, giảm giá và trạng thái.
+Thông báo Lưu nội dung, người nhận, trạng thái đọc và thời điểm tạo.
+10.6 Giao diện sản phẩm
+Các màn hình sau minh họa giao diện và dữ liệu của phiên bản trình diễn. Ảnh chụp 
+không thay thế biên bản kiểm thử hoặc xác nhận đã hoàn thành giao dịch thực tế.
+
+PAGE 46
+46
+10.6.1 Trang chủ
+Trang chủ sử dụng tông xanh đậm và cam, trình bày lời giới thiệu, lối vào danh mục và 
+các nhóm sách. Thanh tìm kiếm và điều hướng giúp người dùng chuyển nhanh đến khu 
+vực cần sử dụng.
+Hình 10.1 Trang chủ trên website Libra
+
+PAGE 47
+47
+10.6.2 Danh sách sách
+Danh sách hiển thị bìa, tác giả, giá và các thao tác mua sách. Bộ lọc hỗ trợ danh mục và 
+mức giá tối đa; phân trang giúp giảm số lượng sản phẩm hiển thị mỗi lần.
+Hình 10.2 Danh sách sách trên website Libra
+
+PAGE 48
+48
+10.6.3 Chi tiết sách
+Màn hình chi tiết trình bày thông tin sản phẩm và nút thêm vào giỏ hàng. Người dùng có 
+thể chuyển xuống phần đọc thử trước khi quyết định mua.
+Hình 10.3 Chi tiết sách trên website Libra
+
+PAGE 49
+49
+10.6.4 Nội dung đọc thử
+Phần đọc thử lấy dữ liệu từ backend. Nội dung giới thiệu được gắn nhãn để phân biệt với 
+trích đoạn nguyên tác; chỉ những nội dung thực sự đã nạp mới có thể cung cấp cho người 
+mua.
+Hình 10.4 Nội dung đọc thử trên website Libra
+
+PAGE 50
+50
+10.6.5 Đăng nhập
+Người dùng đăng nhập bằng email và mật khẩu. Hệ thống xác định vai trò từ tài khoản; 
+khách hàng không được tự chọn hoặc tự cấp quyền quản trị khi đăng ký.
+Hình 10.5 Đăng nhập trên website Libra
+
+PAGE 51
+51
+10.6.6 Giỏ hàng
+Khách hàng chọn từng sách hoặc toàn bộ giỏ, điều chỉnh số lượng, xóa sách và áp dụng 
+mã ưu đãi. Tổng tiền phản ánh các sản phẩm được chọn; sách chưa chọn được giữ lại 
+trong giỏ.
+Hình 10.6 Giỏ hàng trên website Libra
+
+PAGE 52
+52
+10.6.7 Đặt hàng COD
+Màn hình đặt hàng yêu cầu thông tin nhận hàng, phương thức COD và xác nhận kiểm tra 
+dữ liệu. Tổng tiền được đối chiếu với backend trước khi tạo đơn; ảnh chỉ minh họa bước 
+nhập thông tin.
+Hình 10.7 Đặt hàng COD trên website Libra
+
+PAGE 53
+53
+10.6.8 Trang quản lý
+Khu vực quản lý cung cấp thao tác thêm sách và chỉnh sửa giá, số lượng tồn kho. Dữ liệu 
+được gửi tới backend và phải vượt qua kiểm tra quyền Manager hoặc Admin.
+Hình 10.8 Trang quản lý trên website Libra
+
+PAGE 54
+54
+10.6.9 Trang quản trị tài khoản
+Quản trị viên xem danh sách tài khoản, thay đổi vai trò và trạng thái hoạt động theo 
+quyền. Chức năng này không được cấp cho tài khoản Khách hàng, Nhân viên hoặc Quản 
+lý.
+Hình 10.9 Trang quản trị tài khoản trên website Libra
+
+PAGE 55
+55
+10.6.10 Dashboard thống kê
+Dashboard tổng hợp các chỉ số theo khoảng thời gian được chọn. Dữ liệu doanh thu cần 
+đọc cùng điều kiện trạng thái đơn hàng; đơn vừa tạo không đồng nghĩa đã thu được tiền.
+Hình 10.10 Dashboard thống kê trên website Libra
+
+PAGE 56
+56
+10.6.11 Tư vấn sách
+Cửa sổ tư vấn cho phép nhập nhu cầu đọc và mở các sách được gợi ý. Trong môi trường 
+trình diễn, câu trả lời có thể do bộ gợi ý cục bộ cung cấp khi dịch vụ AI bên ngoài không 
+sẵn sàng.
+Hình 10.11 Tư vấn sách trên website Libra
+
+PAGE 57
+57
+10.6.12 Thông báo trong website
+Bảng thông báo cung cấp trạng thái chưa đọc, nút tải lại và đọc tất cả. Khi tài khoản chưa 
+phát sinh sự kiện, giao diện hiển thị trạng thái chưa có thông báo.
+Hình 10.12 Thông báo trong website trên website Libra
+10.7 Kết quả và phạm vi kiểm chứng
+Phiên bản hiện có đã xây dựng giao diện khách hàng, các trang theo vai trò và các API 
+nghiệp vụ chính. Luồng truy cập danh mục, đăng nhập, phân quyền, giỏ hàng, địa chỉ, đơn 
+hàng, nội dung đọc, thống kê và thông báo đã có triển khai. Kết quả kiểm thử API trước 
+đó được lưu cùng dự án; việc chụp giao diện trong báo cáo chỉ xác nhận các màn hình đã 
+tải được tại thời điểm ghi nhận.
+Phần thông báo đã được kiểm tra sau khi bổ sung bảng dữ liệu: bốn vai trò lấy danh sách 
+thành công; khách hàng đánh dấu thông báo của mình đã đọc; tài khoản khác không được 
+đánh dấu thông báo đó. Khi bàn giao, tester cần thực hiện lại trên đúng cơ sở dữ liệu và 
+phiên bản mã nguồn nộp bài.
+Nội dung Phạm vi hiện tại
+Thanh toán Đặt hàng COD; thanh toán online đang tắt, chưa xác nhận tích hợp thu tiền 
+thật.
+AI Có kết nối dịch vụ và phương án dự phòng cục bộ; chưa duy trì ngữ cảnh hội 
+thoại nhiều lượt ở backend.
+Đọc nội dung Có xem trước và kiểm tra quyền đọc; không mặc định mọi sản phẩm có đầy 
+đủ nội dung bản quyền.
+Quản lý sách Giao diện thêm sách, sửa giá và tồn; chỉnh sửa toàn bộ và ngừng kinh doanh 
+có API riêng.
+Thông báo Trong website, theo tài khoản; chưa có email, SMS và push notification.
+
+PAGE 58
+58
+Nội dung Phạm vi hiện tại
+Kiểm thử Cần kiểm thử lại luồng đặt hàng, tồn kho, hủy đơn và phân quyền trên bản 
+bàn giao; ảnh chụp không chứng minh mọi ca kiểm thử đều đạt.
+10.8 Hướng phát triển và kết luận
+Các hướng phát triển tiếp theo gồm tích hợp cổng thanh toán thật và xác minh callback; 
+bổ sung biểu mẫu sửa đầy đủ thông tin sách; nâng chất lượng dữ liệu tư vấn và hội thoại; 
+hoàn thiện nội dung điện tử có quyền sử dụng; bổ sung biểu đồ thống kê theo thời gian, 
+khôi phục mật khẩu và các kênh thông báo ngoài website.
+Dự án đã hình thành hệ thống bán sách theo mô hình tách giao diện và backend, có các 
+luồng mua hàng COD và phân quyền phục vụ vận hành. Quá trình thực hiện giúp nhóm 
+liên kết việc phân tích yêu cầu, lập lịch, kiểm soát chi phí và quản lý chất lượng với một 
+sản phẩm có thể trình diễn. Việc nghiệm thu cuối cùng cần dựa trên mã nguồn bàn giao, 
+dữ liệu kiểm thử và các tiêu chí chấp nhận đã thống nhất.
+
+PAGE 59
+59
+TÀI LIỆU THAM KHẢO VÀ HỒ SƠ DỰ ÁN
+1. Nhóm 11. Mã nguồn website Libra, thư mục giao diện dist và backend be.qlythuvien, 
+phiên bản dùng lập báo cáo tháng 10/2026.
+2. Nhóm 11. Hồ sơ yêu cầu, WBS, kế hoạch tiến độ, dự toán và kế hoạch kiểm thử trong 
+báo cáo cuối kỳ.
+3. Nhóm 11. Kết quả kiểm tra API và kiểm tra thông báo lưu trong bộ hồ sơ kiểm thử của 
+dự án.
+4. Microsoft Learn. Tài liệu ASP.NET Core, Entity Framework Core và SQL Server; 
+dùng làm tài liệu tra cứu kỹ thuật khi tiếp tục phát triển hệ thống.

@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-25T15:55:00.005Z",
+  "totalBooks": 70,
+  "results": [
+    {
+      "name": "FE server",
+      "pass": false,
+      "error": "fetch failed"
+    },
+    {
+      "name": "Danh mục",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách sách thành công."
+    },
+    {
+      "name": "Chi tiết sách",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy thông tin chi tiết sách thành công."
+    },
+    {
+      "name": "Đọc thử công khai",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy nội dung đọc thử sách thành công."
+    },
+    {
+      "name": "Chặn đọc chưa đăng nhập",
+      "status": 401,
+      "pass": true,
+      "message": "Yêu cầu cần có JWT Bearer Token hợp lệ để xác thực."
+    },
+    {
+      "name": "Tìm kiếm",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách sách thành công."
+    },
+    {
+      "name": "Lọc giá",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách sách thành công."
+    },
+    {
+      "name": "Đăng nhập Customer",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng nhập thành công!"
+    },
+    {
+      "name": "Hồ sơ Customer",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy thông tin phiên đăng nhập thành công."
+    },
+    {
+      "name": "Đơn Customer",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách đơn hàng thành công."
+    },
+    {
+      "name": "Thông báo Customer",
+      "status": 500,
+      "pass": false
+    },
+    {
+      "name": "Dashboard Customer",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "name": "Danh sách tài khoản Customer",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "name": "Giỏ hàng",
+      "status": 200,
+      "pass": true,
+      "message": "Giỏ hàng hiện đang trống."
+    },
+    {
+      "name": "Yêu thích",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách sách yêu thích thành công."
+    },
+    {
+      "name": "Địa chỉ",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách địa chỉ giao hàng thành công."
+    },
+    {
+      "name": "Ebook đã mua",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách Ebook đã sở hữu thành công."
+    },
+    {
+      "name": "Tính tiền GIAM10",
+      "status": 200,
+      "pass": true,
+      "message": "Tính toán chi phí đơn hàng thành công."
+    },
+    {
+      "name": "Tính tiền FREESHIP",
+      "status": 200,
+      "pass": true,
+      "message": "Tính toán chi phí đơn hàng thành công."
+    },
+    {
+      "name": "Tính tiền VIP50K",
+      "status": 200,
+      "pass": true,
+      "message": "Tính toán chi phí đơn hàng thành công."
+    },
+    {
+      "name": "AI sách tài chính",
+      "status": 200,
+      "pass": true,
+      "message": "Tư vấn sách thành công."
+    },
+    {
+      "name": "Kết quả AI sách tài chính",
+      "source": "Smart Fallback (Local Engine)",
+      "titles": [
+        "Nhà đầu tư thông minh",
+        "Tâm lý học về tiền",
+        "Người giàu có nhất thành Babylon",
+        "Bí mật tư duy triệu phú",
+        "Bước đi ngẫu nhiên trên phố Wall",
+        "Tâm lý học về tiền"
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI sách thiếu nhi",
+      "status": 200,
+      "pass": true,
+      "message": "Tư vấn sách thành công."
+    },
+    {
+      "name": "Kết quả AI sách thiếu nhi",
+      "source": "Smart Fallback (Local Engine)",
+      "titles": [
+        "Hoàng tử bé",
+        "Dế Mèn phiêu lưu ký",
+        "Charlotte và Wilbur",
+        "Matilda",
+        "Charlie và nhà máy sô cô la",
+        "Khu vườn bí mật"
+      ],
+      "pass": true
+    },
+    {
+      "name": "Đăng xuất Customer",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng xuất thành công! Phiên đăng nhập đã được hủy."
+    },
+    {
+      "name": "Token sau đăng xuất Customer",
+      "status": 401,
+      "pass": true,
+      "message": "Token đã bị vô hiệu hóa do tài khoản đã đăng xuất. Vui lòng đăng nhập lại."
+    },
+    {
+      "name": "Đăng nhập Staff",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng nhập thành công!"
+    },
+    {
+      "name": "Hồ sơ Staff",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy thông tin phiên đăng nhập thành công."
+    },
+    {
+      "name": "Đơn Staff",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách đơn hàng thành công."
+    },
+    {
+      "name": "Thông báo Staff",
+      "status": 500,
+      "pass": false
+    },
+    {
+      "name": "Dashboard Staff",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "name": "Danh sách tài khoản Staff",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "name": "Đăng xuất Staff",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng xuất thành công! Phiên đăng nhập đã được hủy."
+    },
+    {
+      "name": "Token sau đăng xuất Staff",
+      "status": 401,
+      "pass": true,
+      "message": "Token đã bị vô hiệu hóa do tài khoản đã đăng xuất. Vui lòng đăng nhập lại."
+    },
+    {
+      "name": "Đăng nhập Manager",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng nhập thành công!"
+    },
+    {
+      "name": "Hồ sơ Manager",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy thông tin phiên đăng nhập thành công."
+    },
+    {
+      "name": "Đơn Manager",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách đơn hàng thành công."
+    },
+    {
+      "name": "Thông báo Manager",
+      "status": 500,
+      "pass": false
+    },
+    {
+      "name": "Dashboard Manager",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy dữ liệu dashboard thành công."
+    },
+    {
+      "name": "Danh sách tài khoản Manager",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "name": "Đăng xuất Manager",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng xuất thành công! Phiên đăng nhập đã được hủy."
+    },
+    {
+      "name": "Token sau đăng xuất Manager",
+      "status": 401,
+      "pass": true,
+      "message": "Token đã bị vô hiệu hóa do tài khoản đã đăng xuất. Vui lòng đăng nhập lại."
+    },
+    {
+      "name": "Đăng nhập Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng nhập thành công!"
+    },
+    {
+      "name": "Hồ sơ Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy thông tin phiên đăng nhập thành công."
+    },
+    {
+      "name": "Đơn Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách đơn hàng thành công."
+    },
+    {
+      "name": "Thông báo Admin",
+      "status": 500,
+      "pass": false
+    },
+    {
+      "name": "Dashboard Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy dữ liệu dashboard thành công."
+    },
+    {
+      "name": "Danh sách tài khoản Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Lấy danh sách tài khoản thành công."
+    },
+    {
+      "name": "Đăng xuất Admin",
+      "status": 200,
+      "pass": true,
+      "message": "Đăng xuất thành công! Phiên đăng nhập đã được hủy."
+    },
+    {
+      "name": "Token sau đăng xuất Admin",
+      "status": 401,
+      "pass": true,
+      "message": "Token đã bị vô hiệu hóa do tài khoản đã đăng xuất. Vui lòng đăng nhập lại."
+    }
+  ]
+}

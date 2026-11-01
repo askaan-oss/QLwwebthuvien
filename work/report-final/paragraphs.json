@@ -1,0 +1,3072 @@
+[
+  {
+    "i": 0,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 1,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 2,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 3,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 4,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 5,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 6,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 7,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 8,
+    "s": "Normal",
+    "t": "Báo cáo Cuối Kỳ"
+  },
+  {
+    "i": 9,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 10,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 11,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 12,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 13,
+    "s": "Normal",
+    "t": " WEBSITE BÁN VÀ THANH TOÁN CHO THƯ VIỆN"
+  },
+  {
+    "i": 14,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 15,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 16,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 17,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 18,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 19,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 20,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 21,
+    "s": "Normal",
+    "t": "Giảng viên hướng dẫn: Nguyễn Hữu Trung"
+  },
+  {
+    "i": 22,
+    "s": "Normal",
+    "t": "Nhóm: 11"
+  },
+  {
+    "i": 23,
+    "s": "Normal",
+    "t": "\tNguyễn Trướng Quốc Huy\tMSSV:2380600863   Lớp: 23dthc4"
+  },
+  {
+    "i": 24,
+    "s": "Normal",
+    "t": "\tNguyễn Đình Kiên\t\tMSSV:2380601126   Lớp: 23dthc4"
+  },
+  {
+    "i": 25,
+    "s": "Normal",
+    "t": "\tNguyễn Trọng Khánh\t\tMSSV:2380601035   Lớp: 23dthc4"
+  },
+  {
+    "i": 26,
+    "s": "Normal",
+    "t": "\tTrịnh Châu Hồng Phát\t\tMSSV:2380601651   Lớp: 23dthc4"
+  },
+  {
+    "i": 27,
+    "s": "Normal",
+    "t": "\tHuỳnh Minh Nhựt\t\tMSSV:2380601594   Lớp: 23dthc4"
+  },
+  {
+    "i": 28,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 29,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 30,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 31,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 32,
+    "s": "Normal",
+    "t": "TP. Hồ Chí Minh, 2026"
+  },
+  {
+    "i": 33,
+    "s": "Normal",
+    "t": "CHƯƠNG 1. TỔNG QUAN"
+  },
+  {
+    "i": 34,
+    "s": "Normal",
+    "t": "1.1. Đề tài nhóm"
+  },
+  {
+    "i": 35,
+    "s": "Normal",
+    "t": "Tên đề tài: Xây dựng Website bán và thanh toán cho thư viện."
+  },
+  {
+    "i": 36,
+    "s": "Normal",
+    "t": "Dự án được thực hiện nhằm xây dựng một website hỗ trợ hoạt động bán sách trực tuyến. Khách hàng có thể tìm kiếm sách, xem thông tin, thêm sách vào giỏ hàng, đặt hàng và thanh toán bằng hình thức: COD. "
+  },
+  {
+    "i": 37,
+    "s": "Normal",
+    "t": "1.2. Tên nhóm"
+  },
+  {
+    "i": 38,
+    "s": "Normal",
+    "t": "Tên nhóm: [Anzio Vulcan 25]"
+  },
+  {
+    "i": 39,
+    "s": "Normal",
+    "t": "Nhóm gồm 5 thành viên cùng tham gia phân tích, thiết kế, phát triển và quản lý dự án Website bán và thanh toán cho thư viện."
+  },
+  {
+    "i": 40,
+    "s": "Normal",
+    "t": "1.3. Ý nghĩa nhóm"
+  },
+  {
+    "i": 41,
+    "s": "Normal",
+    "t": "Nhóm được thành lập nhằm vận dụng kiến thức về quản lý dự án công nghệ thông tin vào quá trình xây dựng một sản phẩm phần mềm thực tế."
+  },
+  {
+    "i": 42,
+    "s": "Normal",
+    "t": "Thông qua dự án, các thành viên có cơ hội rèn luyện kỹ năng lập kế hoạch, phân chia công việc, quản lý thời gian, kiểm soát chi phí và phối hợp nhóm."
+  },
+  {
+    "i": 43,
+    "s": "Normal",
+    "t": "1.4. Danh sách thành viên"
+  },
+  {
+    "i": 44,
+    "s": "Normal",
+    "t": "Bảng 1.2. Danh sách thành viên nhóm"
+  },
+  {
+    "i": 45,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 46,
+    "s": "Normal",
+    "t": "CHƯƠNG 2. QUẢN LÝ PHẠM VI DỰ ÁN"
+  },
+  {
+    "i": 47,
+    "s": "Normal",
+    "t": "2.1. Phát biểu bài toán – Statement of Work"
+  },
+  {
+    "i": 48,
+    "s": "Normal",
+    "t": "2.1.1. Thời gian và vật liệu (Time and Materials)"
+  },
+  {
+    "i": 49,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 50,
+    "s": "Normal",
+    "t": "Lịch Biểu Phí (Schedule of rates)"
+  },
+  {
+    "i": 51,
+    "s": "Normal",
+    "t": "Biểu phí nhân lực: "
+  },
+  {
+    "i": 52,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 53,
+    "s": "Normal",
+    "t": "Biểu phí thiết bị và bản quyền phần mềm:"
+  },
+  {
+    "i": 54,
+    "s": "Normal",
+    "t": "Quỹ dự phòng rủi ro và chi phí hành chính:"
+  },
+  {
+    "i": 55,
+    "s": "Normal",
+    "t": "Quỹ dự phòng rủi ro kỹ thuật và phát sinh (Contingency Reserve): 11.000.000 VNĐ (dùng dự phòng trường hợp gọi vượt token API Chatbox AI, phát sinh lỗi giao dịch thanh toán cần kiểm thử thêm giờ, hoặc biến động chi phí hạ tầng). "
+  },
+  {
+    "i": 56,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 57,
+    "s": "Normal",
+    "t": "Chính sách thanh toán (Payment terms)"
+  },
+  {
+    "i": 58,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 59,
+    "s": "Normal",
+    "t": "2.1.2. Phát biểu bài toán (Statement of Work)"
+  },
+  {
+    "i": 60,
+    "s": "Normal",
+    "t": "A. Giả định và Ràng buộc (Assumptions and Constraints)"
+  },
+  {
+    "i": 61,
+    "s": "Normal",
+    "t": "Giả định (Assumptions):"
+  },
+  {
+    "i": 62,
+    "s": "Normal",
+    "t": "Nhóm dự án gồm 5 thành viên, được trang bị thiết bị và có kiến thức nền tảng phù hợp để thực hiện các công việc được phân công."
+  },
+  {
+    "i": 63,
+    "s": "Normal",
+    "t": "Các công nghệ và dịch vụ phục vụ phát triển hệ thống, bao gồm ASP.NET Core Web API, Entity Framework Core, Microsoft SQL Server và API Chatbox AI, có thể sử dụng ổn định trong thời gian triển khai dự án."
+  },
+  {
+    "i": 64,
+    "s": "Normal",
+    "t": "Các cuộc họp định kỳ với giảng viên hướng dẫn diễn ra theo lịch trình thống nhất."
+  },
+  {
+    "i": 65,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 66,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 67,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 68,
+    "s": "Normal",
+    "t": "Ràng buộc (Constraints):"
+  },
+  {
+    "i": 69,
+    "s": "Normal",
+    "t": "Thời gian: Hoàn thành dự án trong khoảng thời gian từ ngày 07/09/2026 đến ngày 31/10/2026, theo lịch làm việc đã xác định."
+  },
+  {
+    "i": 70,
+    "s": "Normal",
+    "t": "Ngân sách: Tổng ngân sách dự toán theo F02 là 143.000.000 VNĐ, bao gồm quỹ dự phòng 11.000.000 VNĐ."
+  },
+  {
+    "i": 71,
+    "s": "Normal",
+    "t": "Phạm vi kỹ thuật: Xây dựng website bán sách, hỗ trợ quản lý đơn hàng, thanh toán khi nhận hàng (COD) và tích hợp Chatbox AI thông qua API dịch vụ có sẵn. Chatbox AI hỗ trợ tư vấn sách và trả lời câu hỏi thường gặp, không tự động xác nhận đơn hàng hoặc thực hiện giao dịch thanh toán."
+  },
+  {
+    "i": 72,
+    "s": "Normal",
+    "t": "B. Quy trình quản lý thay đổi (Change Request management)"
+  },
+  {
+    "i": 73,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 74,
+    "s": "Normal",
+    "t": "Chi tiết quy trình:"
+  },
+  {
+    "i": 75,
+    "s": "Normal",
+    "t": "Yêu cầu (CR): Thành viên hoặc người liên quan lập văn bản mô tả nội dung và lý do thay đổi."
+  },
+  {
+    "i": 76,
+    "s": "Normal",
+    "t": "Phân tích ảnh hưởng: PM phối hợp với BA đánh giá tác động của yêu cầu thay đổi đến phạm vi công việc, tiến độ (mốc hoàn thành ngày 31/10/2026), ngân sách dự toán và chất lượng sản phẩm."
+  },
+  {
+    "i": 77,
+    "s": "Normal",
+    "t": "Duyệt / Từ chối: PM phê duyệt nếu nằm trong phạm vi dự phòng; nếu vượt ngân sách hoặc trễ hạn mốc chính, phải có ý kiến chấp thuận của Giảng viên hướng dẫn."
+  },
+  {
+    "i": 78,
+    "s": "Normal",
+    "t": "Thực hiện: Cập nhật công việc mới vào WBS và tiến độ thực tế sau khi được ký duyệt."
+  },
+  {
+    "i": 79,
+    "s": "Normal",
+    "t": "Kiểm tra: Tester kiểm thử lại để đảm bảo không phát sinh lỗi thứ cấp trước khi đóng yêu cầu thay đổi."
+  },
+  {
+    "i": 80,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 81,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 82,
+    "s": "Normal",
+    "t": "C. Các chi phí liên quan (Engagement Related Expense)"
+  },
+  {
+    "i": 83,
+    "s": "Normal",
+    "t": "Chi phí cá nhân (điện, nước, internet, laptop cá nhân, đi lại) do các thành viên tự chi trả."
+  },
+  {
+    "i": 84,
+    "s": "Normal",
+    "t": "Dự án chỉ hạch toán các chi phí phục vụ trực tiếp cho sản phẩm chung, bao gồm thù lao nhân sự theo kế hoạch công việc, thuê Cloud VPS, dịch vụ cơ sở dữ liệu Microsoft SQL Server, hạn mức API Chatbox AI, tên miền, chứng chỉ bảo mật và công cụ cộng tác. Các chi phí kiểm thử tập trung vào chức năng đặt hàng, xử lý đơn hàng COD và tích hợp hệ thống."
+  },
+  {
+    "i": 85,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 86,
+    "s": "Normal",
+    "t": "D. Thỏa thuận dịch vụ & Bảo hành (Professional Service Agreement)"
+  },
+  {
+    "i": 87,
+    "s": "Normal",
+    "t": "Bàn giao: Nhóm bàn giao mã nguồn phần mềm, cơ sở dữ liệu Microsoft SQL Server, tài liệu kỹ thuật và tài liệu hướng dẫn sử dụng sau khi hoàn tất nghiệm thu dự án vào ngày 31/10/2026."
+  },
+  {
+    "i": 88,
+    "s": "Normal",
+    "t": "Bảo hành: Nhóm cam kết hỗ trợ sửa lỗi (bug fixing) miễn phí trong vòng 30 ngày kể từ ngày ký biên bản nghiệm thu."
+  },
+  {
+    "i": 89,
+    "s": "Normal",
+    "t": "Giới hạn: Không bảo hành miễn phí đối với lỗi phát sinh từ thay đổi chính sách/kỹ thuật của nhà cung cấp API bên thứ ba hoặc can thiệp dữ liệu trái phép từ bên ngoài."
+  },
+  {
+    "i": 90,
+    "s": "Normal",
+    "t": "2.1.3. Chấp thuận và cấp quyền (Acceptance and Authorization)"
+  },
+  {
+    "i": 91,
+    "s": "Normal",
+    "t": "Dự án được xem xét chấp thuận khi các chức năng chính hoàn thành, vượt qua kiểm thử và bàn giao đầy đủ mã nguồn, cơ sở dữ liệu cùng tài liệu liên quan."
+  },
+  {
+    "i": 92,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 93,
+    "s": "Normal",
+    "t": "2.2. Tôn chỉ dự án – Project Charter"
+  },
+  {
+    "i": 94,
+    "s": "Normal",
+    "t": "2.2.1. Mục đích dự án (Project Purpose)"
+  },
+  {
+    "i": 95,
+    "s": "Normal",
+    "t": "Xây dựng website giúp thư viện bán sách trực tuyến, quản lý đơn hàng và thanh toán tập trung. Đồng thời, tích hợp Chatbox AI nhằm hỗ trợ khách hàng trong quá trình mua sách."
+  },
+  {
+    "i": 96,
+    "s": "Normal",
+    "t": "2.2.2. Phạm vi dự án (Project Scope)"
+  },
+  {
+    "i": 97,
+    "s": "Normal",
+    "t": "Dự án gồm những thành phần chính:"
+  },
+  {
+    "i": 98,
+    "s": "Normal",
+    "t": "Website bán sách dành cho khách hàng, hỗ trợ tra cứu, tìm kiếm, lọc sách và xem thông tin chi tiết của sách."
+  },
+  {
+    "i": 99,
+    "s": "Normal",
+    "t": "Chức năng quản lý giỏ hàng, đặt hàng, theo dõi lịch sử đơn hàng và thanh toán khi nhận hàng (COD)."
+  },
+  {
+    "i": 100,
+    "s": "Normal",
+    "t": "Trang quản trị hỗ trợ quản lý sách, danh mục, khách hàng và đơn hàng."
+  },
+  {
+    "i": 101,
+    "s": "Normal",
+    "t": "Backend API phục vụ xử lý nghiệp vụ, xác thực người dùng và trao đổi dữ liệu giữa giao diện với hệ thống."
+  },
+  {
+    "i": 102,
+    "s": "Normal",
+    "t": "Cơ sở dữ liệu Microsoft SQL Server dùng để lưu trữ và quản lý dữ liệu của hệ thống."
+  },
+  {
+    "i": 103,
+    "s": "Normal",
+    "t": "Chatbox AI hỗ trợ khách hàng tra cứu thông tin, tư vấn sách và trả lời các câu hỏi thường gặp thông qua API dịch vụ có sẵn."
+  },
+  {
+    "i": 104,
+    "s": "Normal",
+    "t": "2.2.3. Điều kiện chấp thuận (Acceptance Criteria)"
+  },
+  {
+    "i": 105,
+    "s": "Normal",
+    "t": "Các chức năng chính đáp ứng yêu cầu."
+  },
+  {
+    "i": 106,
+    "s": "Normal",
+    "t": "Chức năng đặt hàng và thanh toán được kiểm thử thành công."
+  },
+  {
+    "i": 107,
+    "s": "Normal",
+    "t": "Chatbox AI phản hồi được các câu hỏi hỗ trợ cơ bản."
+  },
+  {
+    "i": 108,
+    "s": "Normal",
+    "t": "Không còn lỗi nghiêm trọng chưa được xử lý hoặc chấp thuận."
+  },
+  {
+    "i": 109,
+    "s": "Normal",
+    "t": "Bàn giao đầy đủ mã nguồn, cơ sở dữ liệu và tài liệu."
+  },
+  {
+    "i": 110,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 111,
+    "s": "Normal",
+    "t": "2.2.4. Bàn giao dự án (Project Deliverables)"
+  },
+  {
+    "i": 112,
+    "s": "Normal",
+    "t": "Bảng 2.2. Danh sách sản phẩm bàn giao"
+  },
+  {
+    "i": 113,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 114,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 115,
+    "s": "Normal",
+    "t": "2.2.5. Các cột mốc thời gian (Milestones)"
+  },
+  {
+    "i": 116,
+    "s": "Normal",
+    "t": "Bảng 2.3. Các cột mốc dự kiến"
+  },
+  {
+    "i": 117,
+    "s": "Normal",
+    "t": "Các mốc này là kế hoạch dự kiến, chưa phải kết quả thực tế."
+  },
+  {
+    "i": 118,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 119,
+    "s": "Normal",
+    "t": "2.2.6. Ngân sách dự án (Project Budget)"
+  },
+  {
+    "i": 120,
+    "s": "Normal",
+    "t": "Tổng ngân sách của dự án là 143.000.000 VNĐ."
+  },
+  {
+    "i": 121,
+    "s": "Normal",
+    "t": "Bảng 2.4. Bảng ngân sách dự kiến"
+  },
+  {
+    "i": 122,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 123,
+    "s": "Normal",
+    "t": "2.2.7. Ràng buộc (Project Constraints)"
+  },
+  {
+    "i": 124,
+    "s": "Normal",
+    "t": "Ràng buộc (Project Constraints)"
+  },
+  {
+    "i": 125,
+    "s": "Normal",
+    "t": "Thời gian thực hiện: 08 tuần, từ ngày 07/09/2026 đến ngày 31/10/2026."
+  },
+  {
+    "i": 126,
+    "s": "Normal",
+    "t": "Nhân sự: 05 thành viên."
+  },
+  {
+    "i": 127,
+    "s": "Normal",
+    "t": "Lịch làm việc: Từ thứ Hai đến thứ Bảy, nghỉ Chủ Nhật."
+  },
+  {
+    "i": 128,
+    "s": "Normal",
+    "t": "Ngân sách: Thực hiện theo ngân sách dự toán và cơ chế kiểm soát chi phí đã được phê duyệt. Mọi thay đổi làm phát sinh chi phí phải được xem xét theo quy trình quản lý thay đổi."
+  },
+  {
+    "i": 129,
+    "s": "Normal",
+    "t": "Công nghệ chính: Frontend sử dụng HTML5, CSS3 và JavaScript thuần; Backend sử dụng C# và ASP.NET Core Web API trên nền tảng .NET 8; truy xuất dữ liệu bằng Entity Framework Core 8; cơ sở dữ liệu sử dụng Microsoft SQL Server."
+  },
+  {
+    "i": 130,
+    "s": "Normal",
+    "t": "Xác thực và bảo mật: Sử dụng JWT Bearer Token để xác thực và BCrypt để băm mật khẩu."
+  },
+  {
+    "i": 131,
+    "s": "Normal",
+    "t": "Phương thức thanh toán: Hỗ trợ thanh toán khi nhận hàng (COD), không bao gồm tích hợp cổng thanh toán trực tuyến."
+  },
+  {
+    "i": 132,
+    "s": "Normal",
+    "t": "Chatbox AI: Tích hợp API dịch vụ AI có sẵn để hỗ trợ tư vấn sách và trả lời câu hỏi thường gặp."
+  },
+  {
+    "i": 133,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 134,
+    "s": "Normal",
+    "t": "2.2.8. Các phụ thuộc (Dependencies)"
+  },
+  {
+    "i": 135,
+    "s": "Normal",
+    "t": "Bảng 2.5. Quan hệ phụ thuộc công việc"
+  },
+  {
+    "i": 136,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 137,
+    "s": "Normal",
+    "t": "2.2.9. Các giả định (Assumptions)"
+  },
+  {
+    "i": 138,
+    "s": "Normal",
+    "t": "Các thành viên có đủ thời gian tham gia và hoàn thành nhiệm vụ được phân công theo kế hoạch dự án."
+  },
+  {
+    "i": 139,
+    "s": "Normal",
+    "t": "Nhóm có máy tính và môi trường phát triển phù hợp để xây dựng, chạy thử và kiểm thử hệ thống."
+  },
+  {
+    "i": 140,
+    "s": "Normal",
+    "t": "Các công nghệ sử dụng trong dự án, bao gồm ASP.NET Core Web API, Entity Framework Core và Microsoft SQL Server, có thể triển khai trong môi trường phát triển của nhóm."
+  },
+  {
+    "i": 141,
+    "s": "Normal",
+    "t": "Chatbox AI sử dụng API của dịch vụ AI có sẵn để tư vấn sách và trả lời câu hỏi thường gặp."
+  },
+  {
+    "i": 142,
+    "s": "Normal",
+    "t": "Phương thức thanh toán của hệ thống là COD; không phụ thuộc vào cổng thanh toán trực tuyến hoặc môi trường Sandbox."
+  },
+  {
+    "i": 143,
+    "s": "Normal",
+    "t": "Các yêu cầu chính của dự án được thống nhất trước khi triển khai; các yêu cầu phát sinh được xử lý theo quy trình quản lý thay đổi."
+  },
+  {
+    "i": 144,
+    "s": "Normal",
+    "t": "2.2.10. Các rủi ro đã nhận biết (Known Risks)"
+  },
+  {
+    "i": 145,
+    "s": "Normal",
+    "t": "Bảng 2.6. Rủi ro dự án"
+  },
+  {
+    "i": 146,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 147,
+    "s": "Normal",
+    "t": "2.2.11. Quản lý dự án (Project Manager)"
+  },
+  {
+    "i": 148,
+    "s": "Normal",
+    "t": "Họ và tên: Nguyễn Trương Quốc Huy"
+  },
+  {
+    "i": 149,
+    "s": "Normal",
+    "t": "Vai trò: Trưởng nhóm kiêm Quản lý dự án (Project Manager)."
+  },
+  {
+    "i": 150,
+    "s": "Normal",
+    "t": "Trách nhiệm chính:"
+  },
+  {
+    "i": 151,
+    "s": "Normal",
+    "t": "Điều phối toàn bộ hoạt động của nhóm 05 thành viên, lập kế hoạch, kiểm soát tiến độ (08 tuần) và quản lý chất lượng kỹ thuật của hệ thống."
+  },
+  {
+    "i": 152,
+    "s": "Normal",
+    "t": "Là đầu mối giao tiếp duy nhất báo cáo tiến độ định kỳ hàng tuần với Giảng viên hướng dẫn môn học."
+  },
+  {
+    "i": 153,
+    "s": "Normal",
+    "t": "Quyền hạn được cấp:"
+  },
+  {
+    "i": 154,
+    "s": "Normal",
+    "t": "Được quyền phân công, điều phối nhiệm vụ và giám sát khối lượng công việc của các thành viên theo WBS."
+  },
+  {
+    "i": 155,
+    "s": "Normal",
+    "t": "Được theo dõi, kiểm soát chi phí và đề xuất sử dụng ngân sách dự phòng theo kế hoạch được phê duyệt. Các khoản chi phải được ghi nhận và thực hiện theo phạm vi ngân sách đã thống nhất."
+  },
+  {
+    "i": 156,
+    "s": "Normal",
+    "t": "Mọi phát sinh vượt quá thẩm quyền, làm thay đổi phạm vi, chi phí hoặc các mốc tiến độ chính phải được lập Yêu cầu thay đổi (CR) và trình Giảng viên hướng dẫn xem xét trước khi thực hiện."
+  },
+  {
+    "i": 157,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 158,
+    "s": "Normal",
+    "t": "2.2.12. Vai trò và trách nhiệm (Roles and Responsibilities)"
+  },
+  {
+    "i": 159,
+    "s": "Normal",
+    "t": "Bảng 2.7. Phân công vai trò đề xuất"
+  },
+  {
+    "i": 160,
+    "s": "Normal",
+    "t": "2.2.13. Ký duyệt (Authorised)"
+  },
+  {
+    "i": 161,
+    "s": "Normal",
+    "t": "Bảng 2.8. Xác nhận và phê duyệt dự án"
+  },
+  {
+    "i": 162,
+    "s": "Normal",
+    "t": "Việc ký duyệt xác nhận sự thống nhất về mục tiêu, phạm vi, thời gian, nguồn lực và ngân sách của dự án."
+  },
+  {
+    "i": 163,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 164,
+    "s": "Normal",
+    "t": "2.3. Phát biểu phạm vi – Scope Statement"
+  },
+  {
+    "i": 165,
+    "s": "Normal",
+    "t": "Tên dự án (Project Title): Xây dựng Website bán và thanh toán cho thư viện"
+  },
+  {
+    "i": 166,
+    "s": "Normal",
+    "t": "Ngày (Date): 07/09/2026 "
+  },
+  {
+    "i": 167,
+    "s": "Normal",
+    "t": "Người viết (Prepared by): [Họ và tên thành viên/Trưởng nhóm - cần bổ sung]"
+  },
+  {
+    "i": 168,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 169,
+    "s": "Normal",
+    "t": "Lý giải về dự án (Project Justification)"
+  },
+  {
+    "i": 170,
+    "s": "Normal",
+    "t": "Việc tra cứu thông tin sách và quản lý quy trình đặt mua có thể mất thời gian nếu thực hiện thủ công hoặc thiếu một hệ thống quản lý tập trung. Vì vậy, nhóm thực hiện dự án xây dựng website bán sách cho thư viện nhằm hỗ trợ khách hàng tra cứu sách, xem thông tin chi tiết, quản lý giỏ hàng, đặt mua và theo dõi đơn hàng. Hệ thống cũng hỗ trợ nhân viên quản lý thông tin sách và xử lý đơn hàng. Bên cạnh đó, Chatbox AI được tích hợp để hỗ trợ tư vấn sách và trả lời các câu hỏi thường gặp. Dự án giúp nhóm vận dụng kiến thức đã học trong môn Quản lý dự án Công nghệ thông tin vào quá trình lập kế hoạch, phát triển, kiểm thử và bàn giao sản phẩm."
+  },
+  {
+    "i": 171,
+    "s": "Normal",
+    "t": "Các tính chất và yêu cầu của sản phẩm (Product Characteristics and Requirements)"
+  },
+  {
+    "i": 172,
+    "s": "Normal",
+    "t": "1. Kiến trúc và nền tảng"
+  },
+  {
+    "i": 173,
+    "s": "Normal",
+    "t": "Hệ thống được xây dựng dưới dạng ứng dụng web. Frontend sử dụng HTML5, CSS3 và JavaScript thuần để xây dựng giao diện tương thích với các kích thước màn hình phù hợp. Backend sử dụng C# và ASP.NET Core Web API trên nền tảng .NET 8. Entity Framework Core 8 được sử dụng để truy xuất dữ liệu từ Microsoft SQL Server. Frontend trao đổi dữ liệu với Backend thông qua REST API và định dạng JSON."
+  },
+  {
+    "i": 174,
+    "s": "Normal",
+    "t": "2. Phân hệ khách hàng"
+  },
+  {
+    "i": 175,
+    "s": "Normal",
+    "t": "Cho phép khách hàng đăng ký, đăng nhập; tra cứu, tìm kiếm và lọc sách theo danh mục; xem thông tin chi tiết sách; quản lý giỏ hàng; đặt mua sách bằng phương thức thanh toán khi nhận hàng (COD) và theo dõi lịch sử đơn hàng."
+  },
+  {
+    "i": 176,
+    "s": "Normal",
+    "t": "3. Phân hệ quản trị"
+  },
+  {
+    "i": 177,
+    "s": "Normal",
+    "t": "Cho phép người có quyền phù hợp quản lý thông tin sách, danh mục sách, thông tin khách hàng và đơn hàng; cập nhật thông tin cần thiết và trạng thái xử lý đơn hàng theo chức năng được phân quyền."
+  },
+  {
+    "i": 178,
+    "s": "Normal",
+    "t": "4. Phương thức thanh toán"
+  },
+  {
+    "i": 179,
+    "s": "Normal",
+    "t": "Hệ thống hỗ trợ phương thức thanh toán khi nhận hàng (Cash on Delivery - COD). Hệ thống ghi nhận đơn hàng và hỗ trợ quản lý, xác nhận trạng thái đơn hàng theo quy trình xử lý COD. Phạm vi dự án không bao gồm tích hợp cổng thanh toán trực tuyến."
+  },
+  {
+    "i": 180,
+    "s": "Normal",
+    "t": "5. Trợ lý ảo Chatbox AI"
+  },
+  {
+    "i": 181,
+    "s": "Normal",
+    "t": "Tích hợp giao diện Chatbox AI và gọi API của dịch vụ AI có sẵn để hỗ trợ tư vấn thông tin sách, trả lời câu hỏi thường gặp (FAQ) và hướng dẫn khách hàng sử dụng website. Chatbox AI không tự động xác nhận đơn hàng, thay đổi trạng thái đơn hàng hoặc thực hiện giao dịch thanh toán."
+  },
+  {
+    "i": 182,
+    "s": "Normal",
+    "t": "6. Xác thực và bảo mật"
+  },
+  {
+    "i": 183,
+    "s": "Normal",
+    "t": "Hệ thống sử dụng JWT Bearer Token để xác thực người dùng và BCrypt để băm mật khẩu. Các chức năng được phân quyền theo vai trò người dùng đã xác định trong hệ thống."
+  },
+  {
+    "i": 184,
+    "s": "Normal",
+    "t": "Tổng kết về các sản phẩm chuyển giao của dự án (Summary of Project Deliverables)"
+  },
+  {
+    "i": 185,
+    "s": "Normal",
+    "t": "Các kết quả liên quan đến quản lý dự án (Project Management-related Deliverables)"
+  },
+  {
+    "i": 186,
+    "s": "Normal",
+    "t": "Báo cáo đề xuất dự án, bản tuyên bố công việc (SOW), tôn chỉ dự án (Project Charter) và phát biểu phạm vi (Scope Statement)."
+  },
+  {
+    "i": 187,
+    "s": "Normal",
+    "t": "Cấu trúc phân rã công việc (WBS) và kế hoạch tiến độ dự án, bao gồm sơ đồ PERT, đường găng và biểu đồ Gantt."
+  },
+  {
+    "i": 188,
+    "s": "Normal",
+    "t": "Dự toán ngân sách và bảng theo dõi chi phí dự án."
+  },
+  {
+    "i": 189,
+    "s": "Normal",
+    "t": "Các kế hoạch quản lý chất lượng, nhân sự, truyền thông và rủi ro."
+  },
+  {
+    "i": 190,
+    "s": "Normal",
+    "t": "Báo cáo tiến độ, slide thuyết trình và biên bản tổng kết, nghiệm thu dự án."
+  },
+  {
+    "i": 191,
+    "s": "Normal",
+    "t": "Sản phẩm liên quan (Product-related Deliverables)"
+  },
+  {
+    "i": 192,
+    "s": "Normal",
+    "t": "Báo cáo đồ án môn học, tài liệu phân tích và thiết kế hệ thống, cùng slide thuyết trình."
+  },
+  {
+    "i": 193,
+    "s": "Normal",
+    "t": "Mã nguồn Frontend được xây dựng bằng HTML5, CSS3 và JavaScript thuần; mã nguồn Backend được xây dựng bằng C# và ASP.NET Core Web API .NET 8."
+  },
+  {
+    "i": 194,
+    "s": "Normal",
+    "t": "Cơ sở dữ liệu Microsoft SQL Server và các thành phần truy xuất dữ liệu sử dụng Entity Framework Core 8, kèm dữ liệu mẫu nếu có."
+  },
+  {
+    "i": 195,
+    "s": "Normal",
+    "t": "Chức năng website bán sách, trang quản trị, quản lý đơn hàng COD và Chatbox AI theo phạm vi dự án."
+  },
+  {
+    "i": 196,
+    "s": "Normal",
+    "t": "Tài liệu hướng dẫn cài đặt, tài liệu hướng dẫn sử dụng và báo cáo kiểm thử hệ thống."
+  },
+  {
+    "i": 197,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 198,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 199,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 200,
+    "s": "Normal",
+    "t": "2.4. Cấu trúc phân rã công việc – Work Breakdown Structure (WBS)"
+  },
+  {
+    "i": 201,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 202,
+    "s": "Normal",
+    "t": "2.4.1. Danh sách công việc chi tiết"
+  },
+  {
+    "i": 203,
+    "s": "Normal",
+    "t": "1.0. Quản lý dự án"
+  },
+  {
+    "i": 204,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 205,
+    "s": "Normal",
+    "t": "2.0. Phân tích yêu cầu"
+  },
+  {
+    "i": 206,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 207,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 208,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 209,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 210,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 211,
+    "s": "Normal",
+    "t": "3.0. Thiết kế hệ thống"
+  },
+  {
+    "i": 212,
+    "s": "Normal",
+    "t": "4.0. Phát triển Backend"
+  },
+  {
+    "i": 213,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 214,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 215,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 216,
+    "s": "Normal",
+    "t": "5.0. Phát triển Frontend"
+  },
+  {
+    "i": 217,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 218,
+    "s": "Normal",
+    "t": "6.0. Tích hợp và kiểm thử"
+  },
+  {
+    "i": 219,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 220,
+    "s": "Normal",
+    "t": "7.0. Triển khai và bàn giao"
+  },
+  {
+    "i": 221,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 222,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 223,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 224,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 225,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 226,
+    "s": "Normal",
+    "t": "CHƯƠNG 3. QUẢN LÝ THỜI GIAN DỰ ÁN"
+  },
+  {
+    "i": 227,
+    "s": "Normal",
+    "t": "3.1. Ước lượng thời gian của từng công việc ở sơ đồ WBS"
+  },
+  {
+    "i": 228,
+    "s": "Normal",
+    "t": "Thời gian thực hiện dự án được xác định dựa trên WBS đã xây dựng tại Chương 2. Dự án bắt đầu ngày 07/09/2026, kết thúc ngày 31/10/2026, với tổng thời gian 8 tuần."
+  },
+  {
+    "i": 229,
+    "s": "Normal",
+    "t": "Nhóm làm việc từ thứ Hai đến thứ Bảy, nghỉ Chủ Nhật, tương ứng 48 ngày làm việc."
+  },
+  {
+    "i": 230,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 231,
+    "s": "Normal",
+    "t": "3.1.1. Bảng mã hóa các gói công việc cốt lõi."
+  },
+  {
+    "i": 232,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 233,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 234,
+    "s": "Normal",
+    "t": "3.2. Sơ đồ PERT cho các nhánh công việc"
+  },
+  {
+    "i": 235,
+    "s": "Normal",
+    "t": "Sơ đồ PERT thể hiện trình tự thực hiện và mối quan hệ phụ thuộc giữa các nhóm công việc trong dự án."
+  },
+  {
+    "i": 236,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 237,
+    "s": "Normal",
+    "t": "Hình 3.2.1. Sơ đồ PERT theo các nhóm công việc chính."
+  },
+  {
+    "i": 238,
+    "s": "Normal",
+    "t": "3.2.2. Bảng tổng hợp so sánh các đường đi"
+  },
+  {
+    "i": 239,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 240,
+    "s": "Normal",
+    "t": "3.3. Forward Pass và Backward Pass"
+  },
+  {
+    "i": 241,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 242,
+    "s": "Normal",
+    "t": "Hình 3.3.1. thuật toán Forward Pass và Backward Pass"
+  },
+  {
+    "i": 243,
+    "s": "Normal",
+    "t": "3.4 Sơ đồ PERT Sau khi tối ưu "
+  },
+  {
+    "i": 244,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 245,
+    "s": "Normal",
+    "t": "Hình 3.4.1. Sơ đồ PERT Sau khi tối ưu"
+  },
+  {
+    "i": 246,
+    "s": "Normal",
+    "t": "Bảng 3.4.2. tổng hợp so sánh các đường đi sau khi tối ưu"
+  },
+  {
+    "i": 247,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 248,
+    "s": "Normal",
+    "t": "Rút ngắn đường găng chính (Đường 1): Giảm từ 48 ngày xuống 36 ngày làm việc (tiết kiệm được 12 ngày, tương đương 2,5 tuần làm việc)."
+  },
+  {
+    "i": 249,
+    "s": "Normal",
+    "t": "CHƯƠNG 4. QUẢN LÝ CHI PHÍ DỰ ÁN"
+  },
+  {
+    "i": 250,
+    "s": "Normal",
+    "t": "4.1. Bảng thông tin hoạt động gốc (Baseline)"
+  },
+  {
+    "i": 251,
+    "s": "Normal",
+    "t": "Bảng thông tin hoạt động gốc được xây dựng nhằm xác định thời lượng và chi phí kế hoạch của từng công việc trong dự án. Đây là cơ sở để so sánh với tình hình thực tế, đánh giá hiệu quả sử dụng ngân sách và kiểm soát chi phí trong quá trình thực hiện."
+  },
+  {
+    "i": 252,
+    "s": "Normal",
+    "t": "Bảng 4.1. Thông tin hoạt động gốc (Baseline)"
+  },
+  {
+    "i": 253,
+    "s": "Normal",
+    "t": "Ghi chú: Thời lượng 74 ngày là tổng thời lượng của các hoạt động, không phải thời gian hoàn thành toàn dự án vì một số công việc có thể được thực hiện song song. Chi phí phân bổ 132.000.000 VNĐ là phương án đề xuất cho 10 hoạt động, chưa phải bảng phân bổ chi phí gốc đã được nhóm xác nhận. Quỹ dự phòng 11.000.000 VNĐ được tách riêng."
+  },
+  {
+    "i": 254,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 255,
+    "s": "Normal",
+    "t": "4.2. Bảng báo cáo thực tế tại ngày bàn giao"
+  },
+  {
+    "i": 256,
+    "s": "Normal",
+    "t": "Theo thông tin được cung cấp, dự án đã thực hiện đến giai đoạn bàn giao. tất cả các hoạt động N1–N10 đều đã hoàn thành, tỷ lệ hoàn thành của từng hoạt động được ghi nhận là 100%. Chi phí thực tế cần được xác định dựa trên số tiền nhóm thực sự đã chi hoặc số liệu đã thống nhất trong báo cáo tài chính của dự án."
+  },
+  {
+    "i": 257,
+    "s": "Normal",
+    "t": "Bảng 4.2. Báo cáo thực tế tại ngày bàn giao 31/10/2026"
+  },
+  {
+    "i": 258,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 259,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 260,
+    "s": "Normal",
+    "t": "4.3. Bảng tính toán các chỉ số EVM"
+  },
+  {
+    "i": 261,
+    "s": "Normal",
+    "t": "Earned Value Management (EVM) là phương pháp kết hợp giữa phạm vi công việc, tiến độ và chi phí để đánh giá hiệu quả thực hiện dự án. Phương pháp này cho phép so sánh giá trị công việc đã hoàn thành với ngân sách tương ứng và chi phí thực tế đã phát sinh."
+  },
+  {
+    "i": 262,
+    "s": "Normal",
+    "t": "Các chỉ số được sử dụng gồm:"
+  },
+  {
+    "i": 263,
+    "s": "Normal",
+    "t": "ACWP (Actual Cost of Work Performed): chi phí thực tế đã phát sinh cho công việc."
+  },
+  {
+    "i": 264,
+    "s": "Normal",
+    "t": "BCWP (Budgeted Cost of Work Performed): giá trị ngân sách của khối lượng công việc đã hoàn thành."
+  },
+  {
+    "i": 265,
+    "s": "Normal",
+    "t": "BCWS (Budgeted Cost of Work Scheduled): giá trị ngân sách của khối lượng công việc theo kế hoạch tại ngày chốt."
+  },
+  {
+    "i": 266,
+    "s": "Normal",
+    "t": "CPI (Cost Performance Index): chỉ số hiệu suất chi phí, được tính bằng BCWP chia ACWP."
+  },
+  {
+    "i": 267,
+    "s": "Normal",
+    "t": "CV (Cost Variance): chênh lệch chi phí, được tính bằng BCWP trừ ACWP."
+  },
+  {
+    "i": 268,
+    "s": "Normal",
+    "t": "SPI (Schedule Performance Index): chỉ số hiệu suất tiến độ, được tính bằng BCWP chia BCWS."
+  },
+  {
+    "i": 269,
+    "s": "Normal",
+    "t": "SV (Schedule Variance): chênh lệch tiến độ, được tính bằng BCWP trừ BCWS."
+  },
+  {
+    "i": 270,
+    "s": "Normal",
+    "t": "Công thức tính:"
+  },
+  {
+    "i": 271,
+    "s": "Normal",
+    "t": "[BCWP=Total\\ Cost\\times Actual\\ %\\ Complete]"
+  },
+  {
+    "i": 272,
+    "s": "Normal",
+    "t": "[CPI=\\frac{BCWP}{ACWP}\\qquadCV=BCWP-ACWP]"
+  },
+  {
+    "i": 273,
+    "s": "Normal",
+    "t": "[SPI=\\frac{BCWP}{BCWS}\\qquadSV=BCWP-BCWS]"
+  },
+  {
+    "i": 274,
+    "s": "Normal",
+    "t": "Bảng 4.3. Tổng hợp các chỉ số EVM tại ngày bàn giao"
+  },
+  {
+    "i": 275,
+    "s": "Normal",
+    "t": "Bảng dưới đây sử dụng chi phí minh họa tại Bảng 4.2. Giả định toàn bộ hoạt động đã hoàn thành 100% và kế hoạch gốc cũng dự kiến hoàn thành toàn bộ khối lượng công việc vào ngày 31/10/2026."
+  },
+  {
+    "i": 276,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 277,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 278,
+    "s": "Normal",
+    "t": "Nhận xét kết quả EVM"
+  },
+  {
+    "i": 279,
+    "s": "Normal",
+    "t": "Theo bộ số liệu minh họa, tổng chi phí thực tế là 127.100.000 VNĐ, trong khi giá trị ngân sách của khối lượng công việc đã hoàn thành là 132.000.000 VNĐ. Chỉ số CPI xấp xỉ 1,04, cho thấy chi phí thực tế thấp hơn giá trị ngân sách tương ứng với khối lượng công việc đã hoàn thành."
+  },
+  {
+    "i": 280,
+    "s": "Normal",
+    "t": "Chỉ số CV bằng 4.900.000 VNĐ, thể hiện mức chênh lệch chi phí dương theo ví dụ. Chỉ số SPI bằng 1,00 và SV bằng 0 cho thấy khối lượng công việc hoàn thành tương ứng với kế hoạch tại ngày chốt."
+  },
+  {
+    "i": 281,
+    "s": "Normal",
+    "t": "Các kết quả trên chỉ có giá trị minh họa. Để kết luận chính xác về hiệu quả quản lý chi phí và tiến độ của nhóm, cần thay các khoản chi phí giả định bằng số liệu thực tế và xác minh BCWS theo lịch trình gốc."
+  },
+  {
+    "i": 282,
+    "s": "Normal",
+    "t": "4.4. Sơ đồ Gantt (Gantt Chart)"
+  },
+  {
+    "i": 283,
+    "s": "Normal",
+    "t": "Sơ đồ Gantt được sử dụng để thể hiện thời gian thực hiện của từng hoạt động, mối quan hệ giữa các công việc và mức độ hoàn thành so với kế hoạch ban đầu. Trong dự án này, sơ đồ Gantt sử dụng các mã công việc N1–N10 theo WBS tại Chương 3."
+  },
+  {
+    "i": 284,
+    "s": "Normal",
+    "t": "Sơ đồ cần thể hiện các thông tin sau:"
+  },
+  {
+    "i": 285,
+    "s": "Normal",
+    "t": "Trục dọc: danh sách hoạt động từ N1 đến N10."
+  },
+  {
+    "i": 286,
+    "s": "Normal",
+    "t": "Trục ngang: thời gian từ ngày 07/09/2026 đến ngày 31/10/2026."
+  },
+  {
+    "i": 287,
+    "s": "Normal",
+    "t": "Thanh màu tím: thời lượng theo kế hoạch gốc (Baseline)."
+  },
+  {
+    "i": 288,
+    "s": "Normal",
+    "t": "Thanh tiến độ thực tế: khoảng thời gian thực tế thực hiện từng hoạt động, nếu có dữ liệu ngày bắt đầu và kết thúc thực tế."
+  },
+  {
+    "i": 289,
+    "s": "Normal",
+    "t": "Các mối quan hệ phụ thuộc: thể hiện công việc tiền nhiệm và công việc kế tiếp."
+  },
+  {
+    "i": 290,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 291,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 292,
+    "s": "Normal",
+    "t": "Hình 4.1. Sơ đồ Gantt theo "
+  },
+  {
+    "i": 293,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 294,
+    "s": "Normal",
+    "t": "4.6. Kết luận chương"
+  },
+  {
+    "i": 295,
+    "s": "Normal",
+    "t": "Tính tới thời điểm lập báo cáo, dự án “Xây dựng website bán và thanh toán sách cho thư viện” có ngân sách dự kiến là 143.000.000 VNĐ, thời gian thực hiện từ ngày 07/09/2026 đến ngày 31/10/2026."
+  },
+  {
+    "i": 296,
+    "s": "Normal",
+    "t": "Qua quá trình lập kế hoạch và theo dõi dự án, có thể đưa ra một số nhận xét như sau:"
+  },
+  {
+    "i": 297,
+    "s": "Normal",
+    "t": "CPI (Cost Performance Index): Chưa đủ dữ liệu chi phí thực tế và giá trị công việc hoàn thành để xác định chỉ số CPI. Do đó, chưa thể kết luận dự án đang tiết kiệm hay vượt ngân sách."
+  },
+  {
+    "i": 298,
+    "s": "Normal",
+    "t": "CV (Cost Variance): Chưa xác định được giá trị chênh lệch chi phí do chưa có số liệu chi phí thực tế (AC) và giá trị công việc đã thực hiện (EV)."
+  },
+  {
+    "i": 299,
+    "s": "Normal",
+    "t": "SPI (Schedule Performance Index): Chưa đủ dữ liệu giá trị công việc theo kế hoạch (PV) và giá trị công việc thực hiện (EV) để xác định chính xác tình hình tiến độ thông qua chỉ số SPI."
+  },
+  {
+    "i": 300,
+    "s": "Normal",
+    "t": "SV (Schedule Variance): Chưa có đủ dữ liệu để tính toán mức chênh lệch giữa khối lượng công việc đã thực hiện và khối lượng công việc theo kế hoạch."
+  },
+  {
+    "i": 301,
+    "s": "Normal",
+    "t": "Nhìn chung, dự án có ngân sách và thời hạn hoàn thành cụ thể. Việc tiếp tục theo dõi chi phí thực tế, khối lượng công việc hoàn thành và tiến độ thực hiện sẽ giúp nhóm đánh giá chính xác hiệu quả quản lý chi phí, đồng thời có phương án điều chỉnh phù hợp để đảm bảo dự án hoàn thành đúng thời hạn."
+  },
+  {
+    "i": 302,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 303,
+    "s": "Normal",
+    "t": "CHƯƠNG 5. QUẢN LÝ CHẤT LƯỢNG DỰ ÁN"
+  },
+  {
+    "i": 304,
+    "s": "Normal",
+    "t": "5.1. Mục tiêu quản lý chất lượng"
+  },
+  {
+    "i": 305,
+    "s": "Normal",
+    "t": "Quản lý chất lượng nhằm đảm bảo website bán và thanh toán sách cho thư viện đáp ứng các yêu cầu đã thống nhất, hoạt động ổn định và thuận tiện cho người sử dụng."
+  },
+  {
+    "i": 306,
+    "s": "Normal",
+    "t": "Các mục tiêu chính gồm:"
+  },
+  {
+    "i": 307,
+    "s": "Normal",
+    "t": "Đảm bảo các chức năng chính của website hoạt động đúng yêu cầu."
+  },
+  {
+    "i": 308,
+    "s": "Normal",
+    "t": "Đảm bảo dữ liệu sách, khách hàng và đơn hàng được lưu trữ chính xác."
+  },
+  {
+    "i": 309,
+    "s": "Normal",
+    "t": "Đảm bảo quy trình đặt hàng và thanh toán COD hoạt động đúng."
+  },
+  {
+    "i": 310,
+    "s": "Normal",
+    "t": "Đảm bảo Chatbox AI có thể hỗ trợ tư vấn sách và trả lời các câu hỏi thường gặp."
+  },
+  {
+    "i": 311,
+    "s": "Normal",
+    "t": "Phát hiện và xử lý lỗi trước khi triển khai, bàn giao sản phẩm."
+  },
+  {
+    "i": 312,
+    "s": "Normal",
+    "t": "5.2. Tiêu chí đánh giá chất lượng"
+  },
+  {
+    "i": 313,
+    "s": "Normal",
+    "t": "Bảng 5.1. Tiêu chí đánh giá chất lượng dự án"
+  },
+  {
+    "i": 314,
+    "s": "Normal",
+    "t": "5.3. Kế hoạch kiểm thử chất lượng"
+  },
+  {
+    "i": 315,
+    "s": "Normal",
+    "t": "Nhóm thực hiện kiểm thử các chức năng theo từng giai đoạn phát triển để phát hiện lỗi và đảm bảo các thành phần hoạt động đúng trước khi bàn giao."
+  },
+  {
+    "i": 316,
+    "s": "Normal",
+    "t": "Bảng 5.2. Kế hoạch kiểm thử"
+  },
+  {
+    "i": 317,
+    "s": "Normal",
+    "t": "5.4. Quy trình quản lý lỗi"
+  },
+  {
+    "i": 318,
+    "s": "Normal",
+    "t": "Khi phát hiện lỗi trong quá trình phát triển hoặc kiểm thử, nhóm thực hiện theo quy trình sau:"
+  },
+  {
+    "i": 319,
+    "s": "Normal",
+    "t": "Ghi nhận lỗi: Người phát hiện mô tả lỗi, chức năng xảy ra lỗi và các bước tái hiện."
+  },
+  {
+    "i": 320,
+    "s": "Normal",
+    "t": "Phân loại lỗi: Xác định mức độ ảnh hưởng của lỗi để ưu tiên xử lý."
+  },
+  {
+    "i": 321,
+    "s": "Normal",
+    "t": "Phân công xử lý: PM phân công lỗi cho thành viên phụ trách Frontend, Backend hoặc bộ phận liên quan."
+  },
+  {
+    "i": 322,
+    "s": "Normal",
+    "t": "Sửa lỗi: Thành viên được giao kiểm tra nguyên nhân và thực hiện sửa chữa."
+  },
+  {
+    "i": 323,
+    "s": "Normal",
+    "t": "Kiểm thử lại: Tester kiểm tra chức năng sau khi sửa lỗi để đảm bảo lỗi đã được khắc phục."
+  },
+  {
+    "i": 324,
+    "s": "Normal",
+    "t": "Đóng lỗi: Cập nhật trạng thái hoàn thành khi kết quả kiểm thử đạt yêu cầu."
+  },
+  {
+    "i": 325,
+    "s": "Normal",
+    "t": "Bảng 5.3. Phân loại mức độ lỗi"
+  },
+  {
+    "i": 326,
+    "s": "Normal",
+    "t": "5.5. Đánh giá và nghiệm thu chất lượng"
+  },
+  {
+    "i": 327,
+    "s": "Normal",
+    "t": "Sản phẩm được xem xét nghiệm thu khi đáp ứng các điều kiện sau:"
+  },
+  {
+    "i": 328,
+    "s": "Normal",
+    "t": "Các chức năng chính của website hoạt động theo yêu cầu."
+  },
+  {
+    "i": 329,
+    "s": "Normal",
+    "t": "Quy trình đặt hàng COD được kiểm thử thành công."
+  },
+  {
+    "i": 330,
+    "s": "Normal",
+    "t": "Chức năng quản lý sách và đơn hàng hoạt động đúng."
+  },
+  {
+    "i": 331,
+    "s": "Normal",
+    "t": "Chatbox AI có thể thực hiện các chức năng tư vấn trong phạm vi đã xác định."
+  },
+  {
+    "i": 332,
+    "s": "Normal",
+    "t": "Không còn lỗi nghiêm trọng chưa được xử lý hoặc chấp thuận."
+  },
+  {
+    "i": 333,
+    "s": "Normal",
+    "t": "Mã nguồn, cơ sở dữ liệu và tài liệu hướng dẫn được chuẩn bị để bàn giao."
+  },
+  {
+    "i": 334,
+    "s": "Normal",
+    "t": "5.6. Kết luận chương"
+  },
+  {
+    "i": 335,
+    "s": "Normal",
+    "t": "Chương 5 trình bày kế hoạch quản lý chất lượng cho dự án thông qua các tiêu chí đánh giá, kế hoạch kiểm thử, quy trình quản lý lỗi và điều kiện nghiệm thu. Việc thực hiện các hoạt động này giúp nhóm kiểm soát chất lượng sản phẩm, phát hiện lỗi kịp thời và đảm bảo website đáp ứng yêu cầu trước khi bàn giao."
+  },
+  {
+    "i": 336,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 337,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 338,
+    "s": "Normal",
+    "t": "CHƯƠNG 6. QUẢN LÝ NHÂN SỰ DỰ ÁN"
+  },
+  {
+    "i": 339,
+    "s": "Normal",
+    "t": "6.1. Mục tiêu quản lý nhân sự"
+  },
+  {
+    "i": 340,
+    "s": "Normal",
+    "t": "Quản lý nhân sự nhằm phân công công việc phù hợp với năng lực của từng thành viên, theo dõi quá trình thực hiện và đánh giá mức độ đóng góp của mỗi người trong dự án."
+  },
+  {
+    "i": 341,
+    "s": "Normal",
+    "t": "Các mục tiêu chính:"
+  },
+  {
+    "i": 342,
+    "s": "Normal",
+    "t": "Xác định rõ vai trò và trách nhiệm của từng thành viên."
+  },
+  {
+    "i": 343,
+    "s": "Normal",
+    "t": "Đảm bảo công việc được phân công phù hợp với chuyên môn."
+  },
+  {
+    "i": 344,
+    "s": "Normal",
+    "t": "Theo dõi tiến độ và chất lượng công việc."
+  },
+  {
+    "i": 345,
+    "s": "Normal",
+    "t": "Đánh giá mức độ hoàn thành nhiệm vụ và tinh thần phối hợp."
+  },
+  {
+    "i": 346,
+    "s": "Normal",
+    "t": "Kịp thời hỗ trợ thành viên khi gặp khó khăn trong quá trình thực hiện dự án."
+  },
+  {
+    "i": 347,
+    "s": "Normal",
+    "t": "6.2. Cơ cấu tổ chức dự án"
+  },
+  {
+    "i": 348,
+    "s": "Normal",
+    "t": "Bảng 6.1. Danh sách nhân sự dự án"
+  },
+  {
+    "i": 349,
+    "s": "Normal",
+    "t": "6.3. Tiêu chí đánh giá nhân sự"
+  },
+  {
+    "i": 350,
+    "s": "Normal",
+    "t": "Để đánh giá mức độ đóng góp của từng thành viên, nhóm sử dụng các tiêu chí liên quan đến tiến độ, chất lượng công việc, trách nhiệm và khả năng phối hợp."
+  },
+  {
+    "i": 351,
+    "s": "Normal",
+    "t": "Các tiêu chí được áp dụng chung cho tất cả thành viên, không phụ thuộc vào vị trí đảm nhiệm."
+  },
+  {
+    "i": 352,
+    "s": "Normal",
+    "t": "Bảng 6.2. Tiêu chí đánh giá nhân sự"
+  },
+  {
+    "i": 353,
+    "s": "Normal",
+    "t": "Thang điểm đánh giá"
+  },
+  {
+    "i": 354,
+    "s": "Normal",
+    "t": "Mỗi tiêu chí được chấm theo thang điểm từ 1 đến 5:"
+  },
+  {
+    "i": 355,
+    "s": "Normal",
+    "t": "Công thức tính điểm tổng:"
+  },
+  {
+    "i": 356,
+    "s": "Normal",
+    "t": "Điểm tổng = (Điểm tiêu chí 1 × 30%) + (Điểm tiêu chí 2 × 25%) + (Điểm tiêu chí 3 × 20%) + (Điểm tiêu chí 4 × 15%) + (Điểm tiêu chí 5 × 10%)"
+  },
+  {
+    "i": 357,
+    "s": "Normal",
+    "t": "Xếp loại đề xuất:"
+  },
+  {
+    "i": 358,
+    "s": "Normal",
+    "t": "6.4. Đánh giá các thành viên trong dự án"
+  },
+  {
+    "i": 359,
+    "s": "Normal",
+    "t": "Việc đánh giá thành viên được thực hiện dựa trên 5 tiêu chí đã xác định tại mục 6.3. Mỗi thành viên được đánh giá theo nhiệm vụ và trách nhiệm tương ứng với vị trí đảm nhiệm."
+  },
+  {
+    "i": 360,
+    "s": "Normal",
+    "t": "Nguyễn Trướng Quốc Huy – Project Manager: Đánh giá khả năng lập kế hoạch, phân công công việc, theo dõi tiến độ, quản lý rủi ro và điều phối nhóm."
+  },
+  {
+    "i": 361,
+    "s": "Normal",
+    "t": "Trịnh Châu Hồng Phát – Business Analyst: Đánh giá khả năng thu thập yêu cầu, phân tích nghiệp vụ, xây dựng tài liệu SRS và phối hợp với nhóm phát triển."
+  },
+  {
+    "i": 362,
+    "s": "Normal",
+    "t": "Nguyễn Đình Kiên – Frontend Developer: Đánh giá khả năng xây dựng giao diện, triển khai chức năng phía người dùng và tích hợp API."
+  },
+  {
+    "i": 363,
+    "s": "Normal",
+    "t": "Huỳnh Minh Nhựt – Backend Developer: Đánh giá khả năng xây dựng API, xử lý nghiệp vụ, thiết kế và kết nối cơ sở dữ liệu."
+  },
+  {
+    "i": 364,
+    "s": "Normal",
+    "t": "Nguyễn Trọng Khánh – Tester/QA: Đánh giá khả năng xây dựng kịch bản kiểm thử, phát hiện lỗi, ghi nhận kết quả và kiểm thử lại sau khi sửa lỗi."
+  },
+  {
+    "i": 365,
+    "s": "Normal",
+    "t": "Bảng 6.3. Bảng đánh giá thành viên"
+  },
+  {
+    "i": 366,
+    "s": "Normal",
+    "t": "Ghi chú: Điểm đánh giá được chấm từ 1 đến 5. Điểm tổng được tính theo trọng số của từng tiêu chí. Nhóm căn cứ vào kết quả thực hiện công việc để điền điểm thực tế."
+  },
+  {
+    "i": 367,
+    "s": "Normal",
+    "t": "6.5. Nhận xét kết quả đánh giá"
+  },
+  {
+    "i": 368,
+    "s": "Normal",
+    "t": "Sau khi hoàn thành bảng đánh giá, nhóm tổng hợp kết quả để xác định mức độ đóng góp của từng thành viên."
+  },
+  {
+    "i": 369,
+    "s": "Normal",
+    "t": "Việc nhận xét tập trung vào các nội dung:"
+  },
+  {
+    "i": 370,
+    "s": "Normal",
+    "t": "Mức độ hoàn thành nhiệm vụ được phân công."
+  },
+  {
+    "i": 371,
+    "s": "Normal",
+    "t": "Khả năng đảm bảo tiến độ theo kế hoạch."
+  },
+  {
+    "i": 372,
+    "s": "Normal",
+    "t": "Chất lượng công việc và khả năng xử lý vấn đề."
+  },
+  {
+    "i": 373,
+    "s": "Normal",
+    "t": "Tinh thần trách nhiệm trong quá trình thực hiện."
+  },
+  {
+    "i": 374,
+    "s": "Normal",
+    "t": "Khả năng phối hợp và hỗ trợ các thành viên khác."
+  },
+  {
+    "i": 375,
+    "s": "Normal",
+    "t": "Kết quả đánh giá là cơ sở để nhóm ghi nhận đóng góp, rút kinh nghiệm và cải thiện cách phối hợp trong các dự án tiếp theo."
+  },
+  {
+    "i": 376,
+    "s": "Normal",
+    "t": "6.6. Kết luận chương"
+  },
+  {
+    "i": 377,
+    "s": "Normal",
+    "t": "Chương 6 trình bày cơ cấu tổ chức, vai trò, trách nhiệm và phương pháp đánh giá nhân sự trong dự án. Thông qua hệ thống tiêu chí và bảng đánh giá, nhóm có thể theo dõi mức độ hoàn thành công việc, chất lượng thực hiện và sự đóng góp của từng thành viên. Qua đó, việc quản lý nhân sự trở nên rõ ràng và có cơ sở đánh giá hơn."
+  },
+  {
+    "i": 378,
+    "s": "Normal",
+    "t": "CHƯƠNG 7. QUẢN LÝ TRUYỀN THÔNG"
+  },
+  {
+    "i": 379,
+    "s": "Normal",
+    "t": "7.1. Các bên liên quan và đối tượng nhận thông tin"
+  },
+  {
+    "i": 380,
+    "s": "Normal",
+    "t": "Trong quá trình thực hiện dự án, việc xác định các bên liên quan giúp đảm bảo thông tin được truyền đạt đúng người, đúng thời điểm và đúng nội dung. Các đối tượng nhận thông tin chính của dự án bao gồm:"
+  },
+  {
+    "i": 381,
+    "s": "Normal",
+    "t": "7.2. Nhu cầu thông tin của dự án"
+  },
+  {
+    "i": 382,
+    "s": "Normal",
+    "t": "Các thành viên cần được cung cấp thông tin phù hợp với vai trò và nhiệm vụ được giao. Những thông tin quan trọng trong dự án bao gồm:"
+  },
+  {
+    "i": 383,
+    "s": "Normal",
+    "t": "Thông tin tiến độ: Công việc đã hoàn thành, đang thực hiện và chưa thực hiện theo WBS."
+  },
+  {
+    "i": 384,
+    "s": "Normal",
+    "t": "Thông tin phân công: Người phụ trách, thời gian bắt đầu, thời hạn hoàn thành và công việc liên quan."
+  },
+  {
+    "i": 385,
+    "s": "Normal",
+    "t": "Thông tin kỹ thuật: Yêu cầu chức năng, giao diện, API, cơ sở dữ liệu và các vấn đề phát sinh."
+  },
+  {
+    "i": 386,
+    "s": "Normal",
+    "t": "Thông tin kiểm thử: Lỗi được phát hiện, mức độ nghiêm trọng, người xử lý và kết quả kiểm tra lại."
+  },
+  {
+    "i": 387,
+    "s": "Normal",
+    "t": "Thông tin thay đổi: Các yêu cầu thay đổi về phạm vi, chức năng hoặc kế hoạch thực hiện."
+  },
+  {
+    "i": 388,
+    "s": "Normal",
+    "t": "Thông tin báo cáo: Kết quả công việc, khó khăn và tình hình chung của dự án."
+  },
+  {
+    "i": 389,
+    "s": "Normal",
+    "t": "7.3. Kênh và hình thức truyền thông"
+  },
+  {
+    "i": 390,
+    "s": "Normal",
+    "t": "Nhóm sử dụng các kênh trao đổi phù hợp với hoạt động quản lý và phát triển phần mềm."
+  },
+  {
+    "i": 391,
+    "s": "Normal",
+    "t": "7.4. Kế hoạch truyền thông"
+  },
+  {
+    "i": 392,
+    "s": "Normal",
+    "t": "Kế hoạch truyền thông được xây dựng nhằm đảm bảo các thành viên nắm được tiến độ và nhiệm vụ của mình trong suốt thời gian thực hiện dự án."
+  },
+  {
+    "i": 393,
+    "s": "Normal",
+    "t": "Thông tin công việc cần thể hiện rõ tên nhiệm vụ, người phụ trách, thời gian thực hiện và trạng thái hoàn thành để hạn chế tình trạng bỏ sót hoặc chậm tiến độ."
+  },
+  {
+    "i": 394,
+    "s": "Normal",
+    "t": "7.5. Theo dõi và xử lý vấn đề trao đổi thông tin"
+  },
+  {
+    "i": 395,
+    "s": "Normal",
+    "t": "Trong quá trình thực hiện, nhóm cần theo dõi việc trao đổi thông tin để hạn chế tình trạng thông tin không đầy đủ, phản hồi chậm hoặc phân công không rõ ràng."
+  },
+  {
+    "i": 396,
+    "s": "Normal",
+    "t": "Quy trình xử lý vấn đề truyền thông gồm các bước:"
+  },
+  {
+    "i": 397,
+    "s": "Normal",
+    "t": "Tiếp nhận vấn đề: Thành viên thông báo khi phát sinh thông tin chưa rõ ràng, thiếu dữ liệu hoặc có sự cố trong quá trình trao đổi."
+  },
+  {
+    "i": 398,
+    "s": "Normal",
+    "t": "Xác định nguyên nhân: PM kiểm tra nội dung, người liên quan và mức độ ảnh hưởng."
+  },
+  {
+    "i": 399,
+    "s": "Normal",
+    "t": "Thông báo và phân công xử lý: PM trao đổi với thành viên phụ trách và xác định hướng giải quyết."
+  },
+  {
+    "i": 400,
+    "s": "Normal",
+    "t": "Theo dõi kết quả: Thành viên cập nhật tình trạng xử lý trong nhóm."
+  },
+  {
+    "i": 401,
+    "s": "Normal",
+    "t": "Lưu trữ thông tin: Những nội dung quan trọng được ghi nhận để làm căn cứ theo dõi và báo cáo."
+  },
+  {
+    "i": 402,
+    "s": "Normal",
+    "t": "Một số vấn đề truyền thông thường gặp và cách xử lý:"
+  },
+  {
+    "i": 403,
+    "s": "Normal",
+    "t": "7.6. Lệnh Prompt để AI Agent tự động đăng bài, nhắc thành viên lịch làm việc theo WBS trên Zalo"
+  },
+  {
+    "i": 404,
+    "s": "Normal",
+    "t": "Nhằm hỗ trợ quản lý truyền thông, nhóm đề xuất sử dụng AI Agent để tự động hóa việc soạn thông báo, nhắc lịch làm việc và cập nhật tiến độ dựa trên WBS của dự án."
+  },
+  {
+    "i": 405,
+    "s": "Normal",
+    "t": "AI Agent có nhiệm vụ đọc thông tin công việc, xác định thành viên phụ trách, thời gian bắt đầu, thời hạn hoàn thành và trạng thái công việc. Sau đó, Agent tạo nội dung thông báo phù hợp để gửi lên nhóm Zalo của dự án."
+  },
+  {
+    "i": 406,
+    "s": "Normal",
+    "t": "Prompt đề xuất cho AI Agent:"
+  },
+  {
+    "i": 407,
+    "s": "Normal",
+    "t": "Bạn là AI Agent hỗ trợ quản lý truyền thông cho dự án phần mềm \"Xây dựng website bán và thanh toán sách cho thư viện\"."
+  },
+  {
+    "i": 408,
+    "s": "Normal",
+    "t": "1. Vai trò"
+  },
+  {
+    "i": 409,
+    "s": "Normal",
+    "t": "Bạn đóng vai trò trợ lý Project Manager (PM), có nhiệm vụ theo dõi lịch làm việc theo WBS, soạn thông báo và nhắc nhở các thành viên về nhiệm vụ được giao."
+  },
+  {
+    "i": 410,
+    "s": "Normal",
+    "t": "2. Thông tin nhóm dự án"
+  },
+  {
+    "i": 411,
+    "s": "Normal",
+    "t": "Nguyễn Trướng Quốc Huy: Project Manager (PM)."
+  },
+  {
+    "i": 412,
+    "s": "Normal",
+    "t": "Trịnh Châu Hồng Phát: Business Analyst (BA)."
+  },
+  {
+    "i": 413,
+    "s": "Normal",
+    "t": "Nguyễn Đình Kiên: Frontend Developer."
+  },
+  {
+    "i": 414,
+    "s": "Normal",
+    "t": "Huỳnh Minh Nhựt: Backend Developer."
+  },
+  {
+    "i": 415,
+    "s": "Normal",
+    "t": "Nguyễn Trọng Khánh: Tester/QA."
+  },
+  {
+    "i": 416,
+    "s": "Normal",
+    "t": "3. Nhiệm vụ của AI Agent"
+  },
+  {
+    "i": 417,
+    "s": "Normal",
+    "t": "Đọc và phân tích dữ liệu WBS do PM cung cấp."
+  },
+  {
+    "i": 418,
+    "s": "Normal",
+    "t": "Xác định tên công việc, người phụ trách, ngày bắt đầu và ngày kết thúc."
+  },
+  {
+    "i": 419,
+    "s": "Normal",
+    "t": "Nhắc thành viên khi sắp đến thời hạn thực hiện công việc."
+  },
+  {
+    "i": 420,
+    "s": "Normal",
+    "t": "Thông báo các nhiệm vụ đang thực hiện, sắp đến hạn hoặc có nguy cơ trễ hạn."
+  },
+  {
+    "i": 421,
+    "s": "Normal",
+    "t": "Yêu cầu thành viên cập nhật tiến độ khi cần thiết."
+  },
+  {
+    "i": 422,
+    "s": "Normal",
+    "t": "Tổng hợp tình hình công việc để PM theo dõi."
+  },
+  {
+    "i": 423,
+    "s": "Normal",
+    "t": "Soạn thông báo ngắn gọn, dễ hiểu và phù hợp với nhóm Zalo."
+  },
+  {
+    "i": 424,
+    "s": "Normal",
+    "t": "4. Quy tắc nhắc lịch"
+  },
+  {
+    "i": 425,
+    "s": "Normal",
+    "t": "Nhắc trước thời hạn hoàn thành 1 ngày."
+  },
+  {
+    "i": 426,
+    "s": "Normal",
+    "t": "Nhắc vào ngày bắt đầu công việc."
+  },
+  {
+    "i": 427,
+    "s": "Normal",
+    "t": "Nếu công việc đã quá hạn nhưng chưa hoàn thành, gửi thông báo nhắc nhở."
+  },
+  {
+    "i": 428,
+    "s": "Normal",
+    "t": "Nếu công việc đã hoàn thành, không tiếp tục gửi thông báo nhắc việc."
+  },
+  {
+    "i": 429,
+    "s": "Normal",
+    "t": "Nếu thiếu thông tin người phụ trách hoặc thời hạn, yêu cầu PM bổ sung."
+  },
+  {
+    "i": 430,
+    "s": "Normal",
+    "t": "Không tự ý thay đổi thời gian hoặc người phụ trách trong WBS."
+  },
+  {
+    "i": 431,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 432,
+    "s": "Normal",
+    "t": ""
+  },
+  {
+    "i": 433,
+    "s": "Normal",
+    "t": "5. Mẫu thông báo trên Zalo"
+  },
+  {
+    "i": 434,
+    "s": "Normal",
+    "t": "Thông báo bắt đầu công việc:"
+  },
+  {
+    "i": 435,
+    "s": "Normal",
+    "t": "[THÔNG BÁO CÔNG VIỆC]"
+  },
+  {
+    "i": 436,
+    "s": "Normal",
+    "t": "Công việc: [Tên công việc]"
+  },
+  {
+    "i": 437,
+    "s": "Normal",
+    "t": "Người phụ trách: [Tên thành viên]"
+  },
+  {
+    "i": 438,
+    "s": "Normal",
+    "t": "Ngày bắt đầu: [Ngày bắt đầu]"
+  },
+  {
+    "i": 439,
+    "s": "Normal",
+    "t": "Hạn hoàn thành: [Ngày kết thúc]"
+  },
+  {
+    "i": 440,
+    "s": "Normal",
+    "t": "Trạng thái: Chưa thực hiện"
+  },
+  {
+    "i": 441,
+    "s": "Normal",
+    "t": "Đề nghị thành viên phụ trách thực hiện đúng kế hoạch và cập nhật tiến độ cho PM."
+  },
+  {
+    "i": 442,
+    "s": "Normal",
+    "t": "Thông báo nhắc hạn:"
+  },
+  {
+    "i": 443,
+    "s": "Normal",
+    "t": "[NHẮC NHỞ TIẾN ĐỘ]"
+  },
+  {
+    "i": 444,
+    "s": "Normal",
+    "t": "Công việc [Tên công việc] sắp đến hạn hoàn thành vào ngày [Ngày kết thúc]."
+  },
+  {
+    "i": 445,
+    "s": "Normal",
+    "t": "Người phụ trách: [Tên thành viên]"
+  },
+  {
+    "i": 446,
+    "s": "Normal",
+    "t": "Vui lòng kiểm tra tiến độ và thông báo cho PM nếu có khó khăn phát sinh."
+  },
+  {
+    "i": 447,
+    "s": "Normal",
+    "t": "Thông báo công việc quá hạn:"
+  },
+  {
+    "i": 448,
+    "s": "Normal",
+    "t": "[CẢNH BÁO QUÁ HẠN]"
+  },
+  {
+    "i": 449,
+    "s": "Normal",
+    "t": "Công việc [Tên công việc] đã quá thời hạn theo kế hoạch WBS."
+  },
+  {
+    "i": 450,
+    "s": "Normal",
+    "t": "Người phụ trách: [Tên thành viên]"
+  },
+  {
+    "i": 451,
+    "s": "Normal",
+    "t": "Đề nghị cập nhật tình trạng thực hiện và nguyên nhân chậm tiến độ để PM có phương án xử lý."
+  },
+  {
+    "i": 452,
+    "s": "Normal",
+    "t": "6. Báo cáo tiến độ"
+  },
+  {
+    "i": 453,
+    "s": "Normal",
+    "t": "Định kỳ hằng tuần, tổng hợp:"
+  },
+  {
+    "i": 454,
+    "s": "Normal",
+    "t": "Tổng số công việc trong WBS."
+  },
+  {
+    "i": 455,
+    "s": "Normal",
+    "t": "Số công việc đã hoàn thành."
+  },
+  {
+    "i": 456,
+    "s": "Normal",
+    "t": "Số công việc đang thực hiện."
+  },
+  {
+    "i": 457,
+    "s": "Normal",
+    "t": "Số công việc chưa bắt đầu."
+  },
+  {
+    "i": 458,
+    "s": "Normal",
+    "t": "Số công việc quá hạn."
+  },
+  {
+    "i": 459,
+    "s": "Normal",
+    "t": "Danh sách thành viên cần cập nhật tiến độ."
+  },
+  {
+    "i": 460,
+    "s": "Normal",
+    "t": "7. Nguyên tắc hoạt động"
+  },
+  {
+    "i": 461,
+    "s": "Normal",
+    "t": "Chỉ sử dụng dữ liệu WBS được PM cung cấp."
+  },
+  {
+    "i": 462,
+    "s": "Normal",
+    "t": "Không tự ý tạo nhiệm vụ hoặc thay đổi kế hoạch."
+  },
+  {
+    "i": 463,
+    "s": "Normal",
+    "t": "Không tự đánh dấu công việc hoàn thành khi chưa có xác nhận."
+  },
+  {
+    "i": 464,
+    "s": "Normal",
+    "t": "Nội dung thông báo phải chính xác, ngắn gọn và dễ hiểu."
+  },
+  {
+    "i": 465,
+    "s": "Normal",
+    "t": "Các thay đổi quan trọng phải được PM xác nhận trước khi thông báo chính thức."
+  },
+  {
+    "i": 466,
+    "s": "Normal",
+    "t": "Yêu cầu đầu ra: Tạo nội dung thông báo và báo cáo tiến độ theo đúng dữ liệu WBS để gửi đến nhóm Zalo dự án."
+  },
+  {
+    "i": 467,
+    "s": "Normal",
+    "t": "Kết luận chương"
+  },
+  {
+    "i": 468,
+    "s": "Normal",
+    "t": "Quản lý truyền thông giúp các thành viên trao đổi thông tin rõ ràng, phối hợp công việc và theo dõi tiến độ trong quá trình thực hiện dự án. Việc đề xuất sử dụng AI Agent để hỗ trợ nhắc lịch theo WBS có thể giảm bớt thao tác thủ công cho PM, hạn chế bỏ sót thời hạn và nâng cao hiệu quả phối hợp giữa các thành viên."
+  },
+  {
+    "i": 469,
+    "s": "Normal",
+    "t": "CHƯƠNG 8. QUẢN LÝ RỦI RO"
+  },
+  {
+    "i": 470,
+    "s": "Normal",
+    "t": "8.1. Mục tiêu quản lý rủi ro"
+  },
+  {
+    "i": 471,
+    "s": "Normal",
+    "t": "Quản lý rủi ro nhằm xác định, đánh giá và đưa ra phương án xử lý những vấn đề có thể xảy ra trong quá trình thực hiện dự án. Việc quản lý rủi ro giúp nhóm chủ động ứng phó với các tình huống phát sinh, hạn chế ảnh hưởng đến tiến độ, chi phí và chất lượng sản phẩm."
+  },
+  {
+    "i": 472,
+    "s": "Normal",
+    "t": "Đối với dự án xây dựng website bán và thanh toán sách cho thư viện, nhóm tập trung quản lý các rủi ro liên quan đến kỹ thuật, nhân sự, tiến độ, dữ liệu và quá trình kiểm thử hệ thống."
+  },
+  {
+    "i": 473,
+    "s": "Normal",
+    "t": "8.2. Nhận diện rủi ro"
+  },
+  {
+    "i": 474,
+    "s": "Normal",
+    "t": "Trong quá trình thực hiện dự án, nhóm xác định một số rủi ro có thể phát sinh như sau:"
+  },
+  {
+    "i": 475,
+    "s": "Normal",
+    "t": "8.3. Phân tích và đánh giá rủi ro"
+  },
+  {
+    "i": 476,
+    "s": "Normal",
+    "t": "Sau khi nhận diện, nhóm tiến hành đánh giá rủi ro dựa trên hai yếu tố:"
+  },
+  {
+    "i": 477,
+    "s": "Normal",
+    "t": "Khả năng xảy ra: Mức độ có thể xuất hiện của rủi ro."
+  },
+  {
+    "i": 478,
+    "s": "Normal",
+    "t": "Mức độ ảnh hưởng: Mức độ tác động của rủi ro đến dự án nếu xảy ra."
+  },
+  {
+    "i": 479,
+    "s": "Normal",
+    "t": "Nhóm sử dụng thang đánh giá từ 1 đến 3:"
+  },
+  {
+    "i": 480,
+    "s": "Normal",
+    "t": "Mức độ ưu tiên được xác định bằng công thức:"
+  },
+  {
+    "i": 481,
+    "s": "Normal",
+    "t": "Điểm rủi ro = Khả năng xảy ra × Mức độ ảnh hưởng"
+  },
+  {
+    "i": 482,
+    "s": "Normal",
+    "t": "Phân loại mức độ rủi ro:"
+  },
+  {
+    "i": 483,
+    "s": "Normal",
+    "t": "Từ 1 đến 2 điểm: Rủi ro thấp."
+  },
+  {
+    "i": 484,
+    "s": "Normal",
+    "t": "Từ 3 đến 4 điểm: Rủi ro trung bình."
+  },
+  {
+    "i": 485,
+    "s": "Normal",
+    "t": "Từ 6 đến 9 điểm: Rủi ro cao."
+  },
+  {
+    "i": 486,
+    "s": "Normal",
+    "t": "Bảng đánh giá rủi ro đề xuất:"
+  },
+  {
+    "i": 487,
+    "s": "Normal",
+    "t": "Lưu ý: Điểm số trong bảng là mức đánh giá đề xuất phục vụ lập kế hoạch quản lý rủi ro, không phải số liệu thống kê rủi ro thực tế."
+  },
+  {
+    "i": 488,
+    "s": "Normal",
+    "t": "8.4. Phương án phòng ngừa và xử lý rủi ro"
+  },
+  {
+    "i": 489,
+    "s": "Normal",
+    "t": "Để hạn chế ảnh hưởng của các rủi ro, nhóm đề xuất phương án phòng ngừa và xử lý như sau:"
+  },
+  {
+    "i": 490,
+    "s": "Normal",
+    "t": "8.5. Theo dõi và kiểm soát rủi ro"
+  },
+  {
+    "i": 491,
+    "s": "Normal",
+    "t": "Trong quá trình thực hiện dự án, PM chịu trách nhiệm theo dõi các rủi ro và phối hợp với thành viên liên quan để xử lý khi có vấn đề phát sinh."
+  },
+  {
+    "i": 492,
+    "s": "Normal",
+    "t": "Hoạt động theo dõi và kiểm soát rủi ro gồm:"
+  },
+  {
+    "i": 493,
+    "s": "Normal",
+    "t": "Theo dõi rủi ro: Kiểm tra các rủi ro đã được nhận diện và phát hiện rủi ro mới."
+  },
+  {
+    "i": 494,
+    "s": "Normal",
+    "t": "Cập nhật tình trạng: Ghi nhận rủi ro đã xảy ra, đang có nguy cơ xảy ra hoặc đã được xử lý."
+  },
+  {
+    "i": 495,
+    "s": "Normal",
+    "t": "Đánh giá mức độ ảnh hưởng: Xác định tác động đến tiến độ, chi phí và chất lượng dự án."
+  },
+  {
+    "i": 496,
+    "s": "Normal",
+    "t": "Thực hiện phương án xử lý: Phân công thành viên phụ trách và triển khai biện pháp phù hợp."
+  },
+  {
+    "i": 497,
+    "s": "Normal",
+    "t": "Kiểm tra kết quả: Đánh giá hiệu quả xử lý và cập nhật tình trạng rủi ro."
+  },
+  {
+    "i": 498,
+    "s": "Normal",
+    "t": "Việc theo dõi được thực hiện trong các buổi họp nhóm và quá trình cập nhật tiến độ theo WBS. Những rủi ro có mức độ ảnh hưởng cao cần được ưu tiên xử lý và báo cáo cho PM."
+  },
+  {
+    "i": 499,
+    "s": "Normal",
+    "t": "8.6. Kết luận chương"
+  },
+  {
+    "i": 500,
+    "s": "Normal",
+    "t": "Quản lý rủi ro giúp nhóm chủ động nhận diện và kiểm soát những vấn đề có thể ảnh hưởng đến quá trình thực hiện dự án. Thông qua việc xác định rủi ro, đánh giá mức độ ảnh hưởng và xây dựng phương án phòng ngừa, nhóm có thể hạn chế các sự cố về kỹ thuật, nhân sự và tiến độ. Đây là cơ sở để dự án được triển khai ổn định và hoàn thành theo kế hoạch đề ra."
+  },
+  {
+    "i": 501,
+    "s": "Normal",
+    "t": "CHƯƠNG 9. QUẢN LÝ MUA SẮM"
+  },
+  {
+    "i": 502,
+    "s": "Normal",
+    "t": "9.1. Mục tiêu quản lý mua sắm"
+  },
+  {
+    "i": 503,
+    "s": "Normal",
+    "t": "Quản lý mua sắm nhằm xác định và quản lý các sản phẩm, dịch vụ và công cụ cần thiết phục vụ quá trình phát triển và triển khai dự án. Việc mua sắm cần đảm bảo phù hợp với nhu cầu sử dụng, ngân sách và thời gian thực hiện."
+  },
+  {
+    "i": 504,
+    "s": "Normal",
+    "t": "Đối với dự án xây dựng website bán và thanh toán sách cho thư viện, nhóm tập trung vào các nhu cầu như môi trường lưu trữ, cơ sở dữ liệu, công cụ phát triển phần mềm và các dịch vụ hỗ trợ tích hợp chatbot tư vấn sách."
+  },
+  {
+    "i": 505,
+    "s": "Normal",
+    "t": "9.2. Xác định nhu cầu mua sắm"
+  },
+  {
+    "i": 506,
+    "s": "Normal",
+    "t": "Dựa trên phạm vi và công nghệ sử dụng của dự án, nhóm xác định một số nhu cầu mua sắm hoặc sử dụng dịch vụ như sau:"
+  },
+  {
+    "i": 507,
+    "s": "Normal",
+    "t": "Các hạng mục trên được đề xuất dựa trên nhu cầu của dự án. Việc lựa chọn mua mới hay sử dụng công cụ có sẵn phụ thuộc vào điều kiện thực tế và ngân sách của nhóm."
+  },
+  {
+    "i": 508,
+    "s": "Normal",
+    "t": "9.3. Lựa chọn nhà cung cấp và công cụ"
+  },
+  {
+    "i": 509,
+    "s": "Normal",
+    "t": "Khi lựa chọn nhà cung cấp hoặc công cụ, nhóm cần xem xét các tiêu chí nhằm đảm bảo sản phẩm và dịch vụ đáp ứng yêu cầu của dự án."
+  },
+  {
+    "i": 510,
+    "s": "Normal",
+    "t": "Các tiêu chí lựa chọn gồm:"
+  },
+  {
+    "i": 511,
+    "s": "Normal",
+    "t": "Chi phí: Phù hợp với ngân sách dự kiến của dự án."
+  },
+  {
+    "i": 512,
+    "s": "Normal",
+    "t": "Chất lượng: Đáp ứng yêu cầu kỹ thuật và mục đích sử dụng."
+  },
+  {
+    "i": 513,
+    "s": "Normal",
+    "t": "Tính ổn định: Đảm bảo khả năng hoạt động trong thời gian triển khai."
+  },
+  {
+    "i": 514,
+    "s": "Normal",
+    "t": "Khả năng tương thích: Phù hợp với công nghệ sử dụng như ASP.NET Core Web API, .NET 8 và Microsoft SQL Server."
+  },
+  {
+    "i": 515,
+    "s": "Normal",
+    "t": "Hỗ trợ kỹ thuật: Có tài liệu hướng dẫn hoặc hỗ trợ khi xảy ra sự cố."
+  },
+  {
+    "i": 516,
+    "s": "Normal",
+    "t": "Bảo mật: Đảm bảo an toàn cho dữ liệu và thông tin của hệ thống."
+  },
+  {
+    "i": 517,
+    "s": "Normal",
+    "t": "Bảng tiêu chí lựa chọn đề xuất:"
+  },
+  {
+    "i": 518,
+    "s": "Normal",
+    "t": "9.4. Kế hoạch mua sắm"
+  },
+  {
+    "i": 519,
+    "s": "Normal",
+    "t": "Nhóm xây dựng kế hoạch mua sắm theo từng giai đoạn để đảm bảo các công cụ và dịch vụ cần thiết được chuẩn bị đúng thời điểm."
+  },
+  {
+    "i": 520,
+    "s": "Normal",
+    "t": "Kế hoạch trên là kế hoạch đề xuất. Thời điểm thực hiện thực tế có thể thay đổi tùy theo tiến độ và nhu cầu của dự án."
+  },
+  {
+    "i": 521,
+    "s": "Normal",
+    "t": "9.5. Quản lý và nghiệm thu mua sắm"
+  },
+  {
+    "i": 522,
+    "s": "Normal",
+    "t": "Sau khi lựa chọn và chuẩn bị các sản phẩm hoặc dịch vụ cần thiết, nhóm cần kiểm tra để đảm bảo chúng đáp ứng yêu cầu sử dụng."
+  },
+  {
+    "i": 523,
+    "s": "Normal",
+    "t": "Quy trình quản lý và nghiệm thu gồm các bước:"
+  },
+  {
+    "i": 524,
+    "s": "Normal",
+    "t": "Kiểm tra thông tin: Xác nhận sản phẩm hoặc dịch vụ phù hợp với nhu cầu đã xác định."
+  },
+  {
+    "i": 525,
+    "s": "Normal",
+    "t": "Kiểm tra kỹ thuật: Kiểm tra khả năng tương thích với hệ thống và công nghệ sử dụng."
+  },
+  {
+    "i": 526,
+    "s": "Normal",
+    "t": "Đánh giá chất lượng: Kiểm tra tính ổn định, khả năng hoạt động và các yêu cầu bảo mật."
+  },
+  {
+    "i": 527,
+    "s": "Normal",
+    "t": "Xác nhận sử dụng: PM phối hợp với thành viên phụ trách xác nhận kết quả kiểm tra."
+  },
+  {
+    "i": 528,
+    "s": "Normal",
+    "t": "Lưu trữ thông tin: Ghi nhận chi phí, thông tin dịch vụ, thời hạn sử dụng và tài liệu liên quan nếu có."
+  },
+  {
+    "i": 529,
+    "s": "Normal",
+    "t": "Trong quá trình sử dụng, nếu phát hiện dịch vụ không đáp ứng yêu cầu, thành viên phụ trách cần thông báo cho PM để đánh giá và lựa chọn phương án thay thế phù hợp."
+  },
+  {
+    "i": 530,
+    "s": "Normal",
+    "t": "9.6. Kết luận chương"
+  },
+  {
+    "i": 531,
+    "s": "Normal",
+    "t": "Quản lý mua sắm giúp nhóm xác định và chuẩn bị các sản phẩm, dịch vụ và công cụ cần thiết cho quá trình phát triển website. Việc lựa chọn nhà cung cấp dựa trên các tiêu chí về chi phí, chất lượng, khả năng tương thích và bảo mật giúp hạn chế phát sinh không cần thiết. Qua đó, nhóm có thể sử dụng nguồn lực hợp lý và đảm bảo các điều kiện phục vụ quá trình triển khai dự án."
+  },
+  {
+    "i": 532,
+    "s": "Normal",
+    "t": "CHƯƠNG 10. TRÌNH BÀY VỀ SẢN PHẨM"
+  },
+  {
+    "i": 533,
+    "s": "Normal",
+    "t": "10.1. Giới thiệu tổng quan sản phẩm"
+  },
+  {
+    "i": 534,
+    "s": "Normal",
+    "t": "Sản phẩm của dự án là website bán và thanh toán sách cho thư viện, được xây dựng nhằm hỗ trợ khách hàng tìm kiếm, xem thông tin sách, quản lý giỏ hàng và đặt mua sách trực tuyến."
+  },
+  {
+    "i": 535,
+    "s": "Normal",
+    "t": "Bên cạnh các chức năng dành cho khách hàng, hệ thống còn cung cấp trang quản trị để nhân viên quản lý thông tin sách và xử lý đơn hàng. Chatbox AI được tích hợp nhằm hỗ trợ tư vấn sách và trả lời các câu hỏi thường gặp."
+  },
+  {
+    "i": 536,
+    "s": "Normal",
+    "t": "Website được phát triển theo mô hình Frontend – Backend, trong đó giao diện người dùng trao đổi dữ liệu với máy chủ thông qua REST API."
+  },
+  {
+    "i": 537,
+    "s": "Normal",
+    "t": "10.2. Công nghệ sử dụng"
+  },
+  {
+    "i": 538,
+    "s": "Normal",
+    "t": "Hệ thống sử dụng các công nghệ và công cụ chính sau:"
+  },
+  {
+    "i": 539,
+    "s": "Normal",
+    "t": "10.3. Các chức năng chính của hệ thống"
+  },
+  {
+    "i": 540,
+    "s": "Normal",
+    "t": "10.3.1. Chức năng dành cho khách hàng"
+  },
+  {
+    "i": 541,
+    "s": "Normal",
+    "t": "Website cung cấp các chức năng hỗ trợ khách hàng trong quá trình tìm kiếm và đặt mua sách."
+  },
+  {
+    "i": 542,
+    "s": "Normal",
+    "t": "10.3.2. Chức năng quản trị hệ thống"
+  },
+  {
+    "i": 543,
+    "s": "Normal",
+    "t": "Trang quản trị được xây dựng nhằm hỗ trợ nhân viên quản lý hoạt động của website."
+  },
+  {
+    "i": 544,
+    "s": "Normal",
+    "t": "Lưu ý: Chỉ giữ lại những chức năng thực tế đã được nhóm phát triển. Nếu sản phẩm chưa có một chức năng nào trong bảng, cần bỏ hoặc ghi rõ là chức năng dự kiến."
+  },
+  {
+    "i": 545,
+    "s": "Normal",
+    "t": "10.4. Quy trình hoạt động của hệ thống"
+  },
+  {
+    "i": 546,
+    "s": "Normal",
+    "t": "Quy trình đặt mua sách của khách hàng được mô tả như sau:"
+  },
+  {
+    "i": 547,
+    "s": "Normal",
+    "t": "Khách hàng truy cập website."
+  },
+  {
+    "i": 548,
+    "s": "Normal",
+    "t": "Khách hàng tìm kiếm và lựa chọn sách cần mua."
+  },
+  {
+    "i": 549,
+    "s": "Normal",
+    "t": "Khách hàng xem thông tin chi tiết của sách."
+  },
+  {
+    "i": 550,
+    "s": "Normal",
+    "t": "Khách hàng thêm sách vào giỏ hàng."
+  },
+  {
+    "i": 551,
+    "s": "Normal",
+    "t": "Khách hàng kiểm tra giỏ hàng và tiến hành đặt hàng."
+  },
+  {
+    "i": 552,
+    "s": "Normal",
+    "t": "Khách hàng cung cấp thông tin nhận hàng và chọn phương thức thanh toán COD."
+  },
+  {
+    "i": 553,
+    "s": "Normal",
+    "t": "Hệ thống tiếp nhận và tạo đơn hàng."
+  },
+  {
+    "i": 554,
+    "s": "Normal",
+    "t": "Nhân viên quản trị kiểm tra và xử lý đơn hàng."
+  },
+  {
+    "i": 555,
+    "s": "Normal",
+    "t": "Khách hàng theo dõi trạng thái đơn hàng."
+  },
+  {
+    "i": 556,
+    "s": "Normal",
+    "t": "Đối với chức năng Chatbox AI, khách hàng có thể gửi câu hỏi liên quan đến sách hoặc nhu cầu đọc. Hệ thống sử dụng API dịch vụ AI để hỗ trợ tạo câu trả lời và tư vấn."
+  },
+  {
+    "i": 557,
+    "s": "Normal",
+    "t": "10.5. Kiến trúc tổng quan của hệ thống"
+  },
+  {
+    "i": 558,
+    "s": "Normal",
+    "t": "Hệ thống được tổ chức theo mô hình Frontend – Backend – Database."
+  },
+  {
+    "i": 559,
+    "s": "Normal",
+    "t": "Frontend: Tiếp nhận thao tác của người dùng và hiển thị dữ liệu trên website."
+  },
+  {
+    "i": 560,
+    "s": "Normal",
+    "t": "Backend: Xử lý nghiệp vụ, xác thực người dùng, quản lý dữ liệu và cung cấp REST API."
+  },
+  {
+    "i": 561,
+    "s": "Normal",
+    "t": "Database: Lưu trữ thông tin tài khoản, sách, giỏ hàng và đơn hàng."
+  },
+  {
+    "i": 562,
+    "s": "Normal",
+    "t": "AI API: Hỗ trợ chức năng tư vấn sách và trả lời câu hỏi thường gặp."
+  },
+  {
+    "i": 563,
+    "s": "Normal",
+    "t": "Quy trình trao đổi dữ liệu:"
+  },
+  {
+    "i": 564,
+    "s": "Normal",
+    "t": "Frontend → REST API → Backend → Entity Framework Core → SQL Server."
+  },
+  {
+    "i": 565,
+    "s": "Normal",
+    "t": "Khi cần sử dụng chức năng tư vấn, hệ thống thực hiện kết nối đến API dịch vụ AI theo cách tích hợp của dự án."
+  },
+  {
+    "i": 566,
+    "s": "Normal",
+    "t": "10.6. Giao diện sản phẩm"
+  },
+  {
+    "i": 567,
+    "s": "Normal",
+    "t": "Phần này trình bày các giao diện chính của website thông qua hình ảnh chụp trực tiếp từ sản phẩm."
+  },
+  {
+    "i": 568,
+    "s": "Normal",
+    "t": "10.6.1. Giao diện trang chủ"
+  },
+  {
+    "i": 569,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện trang chủ tại đây>"
+  },
+  {
+    "i": 570,
+    "s": "Normal",
+    "t": "Hình 10.1. Giao diện trang chủ website"
+  },
+  {
+    "i": 571,
+    "s": "Normal",
+    "t": "Trang chủ là giao diện đầu tiên khách hàng nhìn thấy khi truy cập website. Giao diện cung cấp các khu vực giới thiệu và hiển thị sách để khách hàng thuận tiện tìm kiếm."
+  },
+  {
+    "i": 572,
+    "s": "Normal",
+    "t": "10.6.2. Giao diện danh sách và chi tiết sách"
+  },
+  {
+    "i": 573,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện danh sách sách tại đây>"
+  },
+  {
+    "i": 574,
+    "s": "Normal",
+    "t": "Hình 10.2. Giao diện danh sách sách"
+  },
+  {
+    "i": 575,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện chi tiết sách tại đây>"
+  },
+  {
+    "i": 576,
+    "s": "Normal",
+    "t": "Hình 10.3. Giao diện chi tiết sách"
+  },
+  {
+    "i": 577,
+    "s": "Normal",
+    "t": "Giao diện giúp khách hàng xem danh sách sách và tìm hiểu thông tin chi tiết trước khi quyết định đặt mua."
+  },
+  {
+    "i": 578,
+    "s": "Normal",
+    "t": "10.6.3. Giao diện giỏ hàng và đặt hàng"
+  },
+  {
+    "i": 579,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện giỏ hàng tại đây>"
+  },
+  {
+    "i": 580,
+    "s": "Normal",
+    "t": "Hình 10.4. Giao diện giỏ hàng"
+  },
+  {
+    "i": 581,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện đặt hàng tại đây>"
+  },
+  {
+    "i": 582,
+    "s": "Normal",
+    "t": "Hình 10.5. Giao diện đặt hàng COD"
+  },
+  {
+    "i": 583,
+    "s": "Normal",
+    "t": "Khách hàng có thể kiểm tra các sản phẩm đã chọn, điều chỉnh số lượng và cung cấp thông tin nhận hàng để tạo đơn hàng theo phương thức COD."
+  },
+  {
+    "i": 584,
+    "s": "Normal",
+    "t": "10.6.4. Giao diện quản trị"
+  },
+  {
+    "i": 585,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện trang quản trị tại đây>"
+  },
+  {
+    "i": 586,
+    "s": "Normal",
+    "t": "Hình 10.6. Giao diện quản trị hệ thống"
+  },
+  {
+    "i": 587,
+    "s": "Normal",
+    "t": "Trang quản trị hỗ trợ nhân viên thực hiện các chức năng quản lý được phân quyền, bao gồm quản lý thông tin sách và xử lý đơn hàng."
+  },
+  {
+    "i": 588,
+    "s": "Normal",
+    "t": "10.6.5. Giao diện Chatbox AI"
+  },
+  {
+    "i": 589,
+    "s": "Normal",
+    "t": "<Chèn hình ảnh giao diện Chatbox AI tại đây>"
+  },
+  {
+    "i": 590,
+    "s": "Normal",
+    "t": "Hình 10.7. Giao diện Chatbox AI tư vấn sách"
+  },
+  {
+    "i": 591,
+    "s": "Normal",
+    "t": "Chatbox AI hỗ trợ khách hàng gửi câu hỏi và nhận câu trả lời liên quan đến việc tìm hiểu, lựa chọn sách và các thông tin thường gặp."
+  },
+  {
+    "i": 592,
+    "s": "Normal",
+    "t": "10.7. Kết quả đạt được và hướng phát triển"
+  },
+  {
+    "i": 593,
+    "s": "Normal",
+    "t": "10.7.1. Kết quả đạt được"
+  },
+  {
+    "i": 594,
+    "s": "Normal",
+    "t": "Sản phẩm hướng đến các kết quả chính sau:"
+  },
+  {
+    "i": 595,
+    "s": "Normal",
+    "t": "Xây dựng website hỗ trợ hoạt động bán sách trực tuyến."
+  },
+  {
+    "i": 596,
+    "s": "Normal",
+    "t": "Cung cấp giao diện dành cho khách hàng và trang quản trị."
+  },
+  {
+    "i": 597,
+    "s": "Normal",
+    "t": "Hỗ trợ tìm kiếm, xem thông tin sách và quản lý giỏ hàng."
+  },
+  {
+    "i": 598,
+    "s": "Normal",
+    "t": "Hỗ trợ tạo đơn hàng với phương thức thanh toán COD."
+  },
+  {
+    "i": 599,
+    "s": "Normal",
+    "t": "Xây dựng Backend REST API để xử lý nghiệp vụ."
+  },
+  {
+    "i": 600,
+    "s": "Normal",
+    "t": "Sử dụng SQL Server để lưu trữ dữ liệu."
+  },
+  {
+    "i": 601,
+    "s": "Normal",
+    "t": "Tích hợp Chatbox AI hỗ trợ tư vấn sách."
+  },
+  {
+    "i": 602,
+    "s": "Normal",
+    "t": "Các nội dung trên cần được đối chiếu với phiên bản sản phẩm thực tế trước khi xác nhận là kết quả đã hoàn thành."
+  },
+  {
+    "i": 603,
+    "s": "Normal",
+    "t": "10.7.2. Hướng phát triển"
+  },
+  {
+    "i": 604,
+    "s": "Normal",
+    "t": "Trong tương lai, hệ thống có thể được tiếp tục cải tiến theo các hướng:"
+  },
+  {
+    "i": 605,
+    "s": "Normal",
+    "t": "Nâng cao giao diện và trải nghiệm người dùng."
+  },
+  {
+    "i": 606,
+    "s": "Normal",
+    "t": "Bổ sung bộ lọc và tìm kiếm sách nâng cao."
+  },
+  {
+    "i": 607,
+    "s": "Normal",
+    "t": "Cải thiện khả năng tư vấn và độ chính xác của Chatbox AI."
+  },
+  {
+    "i": 608,
+    "s": "Normal",
+    "t": "Bổ sung báo cáo, thống kê hoạt động bán sách."
+  },
+  {
+    "i": 609,
+    "s": "Normal",
+    "t": "Tăng cường bảo mật và khả năng sao lưu dữ liệu."
+  },
+  {
+    "i": 610,
+    "s": "Normal",
+    "t": "Tối ưu hiệu năng khi số lượng người dùng tăng."
+  },
+  {
+    "i": 611,
+    "s": "Normal",
+    "t": "10.8. Kết luận chương"
+  },
+  {
+    "i": 612,
+    "s": "Normal",
+    "t": "Dự án hướng đến việc xây dựng một website hỗ trợ hoạt động bán sách cho thư viện, kết hợp các chức năng dành cho khách hàng, trang quản trị và Chatbox AI tư vấn sách. Thông qua quá trình thực hiện, nhóm vận dụng kiến thức về phân tích, thiết kế, phát triển và quản lý dự án phần mềm để xây dựng sản phẩm. Đây cũng là cơ hội để các thành viên rèn luyện kỹ năng chuyên môn và phối hợp trong quá trình phát triển hệ thống."
+  },
+  {
+    "i": 613,
+    "s": "Normal",
+    "t": ""
+  }
+]

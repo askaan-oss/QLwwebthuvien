@@ -1,0 +1,23 @@
+const fs=require('fs');
+const groups={
+'Tài chính':['The Intelligent Investor|Benjamin Graham','The Psychology of Money|Morgan Housel','The Richest Man in Babylon|George S. Clason','The Millionaire Next Door|Thomas J. Stanley','A Random Walk Down Wall Street|Burton G. Malkiel'],
+'Kinh doanh':['The Lean Startup|Eric Ries','Zero to One|Peter Thiel','Good to Great|Jim Collins','The E-Myth Revisited|Michael E. Gerber','Start with Why|Simon Sinek'],
+'Văn học':['Pride and Prejudice|Jane Austen','Jane Eyre|Charlotte Brontë','The Great Gatsby|F. Scott Fitzgerald','Little Women|Louisa May Alcott','The Old Man and the Sea|Ernest Hemingway'],
+'Tâm lý':['Thinking, Fast and Slow|Daniel Kahneman','Influence|Robert B. Cialdini','Emotional Intelligence|Daniel Goleman','Flow|Mihaly Csikszentmihalyi','The Happiness Hypothesis|Jonathan Haidt'],
+'Kỹ năng sống':['Deep Work|Cal Newport','Essentialism|Greg McKeown','Getting Things Done|David Allen','Mindset|Carol S. Dweck','The Power of Habit|Charles Duhigg'],
+'Công nghệ':['Clean Code|Robert C. Martin','The Pragmatic Programmer|Andrew Hunt','Introduction to Algorithms|Thomas H. Cormen','Designing Data-Intensive Applications|Martin Kleppmann','Python Crash Course|Eric Matthes'],
+'Khoa học':['A Brief History of Time|Stephen Hawking','Cosmos|Carl Sagan','The Selfish Gene|Richard Dawkins','A Short History of Nearly Everything|Bill Bryson','The Hidden Life of Trees|Peter Wohlleben'],
+'Lịch sử':['Guns, Germs, and Steel|Jared Diamond','The Silk Roads|Peter Frankopan','SPQR|Mary Beard','The Diary of a Young Girl|Anne Frank','The Wright Brothers|David McCullough'],
+'Ngoại ngữ':['English Grammar in Use|Raymond Murphy','Word Power Made Easy|Norman Lewis','Practical English Usage|Michael Swan','English Vocabulary in Use|Michael McCarthy','The Elements of Style|William Strunk Jr.'],
+'Thiếu nhi':['Charlotte\'s Web|E. B. White','Matilda|Roald Dahl','Charlie and the Chocolate Factory|Roald Dahl','The Secret Garden|Frances Hodgson Burnett','The Wonderful Wizard of Oz|L. Frank Baum']};
+const desc={ 'Tài chính':'Tài chính cá nhân, quản lý tiền, tiết kiệm và tư duy đầu tư.', 'Kinh doanh':'Kinh doanh, khởi nghiệp và quản lý doanh nghiệp.', 'Văn học':'Văn học với những câu chuyện về con người và xã hội.', 'Tâm lý':'Tâm lý học, tư duy, cảm xúc và hành vi con người.', 'Kỹ năng sống':'Kỹ năng sống, thói quen, học tập và quản lý thời gian.', 'Công nghệ':'Công nghệ thông tin, lập trình và phát triển phần mềm.', 'Khoa học':'Khám phá khoa học và thế giới tự nhiên.', 'Lịch sử':'Lịch sử, nhân vật và những biến chuyển của xã hội.', 'Ngoại ngữ':'Học tiếng Anh, ngữ pháp, từ vựng và kỹ năng viết.', 'Thiếu nhi':'Truyện thiếu nhi, trí tưởng tượng và hành trình trưởng thành.'};
+(async()=>{
+const base='http://localhost:5160/api';let token='';async function api(path,method='GET',body){const r=await fetch(base+path,{method,headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:body?JSON.stringify(body):undefined});const j=await r.json();if(!r.ok)throw Error(j.message||r.status);return j.data;}
+let existing=(await api('/Products?pageSize=100')).items; const rows=[];
+for(const [category,titles] of Object.entries(groups))for(const spec of titles){const [title,author]=spec.split('|');if(existing.some(b=>b.title.toLowerCase()===title.toLowerCase()))throw Error('Duplicate '+title);rows.push({title,author,category,description:desc[category]+' Sách bản tiếng Anh. Giá và tồn kho là dữ liệu minh họa để thử nghiệm.',price:99000+(rows.length%9)*20000,stockQuantity:20+(rows.length%6)*5,isActive:true,imageUrl:null});}
+for(let i=0;i<rows.length;i+=5)await Promise.all(rows.slice(i,i+5).map(async b=>{try{const u='https://openlibrary.org/search.json?title='+encodeURIComponent(b.title)+'&author='+encodeURIComponent(b.author)+'&limit=1&fields=title,author_name,cover_i,key';const r=await fetch(u,{signal:AbortSignal.timeout(12000)});const j=await r.json();const d=j.docs?.[0];if(d?.cover_i){b.imageUrl='https://covers.openlibrary.org/b/id/'+d.cover_i+'-L.jpg';b.coverSource='https://openlibrary.org'+d.key;}}catch{} }));
+fs.writeFileSync('books-50-catalog.json',JSON.stringify(rows,null,2));
+token=(await api('/Auth/login','POST',{email:process.env.LIBRA_SEED_EMAIL,password:process.env.LIBRA_SEED_PASSWORD})).token;
+let added=0;for(const row of rows){const {coverSource,...dto}=row;await api('/Products','POST',dto);added++;fs.writeFileSync('books-50-progress.json',JSON.stringify({added,lastTitle:row.title}));}
+console.log(JSON.stringify({added,covers:rows.filter(x=>x.imageUrl).length,total:(await api('/Products?pageSize=100')).totalItems}));
+})().catch(e=>{console.error(e.message);process.exitCode=1});

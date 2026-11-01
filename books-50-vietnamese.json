@@ -1,0 +1,436 @@
+[
+  {
+    "title": "Nhà đầu tư thông minh",
+    "author": "Benjamin Graham",
+    "category": "Tài chính",
+    "description": "Đầu tư giá trị, phân tích doanh nghiệp và kiểm soát rủi ro tài chính. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/nhadaututhongminh-3-4cm-b-01.jpg?v=1762491865620",
+    "coverSource": "https://nhanam.vn/nha-dau-tu-thong-minh-cuon-sach-toan-dien-ve-dau-tu-gia-tri-an-ban-moi-voi-phan-bo-sung-cua-jason-zweig"
+  },
+  {
+    "title": "Tâm lý học về tiền",
+    "author": "Morgan Housel",
+    "category": "Tài chính",
+    "description": "Tài chính cá nhân, tiết kiệm và cách cảm xúc ảnh hưởng tới quyết định về tiền bạc. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/83/23/b7/14a42ae4f66c9b8b298aaef4b9671442.jpg",
+    "coverSource": "https://tiki.vn/sach-tam-ly-hoc-ve-tien-p273819808.html?spid=75953558",
+    "verifiedAuthor": "Morgan Housel"
+  },
+  {
+    "title": "Người giàu có nhất thành Babylon",
+    "author": "George S. Clason",
+    "category": "Tài chính",
+    "description": "Những câu chuyện về tiết kiệm, quản lý tiền và xây dựng tài sản. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/23/f8/75/5e90d6e0eabaebd068c815cf1c1f7396.jpg",
+    "coverSource": "https://tiki.vn/sach-nguoi-giau-co-nhat-thanh-babylon-tai-ban-2020-p57325187.html?spid=57325188",
+    "verifiedAuthor": "GEORGE SAMUEL CLASON"
+  },
+  {
+    "title": "Bí mật tư duy triệu phú",
+    "author": "T. Harv Eker",
+    "category": "Tài chính",
+    "description": "Tư duy tài chính cá nhân và thói quen quản lý tiền bạc. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/c4/0d/25/762c13d91cbda79137040f9d7cbbec44.jpg",
+    "coverSource": "https://tiki.vn/sach-bi-mat-tu-duy-trieu-phu-p92552019.html?spid=138954661",
+    "verifiedAuthor": "T. Harv Eker"
+  },
+  {
+    "title": "Bước đi ngẫu nhiên trên phố Wall",
+    "author": "Burton G. Malkiel",
+    "category": "Tài chính",
+    "description": "Thị trường chứng khoán, đầu tư dài hạn và phân bổ danh mục. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/d1/b5/9c/076689adba8ede59620729f0b71f6947.jpg",
+    "coverSource": "https://tiki.vn/sach-buoc-di-ngau-nhien-tren-pho-wall-tai-ban-p100395623.html?spid=100395624",
+    "verifiedAuthor": "Burton G.Malkiel"
+  },
+  {
+    "title": "Khởi nghiệp tinh gọn",
+    "author": "Eric Ries",
+    "category": "Kinh doanh",
+    "description": "Khởi nghiệp, thử nghiệm sản phẩm và học hỏi từ khách hàng. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/c3/27/fe/ef2a87d3a92fe7c06c9b296d44e8f904.png",
+    "coverSource": "https://tiki.vn/sach-khoi-nghiep-tinh-gon-the-lean-startup-tai-ban-p90056907.html?spid=90056908",
+    "verifiedAuthor": "Eric Ries"
+  },
+  {
+    "title": "Không đến một",
+    "author": "Peter Thiel, Blake Masters",
+    "category": "Kinh doanh",
+    "description": "Khởi nghiệp công nghệ và xây dựng doanh nghiệp tạo ra giá trị mới. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/71/4a/7c/76cf7ff0783eafef6708c5eb4c387e67.jpg",
+    "coverSource": "https://tiki.vn/sach-khong-den-mot-tai-ban-bia-cam-p75813201.html?spid=75813202",
+    "verifiedAuthor": "Peter Thiel Blake Masters"
+  },
+  {
+    "title": "Từ tốt đến vĩ đại",
+    "author": "Jim Collins",
+    "category": "Kinh doanh",
+    "description": "Nghiên cứu về lãnh đạo và phát triển doanh nghiệp bền vững. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/84/f5/a2/8cd3d96f65304037a1f038c982e718e9.jpg",
+    "coverSource": "https://tiki.vn/sach-tu-tot-den-vi-dai-tai-ban-2021-p82912488.html?spid=88911710",
+    "verifiedAuthor": "Jim Collins "
+  },
+  {
+    "title": "Để xây dựng doanh nghiệp hiệu quả",
+    "author": "Michael E. Gerber",
+    "category": "Kinh doanh",
+    "description": "Xây dựng quy trình và hệ thống vận hành cho doanh nghiệp nhỏ. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://www.netabooks.vn/Data/Sites/1/Product/773/de-xay-dung-doanh-nghiep-hieu-qua-tai-ban-2019.jpg",
+    "coverSource": "https://www.netabooks.vn/de-xay-dung-doanh-nghiep-hieu-qua"
+  },
+  {
+    "title": "Bắt đầu với câu hỏi tại sao",
+    "author": "Simon Sinek",
+    "category": "Kinh doanh",
+    "description": "Lãnh đạo và truyền cảm hứng từ mục đích của tổ chức. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/7c/66/88/746f947706c23691e4a810b0dc3ea251.jpg",
+    "coverSource": "https://tiki.vn/sach-bat-dau-voi-cau-hoi-tai-sao-nghe-thuat-truyen-cam-hung-trong-kinh-doanh-p275909699.html?spid=275909706",
+    "verifiedAuthor": "Simon Sinek"
+  },
+  {
+    "title": "Kiêu hãnh và định kiến",
+    "author": "Jane Austen",
+    "category": "Văn học",
+    "description": "Tình yêu, gia đình và định kiến xã hội trong văn học Anh. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/kieuhanhvadinhkien02-90544f39-5876-4e99-b699-889a59b47a85.jpg?v=1772514512220",
+    "coverSource": "https://nhanam.vn/kieu-hanh-va-dinh-kien-tb-2026"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "category": "Văn học",
+    "description": "Hành trình trưởng thành và khát vọng tự chủ của một người phụ nữ. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/ed/10/82/641278b3bbec7c9358fafcaf0100a324.jpg",
+    "coverSource": "https://tiki.vn/jane-eyre-collins-classics-p262787116.html?spid=262787117",
+    "verifiedAuthor": "Charlotte Brontë"
+  },
+  {
+    "title": "Đại gia Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Văn học",
+    "description": "Giấc mơ, tình yêu và sự giàu có trong xã hội Mỹ. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/dai-gia-gatsby-new-bia-mem-01.jpg?v=1696407622907",
+    "coverSource": "https://nhanam.vn/dai-gia-gatsby"
+  },
+  {
+    "title": "Những người phụ nữ bé nhỏ",
+    "author": "Louisa May Alcott",
+    "category": "Văn học",
+    "description": "Câu chuyện trưởng thành, gia đình và ước mơ của bốn chị em. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/f8/60/71/ccb1bb2fe2830a009ad99325efcd785d.jpg",
+    "coverSource": "https://tiki.vn/chuyen-gia-dinh-march-nhung-nguoi-phu-nu-be-nho-p260941695.html?spid=269985665",
+    "verifiedAuthor": "Louisa May Alcott"
+  },
+  {
+    "title": "Ông già và biển cả",
+    "author": "Ernest Hemingway",
+    "category": "Văn học",
+    "description": "Cuộc vật lộn của một ngư dân với biển cả và giới hạn bản thân. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/onggiavabiencae1708260387922.jpg?v=1775788919080",
+    "coverSource": "https://nhanam.vn/ong-gia-va-bien-ca-nha-nam"
+  },
+  {
+    "title": "Tư duy nhanh và chậm",
+    "author": "Daniel Kahneman",
+    "category": "Tâm lý",
+    "description": "Tâm lý học nhận thức và những sai lệch trong quyết định. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/7f/54/81/a18348e65c3248799c1fba20b2052993.jpg",
+    "coverSource": "https://tiki.vn/tu-duy-nhanh-va-cham-p273718875.html?spid=51333055",
+    "verifiedAuthor": "Daniel Kahneman"
+  },
+  {
+    "title": "Những đòn tâm lý trong thuyết phục",
+    "author": "Robert B. Cialdini",
+    "category": "Tâm lý",
+    "description": "Tâm lý học hành vi và các nguyên tắc thuyết phục. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/48/d1/32/33638e64d54dd227d1682f9a539553d0.png",
+    "coverSource": "https://tiki.vn/sach-nhung-don-tam-ly-trong-thuyet-phuc-p345465.html?spid=271799072",
+    "verifiedAuthor": "Robert B. Cialdini"
+  },
+  {
+    "title": "Trí tuệ xúc cảm",
+    "author": "Daniel Goleman",
+    "category": "Tâm lý",
+    "description": "Nhận biết cảm xúc và vai trò của cảm xúc trong cuộc sống. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/61/ee/a5/27b8933957786ba4e25ffe8241215d6c.jpg",
+    "coverSource": "https://tiki.vn/sach-tri-tue-xuc-cam-p77982982.html?spid=77982983",
+    "verifiedAuthor": "Daniel Goleman"
+  },
+  {
+    "title": "Dòng chảy",
+    "author": "Mihaly Csikszentmihalyi",
+    "category": "Tâm lý",
+    "description": "Trạng thái tập trung sâu và trải nghiệm tối ưu trong tâm lý học. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/media/catalog/producttmp/b8/97/4f/b3858b9d285701420eaebb6dba56beaf.jpg",
+    "coverSource": "https://tiki.vn/sach-flow-dong-chay-p140416370.html?spid=140416372",
+    "verifiedAuthor": "Mihaly Csikszentmihalyi"
+  },
+  {
+    "title": "Giả thuyết hạnh phúc",
+    "author": "Jonathan Haidt",
+    "category": "Tâm lý",
+    "description": "Tìm hiểu hạnh phúc qua tâm lý học và các tư tưởng cổ điển. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://www.netabooks.vn/Data/Sites/1/Product/77880/giai-ma-hanh-phuc.jpg",
+    "coverSource": "https://www.netabooks.vn/giai-ma-hanh-phuc",
+    "correctedTitle": "Giải mã hạnh phúc"
+  },
+  {
+    "title": "Làm ra làm chơi ra chơi",
+    "author": "Cal Newport",
+    "category": "Kỹ năng sống",
+    "description": "Làm việc sâu, tăng khả năng tập trung và giảm xao nhãng. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/34/73/6b/2582628bf067160b459d9b3f425050a9.jpg",
+    "coverSource": "https://tiki.vn/sach-deep-work-lam-ra-lam-choi-ra-choi-tai-ban-p101782486.html?spid=101782488",
+    "verifiedAuthor": "Cal Newport"
+  },
+  {
+    "title": "Nghệ thuật theo đuổi sự tối giản",
+    "author": "Greg McKeown",
+    "category": "Kỹ năng sống",
+    "description": "Lựa chọn điều quan trọng và quản lý ưu tiên trong cuộc sống. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/media/catalog/producttmp/10/18/ac/1e666b1764e01756b6c8c81734b6c631.jpg",
+    "coverSource": "https://tiki.vn/sach-nghe-thuat-theo-duoi-su-toi-gian-tai-ban-p512557.html?spid=229842",
+    "verifiedAuthor": "Greg McKeown"
+  },
+  {
+    "title": "Hoàn thành mọi việc không hề khó",
+    "author": "David Allen",
+    "category": "Kỹ năng sống",
+    "description": "Sắp xếp công việc và quản lý thời gian cá nhân. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/31/2d/7e/31274fcc74a8f2aef290ee5f558c8b5d.jpg",
+    "coverSource": "https://tiki.vn/sach-hoan-thanh-moi-viec-khong-he-kho-danh-cho-tuoi-teen-p73521479.html?spid=73521480",
+    "verifiedAuthor": "David Allen Mike Williams Mark Wallace"
+  },
+  {
+    "title": "Tâm lý học thành công",
+    "author": "Carol S. Dweck",
+    "category": "Kỹ năng sống",
+    "description": "Tư duy phát triển và thái độ học hỏi trước thử thách. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/90/e6/94/7e0cafc422701970f10346bd5514e51a.png",
+    "coverSource": "https://tiki.vn/tam-ly-hoc-thanh-cong-p158622140.html?spid=213845338",
+    "verifiedAuthor": "Carol S Dweck"
+  },
+  {
+    "title": "Sức mạnh của thói quen",
+    "author": "Charles Duhigg",
+    "category": "Kỹ năng sống",
+    "description": "Cách hình thành thói quen và thay đổi hành vi. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/85/9c/ff/8373a7777bae1cb65023b2fd4c69ac8f.jpg",
+    "coverSource": "https://tiki.vn/sach-suc-manh-cua-thoi-quen-tai-ban-2022-p184101370.html?spid=184101373",
+    "verifiedAuthor": "Charles Duhigg"
+  },
+  {
+    "title": "Lập trình và cuộc sống",
+    "author": "Jeff Atwood",
+    "category": "Công nghệ",
+    "description": "Góc nhìn về lập trình, phát triển phần mềm và công việc của lập trình viên. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://cdn.hstatic.net/products/200000481913/b9389cfb-a815-44e8-81a6-9ad1ff56896e_602513f3ef4344d19a41b8a2680b83b4_master.jpg",
+    "coverSource": "https://muabansachcu.vn/products/lap-trinh-va-cuoc-song-jeff-atwood"
+  },
+  {
+    "title": "Cuộc cách mạng một cọng rơm",
+    "author": "Masanobu Fukuoka",
+    "category": "Nông nghiệp",
+    "description": "Nông nghiệp tự nhiên, sinh thái và cách con người tương tác với đất đai. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://davibooks.vn/stores/uploads/g/bn__69462_big.jpg",
+    "coverSource": "https://davibooks.vn/products/view/48654.Cuoc-Cach-Mang-Mot-Cong-Rom.html"
+  },
+  {
+    "title": "AI 2041",
+    "author": "Kai-Fu Lee, Chen Qiufan",
+    "category": "Công nghệ",
+    "description": "Trí tuệ nhân tạo và các kịch bản công nghệ trong tương lai. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/77/ce/d9/badc3a6d7fb8332c2a7fce69a33eb56b.jpg",
+    "coverSource": "https://tiki.vn/sach-ai-2041-10-vien-canh-cho-tuong-lai-p271278938.html?spid=271278939",
+    "verifiedAuthor": "Chen Qiufan Kai-Fu Lee"
+  },
+  {
+    "title": "Các thế giới song song",
+    "author": "Michio Kaku",
+    "category": "Khoa học",
+    "description": "Vật lý, vũ trụ học và những giả thuyết về không gian. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/cacthegioisongsong01scaled-6ed7c29e-12ad-4869-9ce5-f09ab4b5c673.jpg?v=1713262179827",
+    "coverSource": "https://nhanam.vn/cac-the-gioi-song-song-nha-nam-tai-ban"
+  },
+  {
+    "title": "Cuộc cách mạng công nghiệp lần thứ tư",
+    "author": "Klaus Schwab",
+    "category": "Công nghệ",
+    "description": "Công nghệ mới và tác động tới kinh tế, xã hội và lao động. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://www.nxbctqg.org.vn/img_data/images/697959110613_cn.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://www.nxbctqg.org.vn/cach-mang-cong-nghiep-lan-thu-tu.html",
+    "correctedTitle": "Cách mạng công nghiệp lần thứ tư"
+  },
+  {
+    "title": "Lược sử thời gian",
+    "author": "Stephen Hawking",
+    "category": "Khoa học",
+    "description": "Vũ trụ học, thời gian, hố đen và các câu hỏi vật lý. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/c3/04/f9/5471e6cd53f0f023bbf160915a54da7c.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-luoc-su-thoi-gian-p187827445.html?spid=187827446"
+  },
+  {
+    "title": "Vũ trụ",
+    "author": "Carl Sagan",
+    "category": "Khoa học",
+    "description": "Hành trình khám phá thiên văn và vị trí của con người trong vũ trụ. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/vutru.jpg?v=1705552096673",
+    "coverSource": "https://nhanam.vn/vu-tru"
+  },
+  {
+    "title": "Gen vị kỷ",
+    "author": "Richard Dawkins",
+    "category": "Khoa học",
+    "description": "Tiến hóa, di truyền học và cách nhìn từ góc độ gen. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://www.netabooks.vn/Data/Sites/1/Product/31740/gen-vi-ky.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://www.netabooks.vn/gen-vi-ky"
+  },
+  {
+    "title": "Lược sử vạn vật",
+    "author": "Bill Bryson",
+    "category": "Khoa học",
+    "description": "Khám phá các câu chuyện khoa học về Trái Đất và sự sống. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/77/c4/0c/2a55b438a19394b3d946720d70acc358.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-luoc-su-van-vat-tai-ban-p1989625.html?spid=59101743"
+  },
+  {
+    "title": "Đời sống bí ẩn của cây",
+    "author": "Peter Wohlleben",
+    "category": "Khoa học",
+    "description": "Sinh thái rừng và những tương tác trong thế giới thực vật. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/51/59/9f/29d822455df74e599b7b584c1ba205bd.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-doi-song-bi-an-cua-cay-tai-ban-p90328964.html?spid=90328965"
+  },
+  {
+    "title": "Súng, vi trùng và thép",
+    "author": "Jared Diamond",
+    "category": "Lịch sử",
+    "description": "Lịch sử các nền văn minh qua môi trường và địa lý. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/9c/95/7f/a71f7924d478f23707d00e137bd59af8.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-sung-vi-trung-va-thep-tai-ban-p201845361.html?spid=201845365"
+  },
+  {
+    "title": "Những con đường tơ lụa",
+    "author": "Peter Frankopan",
+    "category": "Lịch sử",
+    "description": "Lịch sử giao thương và giao thoa giữa các nền văn minh. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/60/10/06/960a79378bf970bd8c5213e0b6611822.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-nhung-con-duong-to-lua-p33758313.html?spid=37877684"
+  },
+  {
+    "title": "Việt Nam sử lược",
+    "author": "Trần Trọng Kim",
+    "category": "Lịch sử",
+    "description": "Khái quát lịch sử Việt Nam qua các thời kỳ. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/vietnamsuluocbiacung05.jpg?v=1705552569243",
+    "coverSource": "https://nhanam.vn/viet-nam-su-luoc-bia-cung-nha-nam"
+  },
+  {
+    "title": "Nhật ký Anne Frank",
+    "author": "Anne Frank",
+    "category": "Lịch sử",
+    "description": "Nhật ký về cuộc sống ẩn náu trong Thế chiến thứ hai. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/6b/de/78/40e98588509b49ade18d3d60c54c6a5d.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-nhat-ky-anne-frank-tai-ban-p5067155.html?spid=5411129"
+  },
+  {
+    "title": "Đại Việt sử ký toàn thư",
+    "author": "Ngô Sĩ Liên và các sử thần triều Lê",
+    "category": "Lịch sử",
+    "description": "Bộ sử ghi chép lịch sử Việt Nam thời kỳ cổ và trung đại. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/ab/fa/cd/3220b4dac1f50035b534f7b5a907b62e.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-dai-viet-su-ky-toan-thu-tron-bo-tai-ban-2020-p56365400.html?spid=93333294"
+  },
+  {
+    "title": "Việt Nam phong tục",
+    "author": "Phan Kế Bính",
+    "category": "Văn hóa Việt Nam",
+    "description": "Tìm hiểu phong tục, tập quán và đời sống văn hóa Việt Nam. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/viet-nam-phong-tuc-01-e03d4f83-a4fd-4b33-a21a-23174d135f84.jpg?v=1790741327120",
+    "coverSource": "https://nhanam.vn/viet-nam-phong-tuc-tb"
+  },
+  {
+    "title": "Thương nhớ mười hai",
+    "author": "Vũ Bằng",
+    "category": "Văn hóa Việt Nam",
+    "description": "Ký ức về phong vị, mùa và đời sống văn hóa miền Bắc. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/thuongnhomuoihai01-031f1eec-7817-41b7-adfc-eeb7c049838a.jpg?v=1787392158287",
+    "coverSource": "https://nhanam.vn/thuong-nho-muoi-hai-tb"
+  },
+  {
+    "title": "Hà Nội băm sáu phố phường",
+    "author": "Thạch Lam",
+    "category": "Văn hóa Việt Nam",
+    "description": "Những trang viết về phố phường, con người và ẩm thực Hà Nội. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/anh-website-30.png?v=1790758866997",
+    "coverSource": "https://nhanam.vn/ha-noi-bam-sau-pho-phuong-artbook"
+  },
+  {
+    "title": "Miếng ngon Hà Nội",
+    "author": "Vũ Bằng",
+    "category": "Văn hóa Việt Nam",
+    "description": "Tản văn về ẩm thực và nếp sống Hà Nội. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/miengngonhanoi1.jpg?v=1710306252410",
+    "coverSource": "https://nhanam.vn/mieng-ngon-ha-noi-nha-nam"
+  },
+  {
+    "title": "Đất lề quê thói",
+    "author": "Nhất Thanh",
+    "category": "Văn hóa Việt Nam",
+    "description": "Khảo cứu phong tục và tập quán trong đời sống người Việt. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/30/04/99/ac29c155f1c48f97ee6cbac4060c9068.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-dat-le-que-thoi-phong-tuc-viet-nam-bia-mem-tai-ban-2020-p73531898.html?spid=73531899"
+  },
+  {
+    "title": "Charlotte và Wilbur",
+    "author": "E. B. White",
+    "category": "Thiếu nhi",
+    "description": "Câu chuyện thiếu nhi về tình bạn giữa một chú lợn và một cô nhện. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/charloteswilbur-100a57c7-a93e-4729-ac47-917a372c4303.jpg?v=1705552516360",
+    "coverSource": "https://nhanam.vn/charlotte-va-wilbur-nha-nam-tai-ban"
+  },
+  {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "category": "Thiếu nhi",
+    "description": "Một cô bé ham đọc sách với trí thông minh và khả năng đặc biệt. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/f4/61/e9/90cffb7d3078723d637b72a6ee215634.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-co-be-matilda-tai-ban-2021-p75996795.html?spid=75996796"
+  },
+  {
+    "title": "Charlie và nhà máy sô cô la",
+    "author": "Roald Dahl",
+    "category": "Thiếu nhi",
+    "description": "Chuyến phiêu lưu kỳ thú trong một nhà máy sô cô la. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://salt.tikicdn.com/ts/product/2a/76/68/0f52d19dc168e7ef9e61ccd78917be1b.jpg",
+    "coverLookupError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "coverSource": "https://tiki.vn/sach-charlie-va-nha-may-so-co-la-tai-ban-2021-p75996801.html?spid=75996802"
+  },
+  {
+    "title": "Khu vườn bí mật",
+    "author": "Frances Hodgson Burnett",
+    "category": "Thiếu nhi",
+    "description": "Tình bạn và sự trưởng thành qua việc chăm sóc một khu vườn. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/1-32f0e785-1d30-4911-b09d-f8e3c98bad46-49d864a8-b7ae-416e-9027-5fbf3a8e4972.png?v=1787106682523",
+    "coverSource": "https://nhanam.vn/khu-vuon-bi-mat-tb-2026"
+  },
+  {
+    "title": "Phù thủy xứ Oz",
+    "author": "L. Frank Baum",
+    "category": "Thiếu nhi",
+    "description": "Hành trình phiêu lưu của Dorothy và những người bạn. Danh mục bản tiếng Việt; giá và tồn kho phục vụ demo.",
+    "imageUrl": "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/phuthuyxuoz.jpg?v=1705552096153",
+    "coverSource": "https://nhanam.vn/phu-thuy-xu-oz"
+  }
+]

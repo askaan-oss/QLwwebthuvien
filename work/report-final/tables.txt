@@ -1,0 +1,487 @@
+TABLE 0
+ | 
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HCM
+
+TABLE 1
+STT | Họ và tên | MSSV | Lớp
+1 | Nguyễn Trướng Quốc Huy | 2380600863 | 23DTHC4
+2 | Nguyễn Đình Kiên | 2380601126 | 23DTHC4
+3 | Nguyễn Trọng Khánh | 2380601035 | 23DTHC4
+4 | Trịnh Châu Hồng Phát | 2380601651 | 23DTHC4
+5 | Huỳnh Minh Nhựt | 2380601594 | 23DTHC4
+
+TABLE 2
+Tên khách hàng | Phạm Thế Cường
+Người quản lý phía khách hàng | Đào Quang Vinh
+Tên dự án | Website bán và thanh toán cho thư viện
+Thời gian quy ước | 2 tháng
+Ngày bắt đầu | 07/09/2026
+Ngày kết thúc | 31/10/2026
+
+TABLE 3
+Mô tả | Thời gian (ngày công) | Số lượng | Giá/ngày (VNĐ) | Chi phí VND (dự kiến)
+Quản lý dự án (PM) | 48 | 1 | 625.000 | 30.000.000
+Nhân viên phân tích yêu cầu (BA) | 48 | 1 | 500.000 | 24.000.000
+Nhân viên IT (Lập trình viên / Developer) | 48 | 2 | 500.000 | 48.000.000
+Nhân viên kiểm thử (Tester / QC) | 48 | 1 | 375000 | 18.000.000
+Tổng cộng |  | 5 |  | 120.000.000
+
+TABLE 4
+Mô tả thiết bị, licence / dịch vụ | Số lượng | Đơn Giá (VNĐ) | Chi phí VND (dự kiến)
+Thuê Cloud Server VPS  | 2 gói | 1.250.000 | 2.500.000
+Dịch vụ Quản trị CSDL đám mây  | 1 gói | 1.500.000 | 1.500.000
+Hạn mức gọi API Chatbox  | 1 gói | 3.000.000 | 3.000.000
+Chi phí tích hợp và kiểm thử chức năng đặt hàng COD | 1 dịch vụ | 2.000.000 | 2.000.000
+Tên miền (.vn) và Chứng chỉ bảo mật SSL/TLS (1 năm)
+ | 1 gói | 1.000.000 | 1.000.000
+Bản quyền công cụ cộng tác & quản lý mã nguồn (GitHub, Figma, Postman - 2 tháng) | 1 gói | 2.000.000 | 2.000.000
+Tổng cộng |  |  | 12.000.000
+
+TABLE 5
+Giai đoạn | Điều kiện kích hoạt thanh toán | Tỷ lệ (%) | Số tiền VND (dự kiến) | Ngày hoàn thành | Hạn thanh toán
+Đợt 1 | Thanh toán 50% ngay sau khi ký hợp đồng dịch vụ phát triển phần mềm và phê duyệt SOW / Project Charter | 50% | 71.500.000 | 07/09/2026 | 12/09/2026
+Đợt 2 | Thanh toán 50% còn lại của hợp đồng phát triển phần mềm sau khi hoàn tất kiểm thử và ký biên bản nghiệm thu | 50% | 71.500.000 | 31/10/2026 | 06/11/2026
+Tổng cộng |  | 100% | 143.000.000 |  | 
+
+TABLE 6
+Đại diện Phê duyệt | Đại diện Đơn vị Thực Hiện
+Đào Quang Vinh | Nguyễn Trương Quốc Huy
+
+<Chữ Ký>
+ | 
+<Chữ Ký>
+
+Ngày ký: 10/09/2026 | Ngày ký: 10/09/2026
+
+TABLE 7
+STT | Sản phẩm bàn giao
+1 | Website bán sách dành cho khách hàng
+2 | Trang quản trị hệ thống
+3 | Backend REST API xây dựng bằng ASP.NET Core Web API .NET 8
+4 | Cơ sở dữ liệu Microsoft SQL Server, sử dụng Entity Framework Core 8 để truy xuất dữ liệu
+5 | Chatbox AI hỗ trợ tư vấn sách và trả lời câu hỏi thường gặp
+6 | Mã nguồn hệ thống Frontend và Backend
+7 | Tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật và báo cáo kiểm thử
+
+TABLE 8
+Mốc | Ngày hoàn thành | Nội dung
+M1 | 07/09/2026 | Khởi động dự án và bắt đầu lập kế hoạch
+M2 | 19/09/2026 | Hoàn thành phân tích yêu cầu và tài liệu SRS
+M3 | 26/09/2026 | Hoàn thành thiết kế hệ thống, cơ sở dữ liệu, giao diện và API
+M4 | 17/10/2026 | Hoàn thành các chức năng xử lý đơn hàng và COD theo kế hoạch
+M5 | 23/10/2026 | Hoàn thành các chức năng Frontend, bao gồm giao diện Chatbox AI
+M6 | 24/10/2026 | Hoàn thành phát triển Backend
+M7 | 30/10/2026 | Hoàn thành tích hợp, kiểm thử và kiểm tra nghiệm thu
+M8 | 31/10/2026 | Triển khai, bàn giao và nghiệm thu dự án
+
+TABLE 9
+STT | Thành phần dự án (Project Component) | Tỷ lệ (%) | Chi phí (VNĐ)
+1 | Chi phí nhân lực (Labor Cost) | 83,92% | 120.000.000
+2 | Hạ tầng Cloud và cơ sở dữ liệu | 2,80% | 4.000.000
+3 | Tích hợp API Chatbox AI và công cụ phát triển | 5,59% | 8.000.000
+4 | Quỹ dự phòng rủi ro và chi phí phát sinh (Contingency Reserve) | 7,69% | 11.000.000
+ | TỔNG CỘNG | 100,00% | 143.000.000
+
+TABLE 10
+Công việc | Phụ thuộc
+Thiết kế hệ thống | Phân tích yêu cầu
+Phát triển Backend | Thiết kế cơ sở dữ liệu và API
+Phát triển Frontend | Thiết kế giao diện
+Xử lý đơn hàng COD | API quản lý đơn hàng và dữ liệu khách hàng
+Chatbox AI | Giao diện chat, Backend và API dịch vụ AI
+Tích hợp hệ thống | Hoàn thành các chức năng Frontend và Backend liên quan
+
+TABLE 11
+Rủi ro | Biện pháp xử lý
+Chậm tiến độ | Theo dõi và điều chỉnh công việc hằng tuần
+Phát sinh chức năng | Kiểm soát bằng Change Request
+Lỗi đặt hàng hoặc cập nhật trạng thái đơn hàng COD | Kiểm thử giao dịch và trạng thái thanh toán
+Chatbox AI phản hồi sai | Giới hạn phạm vi và kiểm thử câu trả lời
+Vượt ngân sách | Theo dõi chi phí định kỳ
+Thành viên vắng mặt | Phân công người hỗ trợ
+
+TABLE 12
+STT | Vai trò | Họ tên | Trách nhiệm chính trong dự án |  (Email/SĐT)
+1 | Quản lý dự án (Project Manager - PM) | Nguyễn Trương Quốc Huy | Lập kế hoạch và theo dõi tiến độ theo WBS; kiểm soát chi phí và chất lượng; quản trị rủi ro; xử lý yêu cầu thay đổi (CR); báo cáo tiến độ với Giảng viên hướng dẫn. | [Email / SĐT]
+2 | Phân tích nghiệp vụ (Business Analyst - BA) | Trịnh Châu Hồng Phát | Khảo sát và phân tích yêu cầu nghiệp vụ; xây dựng Use Cases và tài liệu SRS; xác định yêu cầu cho các chức năng bán sách, quản lý đơn hàng COD và Chatbox AI; xây dựng kịch bản câu hỏi thường gặp (FAQ). | [Email / SĐT]
+3 | Lập trình viên Frontend (Frontend Developer - FE) | Nguyễn Đình Kiên | Xây dựng giao diện khách hàng và quản trị bằng HTML5, CSS3 và JavaScript thuần; phát triển giao diện tìm kiếm sách, giỏ hàng, đặt hàng COD, lịch sử đơn hàng và Chatbox AI; tích hợp giao diện với Backend API. | [Email / SĐT]
+4 | Lập trình viên Backend và cơ sở dữ liệu (Backend & DB Developer - BE) | Huỳnh Minh Nhựt | Xây dựng REST API bằng C# và ASP.NET Core Web API .NET 8; thiết kế và truy xuất dữ liệu bằng Entity Framework Core 8 với Microsoft SQL Server; phát triển chức năng xác thực, quản lý sách, giỏ hàng, đơn hàng COD, quản trị và tích hợp API Chatbox AI. | [Email / SĐT]
+5 | Kiểm thử viên (Tester / QA) | Nguyễn Trọng Khánh | Lập kế hoạch và viết kịch bản kiểm thử; kiểm thử chức năng, phân quyền, đặt hàng COD, quản lý trạng thái đơn hàng và Chatbox AI; ghi nhận lỗi, theo dõi quá trình sửa lỗi và kiểm thử lại trước khi nghiệm thu. | [Email / SĐT]
+
+TABLE 13
+Đại diện Phê duyệt | Đại diện Đơn vị Thực Hiện
+Đào Quang Vinh | Nguyễn Trương Quốc Huy
+
+<Chữ Ký>
+ | 
+<Chữ Ký>
+
+Ngày ký: 16/09/2026 | Ngày ký: 16/09/2026
+
+TABLE 14
+Mã WBS | Nhóm công việc | Thời lượng | Bắt đầu | Kết thúc
+1.0 | Quản lý dự án | 48 ngày* | 07/09/2026 | 31/10/2026
+2.0 | Phân tích yêu cầu | 11 ngày | 08/09/2026 | 19/09/2026
+3.0 | Thiết kế hệ thống | 6 ngày | 21/09/2026 | 26/09/2026
+4.0 | Phát triển Backend | 24 ngày* | 28/09/2026 | 24/10/2026
+5.0 | Phát triển Frontend | 23 ngày* | 28/09/2026 | 23/10/2026
+6.0 | Tích hợp và kiểm thử | 11 ngày | 19/10/2026 | 30/10/2026
+7.0 | Triển khai và bàn giao | 6 ngày | 26/10/2026 | 31/10/2026
+
+TABLE 15
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+1.1 | Khởi động dự án | 1 ngày | 07/09 | 07/09 | PM
+1.2 | Lập Project Charter | 2 ngày | 08/09 | 09/09 | PM
+1.3 | Lập kế hoạch tổng thể | 3 ngày | 10/09 | 12/09 | PM
+1.4 | Báo cáo tiến độ và rủi ro | 1 ngày | 03/10 | 03/10 | PM
+1.5 | Rà soát chi phí và tiến độ | 1 ngày | 17/10 | 17/10 | PM
+1.6 | Tổng kết và đóng dự án | 0 ngày (mốc) | 31/10 | 31/10 | PM
+
+TABLE 16
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+2.1 | Thu thập yêu cầu | 2 ngày | 08/09 | 09/09 | BA
+2.2 | Phân tích chức năng hệ thống | 3 ngày | 10/09 | 12/09 | BA
+2.3 | Xây dựng Use Case | 3 ngày | 14/09 | 16/09 | BA
+2.4 | Phân tích yêu cầu Chatbox AI | 3 ngày | 14/09 | 16/09 | BA/Backend
+2.5 | Hoàn thiện tài liệu SRS | 3 ngày | 17/09 | 19/09 | BA
+
+TABLE 17
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+3.1 | Thiết kế kiến trúc hệ thống | 2 ngày | 21/09 | 22/09 | Backend
+3.2 | Thiết kế cơ sở dữ liệu và ERD | 3 ngày | 21/09 | 23/09 | Backend
+3.3 | Thiết kế giao diện khách hàng và Admin | 3 ngày | 23/09 | 25/09 | Frontend
+3.4 | Thiết kế REST API | 2 ngày | 24/09 | 25/09 | Backend
+3.5 | Thiết kế Chatbox AI | 1 ngày | 26/09 | 26/09 | BA/Backend
+
+TABLE 18
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+4.1 | Khởi tạo ASP.NET Core Web API | 2 ngày | 28/09 | 29/09 | Backend
+4.2 | Kết nối SQL Server bằng EF Core | 2 ngày | 30/09 | 01/10 | Backend
+4.3 | Xây dựng API đăng ký, đăng nhập và xác thực | 3 ngày | 02/10 | 05/10 | Backend
+4.4 | Xây dựng API sách và danh mục | 4 ngày | 02/10 | 06/10 | Backend
+4.5 | Xây dựng API tìm kiếm và lọc sách | 3 ngày | 07/10 | 09/10 | Backend
+4.6 | Xây dựng API giỏ hàng | 3 ngày | 07/10 | 09/10 | Backend
+4.7 | Xây dựng API đặt hàng | 3 ngày | 10/10 | 13/10 | Backend
+4.8 | Xử lý đơn hàng và thanh toán COD | 2 ngày | 14/10 | 15/10 | Backend
+4.9 | Hoàn thiện xác nhận và cập nhật trạng thái đơn COD | 2 ngày | 16/10 | 17/10 | Backend
+4.10 | Xây dựng API quản trị | 4 ngày | 10/10 | 14/10 | Backend
+4.11 | Xây dựng API Chatbox AI | 5 ngày | 15/10 | 20/10 | Backend
+4.12 | Hoàn thiện Backend | 4 ngày | 21/10 | 24/10 | Backend
+
+TABLE 19
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+5.1 | Khởi tạo giao diện HTML, CSS và JavaScript | 2 ngày | 28/09 | 29/09 | Frontend
+5.2 | Xây dựng giao diện đăng ký, đăng nhập | 3 ngày | 30/09 | 02/10 | Frontend
+5.3 | Xây dựng giao diện danh sách sách | 4 ngày | 30/09 | 03/10 | Frontend
+5.4 | Xây dựng giao diện chi tiết sách | 2 ngày | 05/10 | 06/10 | Frontend
+5.5 | Xây dựng giao diện tìm kiếm, lọc sách | 3 ngày | 05/10 | 07/10 | Frontend
+5.6 | Xây dựng giao diện giỏ hàng | 3 ngày | 08/10 | 10/10 | Frontend
+5.7 | Xây dựng giao diện đặt hàng | 3 ngày | 12/10 | 14/10 | Frontend
+5.8 | Xây dựng giao diện xác nhận đơn COD | 3 ngày | 15/10 | 17/10 | Frontend
+5.9 | Xây dựng giao diện lịch sử đơn hàng | 3 ngày | 15/10 | 17/10 | Frontend
+5.10 | Xây dựng giao diện quản trị Admin | 4 ngày | 19/10 | 22/10 | Frontend
+5.11 | Xây dựng giao diện Chatbox AI | 5 ngày | 19/10 | 23/10 | Frontend
+
+TABLE 20
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+6.1 | Tích hợp và kiểm thử API mua hàng | 3 ngày | 19/10 | 21/10 | QA/Dev
+6.2 | Kiểm thử đặt hàng và thanh toán COD | 2 ngày | 22/10 | 23/10 | QA
+6.3 | Kiểm thử Chatbox AI và các chức năng liên quan | 2 ngày | 24/10 | 26/10 | QA
+6.4 | Kiểm thử toàn hệ thống | 2 ngày | 27/10 | 28/10 | QA
+6.5 | Sửa lỗi và kiểm thử lại | 1 ngày | 29/10 | 29/10 | QA/Dev
+6.6 | Kiểm tra nghiệm thu | 1 ngày | 30/10 | 30/10 | QA/PM
+
+TABLE 21
+Mã WBS | Công việc | Thời lượng | Bắt đầu | Kết thúc | Phụ trách
+7.1 | Chuẩn bị môi trường triển khai | 2 ngày | 26/10 | 27/10 | Backend
+7.2 | Chuẩn bị tài liệu bàn giao | 3 ngày | 26/10 | 28/10 | PM
+7.3 | Triển khai website | 1 ngày | 30/10 | 30/10 | Backend
+7.4 | Bàn giao và nghiệm thu | 1 ngày | 31/10 | 31/10 | PM
+
+TABLE 22
+Mã Node | Tên gói công việc cốt lõi | Công việc tiên quyết | Thời lượng T (ngày)
+N1 | Khởi động & Quản lý dự án | — | 6
+N2 | Phân tích yêu cầu & SRS | N1 | 11
+N3 | Thiết kế kiến trúc & CSDL | N2 | 5
+N4 | Thiết kế giao diện (UI/UX) | N2 | 3
+N5 | Thiết kế & Nghiên cứu Chatbot | N2 | 2
+N6 | Phát triển Backend Core | N3 | 16
+N7 | Phát triển Frontend Web | N4, N6 | 13
+N8 | Tích hợp Chatbot & Báo cáo | N5, N6 | 5
+N9 | Tích hợp & Kiểm thử toàn diện | N7, N8 | 8
+N10 | Triển khai & Nghiệm thu | N9 | 5
+
+TABLE 23
+Mã đường | Chuỗi các nút công việc | Tổng thời gian độc lập | Vai trò / Trạng thái
+Đường 1 |  | 48 ngày | Đường găng (Dài nhất - Critical Path)
+Đường 2 |  | 40 ngày | Đường nhánh phụ Backend/Dashboard
+Đường 3 |  | 46 ngày | Nhánh Frontend/UI
+Đường 4 |  | 37 ngày | Đường ngắn nhất (Shortest Path)
+
+TABLE 24
+Mã đường | Chuỗi các nút công việc | Tổng thời gian độc lập | Vai trò / Trạng thái
+Đường 1 |  | 36 ngày | Đường dài nhất (Đường găng - Critical Path)
+
+
+
+Đường 2 |  | 32 ngày | Đường nhánh Frontend 
+
+
+
+Đường 3 |  | 35 ngày | Đường nhánh Tích hợp Dashboard 
+
+
+Đường 4 |  | 27 ngày | Đường ngắn nhất (Shortest Path)
+
+
+
+
+TABLE 25
+Activity | Predecessor | Duration (days) | Cost/Day (VNĐ) | Total Cost (VNĐ)
+N1 – Khởi động và quản lý dự án | – | 6 | 1.333.333 | 8.000.000
+N2 – Phân tích yêu cầu và SRS | N1 | 11 | 1.090.909 | 12.000.000
+N3 – Thiết kế kiến trúc và CSDL | N2 | 5 | 1.600.000 | 8.000.000
+N4 – Thiết kế giao diện UI/UX | N2 | 3 | 1.666.667 | 5.000.000
+N5 – Thiết kế và nghiên cứu Chatbot | N2 | 2 | 2.000.000 | 4.000.000
+N6 – Phát triển Backend Core | N3 | 16 | 1.875.000 | 30.000.000
+N7 – Phát triển Frontend Web | N4, N6 | 13 | 1.846.154 | 24.000.000
+N8 – Tích hợp Chatbot và báo cáo | N5, N6 | 5 | 2.000.000 | 10.000.000
+N9 – Tích hợp và kiểm thử toàn diện | N7, N8 | 8 | 2.250.000 | 18.000.000
+N10 – Triển khai và nghiệm thu | N9 | 5 | 2.600.000 | 13.000.000
+Tổng cộng |  | 74 |  | 132.000.000
+
+TABLE 26
+Activity | Actual % Complete | Incurred Cost (VNĐ)
+N1 – Khởi động và quản lý dự án | 100% | 7.500.000
+N2 – Phân tích yêu cầu và SRS | 100% | 11.500.000
+N3 – Thiết kế kiến trúc và CSDL | 100% | 7.800.000
+N4 – Thiết kế giao diện UI/UX | 100% | 4.800.000
+N5 – Thiết kế và nghiên cứu Chatbot | 100% | 3.800.000
+N6 – Phát triển Backend Core | 100% | 29.000.000
+N7 – Phát triển Frontend Web | 100% | 23.500.000
+N8 – Tích hợp Chatbot và báo cáo | 100% | 9.500.000
+N9 – Tích hợp và kiểm thử toàn diện | 100% | 17.500.000
+N10 – Triển khai và nghiệm thu | 100% | 12.200.000
+Tổng cộng | 100% | 127.100.000
+
+TABLE 27
+Activity | ACWP (VNĐ) | BCWP/EV (VNĐ) | BCWS/PV (VNĐ) | CPI | CV (VNĐ) | SPI | SV (VNĐ)
+N1 | 7.500.000 | 8.000.000 | 8.000.000 | 1,07 | 500.000 | 1,00 | 0
+N2 | 11.500.000 | 12.000.000 | 12.000.000 | 1,04 | 500.000 | 1,00 | 0
+N3 | 7.800.000 | 8.000.000 | 8.000.000 | 1,03 | 200.000 | 1,00 | 0
+N4 | 4.800.000 | 5.000.000 | 5.000.000 | 1,04 | 200.000 | 1,00 | 0
+N5 | 3.800.000 | 4.000.000 | 4.000.000 | 1,05 | 200.000 | 1,00 | 0
+N6 | 29.000.000 | 30.000.000 | 30.000.000 | 1,03 | 1.000.000 | 1,00 | 0
+N7 | 23.500.000 | 24.000.000 | 24.000.000 | 1,02 | 500.000 | 1,00 | 0
+N8 | 9.500.000 | 10.000.000 | 10.000.000 | 1,05 | 500.000 | 1,00 | 0
+N9 | 17.500.000 | 18.000.000 | 18.000.000 | 1,03 | 500.000 | 1,00 | 0
+N10 | 12.200.000 | 13.000.000 | 13.000.000 | 1,07 | 800.000 | 1,00 | 0
+Total to Date | 127.100.000 | 132.000.000 | 132.000.000 | 1,04 | 4.900.000 | 1,00 | 0
+
+TABLE 28
+STT | Hạng mục | Tiêu chí đánh giá
+1 | Giao diện website | Hiển thị rõ ràng, dễ sử dụng và tương thích với các kích thước màn hình phù hợp.
+2 | Chức năng khách hàng | Đăng ký, đăng nhập, tìm kiếm sách, xem chi tiết và quản lý giỏ hàng hoạt động đúng.
+3 | Chức năng đặt hàng | Khách hàng có thể tạo đơn hàng và xem lịch sử đơn hàng.
+4 | Thanh toán COD | Đơn hàng được ghi nhận đúng hình thức thanh toán khi nhận hàng.
+5 | Quản trị hệ thống | Quản trị viên có thể quản lý sách, danh mục, tài khoản và trạng thái đơn hàng.
+6 | Cơ sở dữ liệu | Dữ liệu được lưu trữ chính xác, hạn chế trùng lặp và mất mát.
+7 | Chatbox AI | Có thể trả lời câu hỏi thường gặp, tư vấn thông tin sách và hướng dẫn mua hàng.
+8 | Bảo mật | Có cơ chế xác thực và phân quyền phù hợp với từng loại tài khoản.
+
+TABLE 29
+STT | Nội dung kiểm thử | Mục tiêu | Người phụ trách
+1 | Kiểm thử giao diện | Kiểm tra bố cục, hiển thị và thao tác trên website. | Frontend, QA
+2 | Kiểm thử đăng ký, đăng nhập | Kiểm tra xác thực tài khoản và quyền truy cập. | Backend, QA
+3 | Kiểm thử quản lý sách | Kiểm tra thêm, sửa, xóa và tìm kiếm thông tin sách. | Backend, Frontend, QA
+4 | Kiểm thử giỏ hàng | Kiểm tra thêm, xóa và cập nhật số lượng sách. | Frontend, QA
+5 | Kiểm thử đặt hàng COD | Kiểm tra tạo đơn hàng và lưu thông tin đơn hàng. | Backend, QA
+6 | Kiểm thử quản trị | Kiểm tra quản lý khách hàng, sách và đơn hàng. | Backend, Frontend, QA
+7 | Kiểm thử Chatbox AI | Kiểm tra khả năng phản hồi câu hỏi và tư vấn sách. | BA, Backend, QA
+8 | Kiểm thử tích hợp | Kiểm tra khả năng kết nối giữa Frontend, Backend và cơ sở dữ liệu. | Backend, Frontend, QA
+
+TABLE 30
+Mức độ | Mô tả | Hướng xử lý
+Nghiêm trọng | Làm hệ thống không hoạt động hoặc ảnh hưởng đến dữ liệu, đơn hàng. | Ưu tiên xử lý ngay.
+Cao | Chức năng chính hoạt động sai hoặc không thể sử dụng. | Xử lý trước khi bàn giao.
+Trung bình | Một chức năng phụ hoạt động chưa đúng nhưng vẫn có cách sử dụng khác. | Sắp xếp xử lý trong giai đoạn kiểm thử.
+Thấp | Lỗi giao diện hoặc hiển thị nhỏ, không ảnh hưởng chức năng chính. | Khắc phục khi có thời gian phù hợp.
+
+TABLE 31
+STT | Họ và tên | Vai trò | Trách nhiệm chính
+1 | Nguyễn Trướng Quốc Huy | Project Manager (PM) | Lập kế hoạch, phân công công việc, theo dõi tiến độ và kiểm soát dự án.
+2 | Trịnh Châu Hồng Phát | Business Analyst (BA) | Thu thập, phân tích yêu cầu và xây dựng tài liệu nghiệp vụ.
+3 | Nguyễn Đình Kiên | Frontend Developer | Xây dựng giao diện website và kết nối với Backend API.
+4 | Huỳnh Minh Nhựt | Backend Developer | Xây dựng API, xử lý nghiệp vụ và kết nối cơ sở dữ liệu.
+5 | Nguyễn Trọng Khánh | Tester/QA | Lập kế hoạch kiểm thử, phát hiện lỗi và kiểm tra chất lượng sản phẩm.
+
+TABLE 32
+STT | Tiêu chí | Nội dung đánh giá | Trọng số
+1 | Mức độ hoàn thành công việc | Hoàn thành các nhiệm vụ được phân công theo yêu cầu. | 30%
+2 | Tiến độ thực hiện | Đảm bảo thời gian hoàn thành công việc theo kế hoạch. | 25%
+3 | Chất lượng công việc | Kết quả thực hiện đáp ứng yêu cầu, hạn chế sai sót. | 20%
+4 | Tinh thần trách nhiệm | Chủ động thực hiện nhiệm vụ, báo cáo khó khăn và chịu trách nhiệm với công việc. | 15%
+5 | Khả năng phối hợp | Trao đổi thông tin, hỗ trợ và phối hợp với các thành viên khác. | 10%
+ | Tổng cộng |  | 100%
+
+TABLE 33
+Điểm | Mức đánh giá | Ý nghĩa
+5 | Rất tốt | Hoàn thành vượt yêu cầu, chủ động và có đóng góp nổi bật.
+4 | Tốt | Hoàn thành tốt nhiệm vụ, đáp ứng yêu cầu.
+3 | Đạt | Hoàn thành cơ bản nhiệm vụ được giao.
+2 | Chưa tốt | Hoàn thành một phần, còn tồn tại hạn chế.
+1 | Kém | Không hoàn thành nhiệm vụ hoặc ảnh hưởng đáng kể đến công việc chung.
+
+TABLE 34
+Điểm tổng | Xếp loại
+Từ 4,50 đến 5,00 | Xuất sắc
+Từ 3,50 đến dưới 4,50 | Tốt
+Từ 2,50 đến dưới 3,50 | Đạt
+Từ 1,50 đến dưới 2,50 | Chưa đạt
+Dưới 1,50 | Kém
+
+TABLE 35
+Thành viên | Hoàn thành công việc (30%) | Tiến độ (25%) | Chất lượng (20%) | Trách nhiệm (15%) | Phối hợp (10%) | Điểm tổng
+Nguyễn Trướng Quốc Huy | ... | ... | ... | ... | ... | ...
+Trịnh Châu Hồng Phát | ... | ... | ... | ... | ... | ...
+Nguyễn Đình Kiên | ... | ... | ... | ... | ... | ...
+Huỳnh Minh Nhựt | ... | ... | ... | ... | ... | ...
+Nguyễn Trọng Khánh | ... | ... | ... | ... | ... | ...
+
+TABLE 36
+Đối tượng | Vai trò | Thông tin cần nhận
+Nguyễn Trướng Quốc Huy | Project Manager (PM) | Tiến độ, công việc, khó khăn và tình trạng dự án
+Trịnh Châu Hồng Phát | Business Analyst (BA) | Yêu cầu, phạm vi, thay đổi và tài liệu phân tích
+Nguyễn Đình Kiên | Frontend Developer | Yêu cầu giao diện, API, tiến độ và phản hồi kiểm thử
+Huỳnh Minh Nhựt | Backend Developer | Yêu cầu nghiệp vụ, thiết kế dữ liệu, API và lỗi hệ thống
+Nguyễn Trọng Khánh | Tester/QA | Chức năng cần kiểm thử, kết quả kiểm thử và lỗi cần xử lý
+Giảng viên hướng dẫn | Người giám sát dự án | Tiến độ tổng thể, kết quả thực hiện và báo cáo dự án
+
+TABLE 37
+Kênh truyền thông | Hình thức sử dụng | Mục đích
+Zalo nhóm | Tin nhắn, thông báo, nhắc lịch | Trao đổi công việc và cập nhật tiến độ
+Họp nhóm trực tiếp hoặc trực tuyến | Thảo luận, báo cáo | Giải quyết vấn đề và thống nhất kế hoạch
+Tài liệu Word/Excel | Văn bản, bảng biểu | Lưu trữ WBS, kế hoạch và báo cáo
+GitHub | Quản lý mã nguồn, ghi chú thay đổi | Phối hợp phát triển phần mềm
+Email | Gửi tài liệu, báo cáo | Trao đổi thông tin chính thức với giảng viên
+
+TABLE 38
+Nội dung truyền thông | Tần suất | Người thực hiện | Đối tượng nhận
+Thông báo công việc theo WBS | Khi bắt đầu hoặc thay đổi công việc | PM | Thành viên liên quan
+Cập nhật tiến độ | Hằng tuần | Từng thành viên | PM và nhóm
+Nhắc lịch và thời hạn | Trước thời hạn hoàn thành | PM hoặc AI Agent | Thành viên phụ trách
+Báo cáo khó khăn, lỗi phát sinh | Khi có vấn đề | Thành viên phát hiện | PM và người liên quan
+Họp đánh giá tiến độ | Hằng tuần hoặc khi cần | PM | Toàn bộ nhóm
+Báo cáo kết quả dự án | Theo yêu cầu | PM | Giảng viên hướng dẫn
+
+TABLE 39
+Vấn đề | Cách xử lý
+Thành viên phản hồi chậm | PM nhắc nhở và xác nhận lại thời hạn phản hồi
+Nội dung công việc không rõ ràng | PM hoặc BA giải thích và cập nhật yêu cầu
+Hai thành viên hiểu khác nhau về nhiệm vụ | Tổ chức trao đổi để thống nhất cách thực hiện
+Công việc có nguy cơ trễ hạn | PM kiểm tra nguyên nhân và điều chỉnh phân công nếu cần
+Thông tin bị thất lạc | Lưu lại nội dung quan trọng trong tài liệu chung của dự án
+
+TABLE 40
+Mã rủi ro | Rủi ro | Nguyên nhân có thể xảy ra | Ảnh hưởng
+R01 | Chậm tiến độ thực hiện | Công việc kéo dài hoặc phân bổ thời gian chưa hợp lý | Ảnh hưởng thời hạn hoàn thành dự án
+R02 | Thành viên không hoàn thành nhiệm vụ | Thiếu thời gian, kinh nghiệm hoặc phối hợp chưa tốt | Ảnh hưởng tiến độ chung
+R03 | Yêu cầu thay đổi trong quá trình phát triển | Yêu cầu ban đầu chưa được xác định đầy đủ | Phát sinh thêm công việc
+R04 | Lỗi giao diện website | Sai sót trong quá trình lập trình hoặc hiển thị trên các thiết bị | Ảnh hưởng trải nghiệm người dùng
+R05 | Lỗi kết nối Frontend và Backend | API không thống nhất hoặc xử lý dữ liệu chưa chính xác | Các chức năng hoạt động không đúng
+R06 | Lỗi cơ sở dữ liệu | Thiết kế hoặc truy vấn dữ liệu chưa phù hợp | Sai lệch hoặc mất dữ liệu
+R07 | Lỗi đăng nhập và phân quyền | Xử lý xác thực hoặc kiểm soát quyền chưa đầy đủ | Ảnh hưởng đến bảo mật hệ thống
+R08 | Chức năng đặt hàng COD hoạt động không đúng | Xử lý giỏ hàng, đơn hàng hoặc trạng thái đơn chưa chính xác | Ảnh hưởng quá trình đặt hàng
+R09 | Chatbot tư vấn sách phản hồi không chính xác | Dữ liệu tư vấn chưa đầy đủ hoặc dịch vụ tích hợp gặp lỗi | Ảnh hưởng trải nghiệm người dùng
+R10 | Phát hiện lỗi ở giai đoạn cuối | Thời gian kiểm thử chưa đủ hoặc kiểm thử chưa bao quát | Khó khăn trong việc hoàn thiện sản phẩm
+
+TABLE 41
+Điểm | Khả năng xảy ra | Mức độ ảnh hưởng
+1 | Thấp | Nhẹ
+2 | Trung bình | Trung bình
+3 | Cao | Nghiêm trọng
+
+TABLE 42
+Mã | Rủi ro | Khả năng | Ảnh hưởng | Điểm | Mức độ
+R01 | Chậm tiến độ | 3 | 3 | 9 | Cao
+R02 | Thành viên không hoàn thành nhiệm vụ | 2 | 3 | 6 | Cao
+R03 | Thay đổi yêu cầu | 2 | 2 | 4 | Trung bình
+R04 | Lỗi giao diện | 2 | 2 | 4 | Trung bình
+R05 | Lỗi kết nối Frontend và Backend | 3 | 3 | 9 | Cao
+R06 | Lỗi cơ sở dữ liệu | 2 | 3 | 6 | Cao
+R07 | Lỗi đăng nhập và phân quyền | 2 | 3 | 6 | Cao
+R08 | Lỗi đặt hàng COD | 2 | 3 | 6 | Cao
+R09 | Chatbot phản hồi không chính xác | 2 | 2 | 4 | Trung bình
+R10 | Phát hiện lỗi ở giai đoạn cuối | 3 | 3 | 9 | Cao
+
+TABLE 43
+Mã | Rủi ro | Phương án phòng ngừa và xử lý
+R01 | Chậm tiến độ | Theo dõi WBS thường xuyên, ưu tiên công việc quan trọng và điều chỉnh phân công khi cần thiết
+R02 | Thành viên không hoàn thành nhiệm vụ | Theo dõi tiến độ từng thành viên, hỗ trợ hoặc phân chia lại công việc phù hợp
+R03 | Thay đổi yêu cầu | Ghi nhận yêu cầu thay đổi, đánh giá ảnh hưởng và thống nhất với PM trước khi thực hiện
+R04 | Lỗi giao diện | Kiểm tra giao diện trên nhiều kích thước màn hình và sửa lỗi trước khi nghiệm thu
+R05 | Lỗi kết nối Frontend và Backend | Thống nhất cấu trúc API, kiểm tra dữ liệu trao đổi và phối hợp giữa FE và BE
+R06 | Lỗi cơ sở dữ liệu | Kiểm tra thiết kế dữ liệu, sao lưu và kiểm tra các thao tác truy vấn
+R07 | Lỗi đăng nhập và phân quyền | Kiểm tra xác thực JWT, mã hóa mật khẩu và quyền truy cập của từng vai trò
+R08 | Lỗi đặt hàng COD | Kiểm thử quy trình giỏ hàng, tạo đơn hàng và cập nhật trạng thái đơn
+R09 | Chatbot phản hồi không chính xác | Kiểm tra dữ liệu tư vấn, giới hạn nội dung trả lời và cung cấp thông báo khi dịch vụ gặp lỗi
+R10 | Phát hiện lỗi ở giai đoạn cuối | Thực hiện kiểm thử theo từng chức năng ngay sau khi phát triển và kiểm thử tích hợp trước khi hoàn thành
+
+TABLE 44
+STT | Hạng mục | Mục đích sử dụng | Hình thức
+1 | Tên miền (Domain) | Cung cấp địa chỉ truy cập website | Mua hoặc đăng ký
+2 | Hosting/Server | Lưu trữ và vận hành website, Backend API | Thuê hoặc sử dụng dịch vụ có sẵn
+3 | Dịch vụ cơ sở dữ liệu | Lưu trữ thông tin sách, khách hàng và đơn hàng | Sử dụng máy chủ có sẵn hoặc thuê dịch vụ
+4 | Dịch vụ API hỗ trợ chatbot | Hỗ trợ chức năng tư vấn sách | Sử dụng dịch vụ phù hợp
+5 | Công cụ phát triển phần mềm | Hỗ trợ lập trình, kiểm thử và quản lý mã nguồn | Ưu tiên công cụ miễn phí hoặc có sẵn
+6 | Công cụ quản lý dự án | Theo dõi tiến độ và phân công công việc | Sử dụng công cụ phù hợp với nhóm
+
+TABLE 45
+Tiêu chí | Nội dung đánh giá
+Giá cả | Chi phí sử dụng hợp lý
+Chất lượng | Đáp ứng yêu cầu của dự án
+Tính ổn định | Hạn chế gián đoạn dịch vụ
+Tương thích | Phù hợp với công nghệ của hệ thống
+Bảo mật | Có biện pháp bảo vệ dữ liệu
+Hỗ trợ | Có tài liệu và hỗ trợ kỹ thuật
+
+TABLE 46
+Hạng mục | Thời điểm dự kiến | Người phụ trách | Kết quả cần đạt
+Xác định nhu cầu sử dụng | Giai đoạn lập kế hoạch | PM và BA | Danh sách nhu cầu mua sắm
+Lựa chọn công cụ phát triển | Giai đoạn chuẩn bị | FE và BE | Công cụ phù hợp với dự án
+Chuẩn bị môi trường lưu trữ | Giai đoạn triển khai | BE | Môi trường vận hành Backend và dữ liệu
+Chuẩn bị dịch vụ chatbot | Giai đoạn tích hợp chức năng | BE | Dịch vụ hỗ trợ tư vấn sách
+Kiểm tra và đánh giá dịch vụ | Giai đoạn kiểm thử | Tester/QA và BE | Xác nhận dịch vụ đáp ứng yêu cầu
+
+TABLE 47
+Thành phần | Công nghệ | Mục đích
+Frontend | HTML5, CSS3, JavaScript thuần | Xây dựng giao diện website
+Responsive | CSS Grid, Flexbox, Media Queries | Hỗ trợ hiển thị trên nhiều kích thước màn hình
+Backend | C#, ASP.NET Core Web API (.NET 8) | Xử lý nghiệp vụ và cung cấp API
+Truy xuất dữ liệu | Entity Framework Core 8 | Kết nối và thao tác với cơ sở dữ liệu
+Cơ sở dữ liệu | Microsoft SQL Server | Lưu trữ thông tin hệ thống
+Giao tiếp | REST API, JSON | Trao đổi dữ liệu giữa Frontend và Backend
+Xác thực | JWT Bearer Token | Xác thực người dùng
+Bảo mật mật khẩu | BCrypt | Băm mật khẩu trước khi lưu trữ
+Chatbot | API dịch vụ AI có sẵn | Hỗ trợ tư vấn sách và trả lời câu hỏi
+
+TABLE 48
+STT | Chức năng | Mô tả
+1 | Đăng ký tài khoản | Cho phép khách hàng tạo tài khoản để sử dụng hệ thống
+2 | Đăng nhập | Xác thực tài khoản trước khi sử dụng các chức năng cần đăng nhập
+3 | Xem danh sách sách | Hiển thị các sách đang được cung cấp
+4 | Tìm kiếm sách | Hỗ trợ tìm sách theo thông tin phù hợp
+5 | Xem chi tiết sách | Hiển thị thông tin chi tiết của sách
+6 | Quản lý giỏ hàng | Thêm, cập nhật hoặc xóa sách khỏi giỏ hàng
+7 | Đặt hàng COD | Tạo đơn hàng và lựa chọn thanh toán khi nhận hàng
+8 | Theo dõi đơn hàng | Hỗ trợ khách hàng xem thông tin và trạng thái đơn hàng
+9 | Chatbox AI | Hỗ trợ tư vấn sách và trả lời câu hỏi thường gặp
+
+TABLE 49
+STT | Chức năng | Mô tả
+1 | Đăng nhập quản trị | Xác thực tài khoản có quyền truy cập trang quản trị
+2 | Quản lý sách | Thực hiện các thao tác quản lý thông tin sách
+3 | Quản lý đơn hàng | Theo dõi và xử lý các đơn hàng của khách hàng
+4 | Quản lý người dùng | Quản lý thông tin tài khoản theo quyền được cấp
+5 | Quản lý quyền truy cập | Kiểm soát chức năng theo vai trò người dùng
